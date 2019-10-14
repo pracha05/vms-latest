@@ -14,293 +14,392 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:text="Material"
+            android:text="Select Material"
             android:padding="10dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:background="@color/colorLightDarkGray"
+            android:background="@color/colorLightGray"
             android:textStyle="bold"
             android:textSize="@dimen/headertextsize"
             android:textColor="@color/colorWhite"
             android:layout_height="wrap_content" />
+
     </LinearLayout>
 
+    <!-- First Row -->
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:weightSum="4"
-        android:background="@color/colorLightDarkGray"
+        android:background="@color/colorWhite"
         android:layout_height="wrap_content">
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_weight="1"
-            android:padding="10dp"
-            android:id="@+id/three"
-            android:layout_margin="10dp"
-            android:background="@drawable/boxborder_shape"
-            android:layout_height="70dp" />
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_weight="1"
-            android:padding="10dp"
 
-            android:layout_margin="10dp"
-            android:background="@drawable/boxborder_shape"
-            android:layout_height="70dp" />
-        <ImageView
-            android:layout_width="80dp"
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorWhite"
             android:layout_weight="1"
-            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:id="@+id/three"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/ic_pharma" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="Alcoholic Beverages"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:textColor="@color/colorLightDarkGray"
+                android:textSize="@dimen/mediumtextsize"
+                android:layout_height="wrap_content" />
 
-            android:layout_margin="10dp"
-            android:background="@drawable/boxborder_shape"
-            android:layout_height="70dp" />
-        <ImageView
-            android:layout_width="80dp"
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorWhite"
             android:layout_weight="1"
-            android:padding="10dp"
+            android:layout_height="wrap_content">
 
-            android:layout_margin="10dp"
-            android:background="@drawable/boxborder_shape"
-            android:layout_height="70dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_machine_autoparts"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Machine AutoParts"
+                android:textColor="@color/colorLightDarkGray"
+                android:textSize="@dimen/mediumtextsize"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/ic_packaged_consumer_boxes"
+                android:layout_height="wrap_content" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Consumer Boxes"
+                android:layout_gravity="center"
+                android:textColor="@color/colorLightDarkGray"
+                android:textSize="@dimen/mediumtextsize"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_petroleum_paint"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Petrolium Paints"
+                android:textColor="@color/colorLightDarkGray"
+                android:textSize="@dimen/mediumtextsize"
+                android:layout_marginTop="18dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
     </LinearLayout>
+    <!-- First Row  finish-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/red_shade"/>
+
+    <!-- Second Row -->
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:weightSum="4"
-        android:background="@color/colorLightDarkGray"
+        android:background="@color/colorWhite"
         android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="match_parent"
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorWhite"
             android:layout_weight="1"
-            android:layout_margin="3dp"
-            android:text="M1"
-            android:gravity="center"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/mediumtextsize"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:id="@+id/two"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/ic_construction" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="Construction"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/colorLightDarkGray"
+                android:textSize="@dimen/mediumtextsize"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorWhite"
             android:layout_weight="1"
+            android:layout_height="wrap_content">
 
-            android:gravity="center"
-
-            android:text="M2"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/mediumtextsize"
-            android:layout_margin="3dp"
-
-            android:layout_height="wrap_content" />
-        <TextView
-            android:layout_width="match_parent"
+            <ImageView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_battery"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:text="Battery"
+                android:textColor="@color/colorLightDarkGray"
+                android:textSize="@dimen/mediumtextsize"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
             android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_electrical"
+                android:layout_height="wrap_content" />
 
-            android:gravity="center"
-
-            android:text="M3"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/mediumtextsize"
-            android:layout_margin="3dp"
-
-            android:layout_height="wrap_content" />
-        <TextView
-            android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Electricals"
+                android:layout_gravity="center"
+                android:textColor="@color/colorLightDarkGray"
+                android:textSize="@dimen/mediumtextsize"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
             android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_auto_mobiles"
+                android:layout_height="wrap_content" />
 
-            android:gravity="center"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Automobiles"
+                android:textColor="@color/colorLightDarkGray"
+                android:textSize="@dimen/mediumtextsize"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content" />
 
-            android:text="M4"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/mediumtextsize"
-            android:layout_margin="3dp"
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Second Row finish -->
 
-            android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/red_shade"/>
 
-    </LinearLayout> <LinearLayout
-    android:layout_width="match_parent"
-    android:orientation="horizontal"
-    android:weightSum="4"
-    android:background="@color/colorLightDarkGray"
-    android:layout_height="wrap_content">
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_weight="1"
-        android:padding="10dp"
-        android:layout_margin="10dp"
-        android:background="@drawable/boxborder_shape"
-        android:layout_height="70dp" />
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_weight="1"
-        android:padding="10dp"
-
-        android:layout_margin="10dp"
-        android:background="@drawable/boxborder_shape"
-        android:layout_height="70dp" />
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_weight="1"
-        android:padding="10dp"
-
-        android:layout_margin="10dp"
-        android:background="@drawable/boxborder_shape"
-        android:layout_height="70dp" />
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_weight="1"
-        android:padding="10dp"
-
-        android:layout_margin="10dp"
-        android:background="@drawable/boxborder_shape"
-        android:layout_height="70dp" />
-
-</LinearLayout>
+    <!-- Third row start -->
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:weightSum="4"
-        android:background="@color/colorLightDarkGray"
+        android:background="@color/colorWhite"
         android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="26dp"
-            android:layout_margin="3dp"
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorWhite"
             android:layout_weight="1"
-            android:gravity="center"
-            android:text="M5"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/mediumtextsize" />
-        <TextView
-            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:id="@+id/first"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/ic_alcoholic_beverages" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="Alcoholic Beverage"
+                android:layout_gravity="top"
+                android:gravity="center"
+                android:textColor="@color/colorLightDarkGray"
+                android:textSize="@dimen/mediumtextsize"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorWhite"
             android:layout_weight="1"
+            android:layout_height="wrap_content">
 
-            android:gravity="center"
-
-            android:text="M6"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/mediumtextsize"
-            android:layout_margin="3dp"
-
-            android:layout_height="wrap_content" />
-        <TextView
-            android:layout_width="match_parent"
+            <ImageView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_foods_agricultures"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Food and Agricluture"
+                android:textColor="@color/colorLightDarkGray"
+                android:textSize="@dimen/mediumtextsize"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
             android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/ic_electronics_goods"
+                android:layout_height="wrap_content" />
 
-            android:gravity="center"
-
-            android:text="M7"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/mediumtextsize"
-            android:layout_margin="3dp"
-
-            android:layout_height="wrap_content" />
-        <TextView
-            android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Electronic Goods"
+                android:layout_gravity="center"
+                android:textColor="@color/colorLightDarkGray"
+                android:textSize="@dimen/mediumtextsize"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
             android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_chemical_powder"
+                android:layout_height="wrap_content" />
 
-            android:gravity="center"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Chemical Powder"
+                android:textColor="@color/colorLightDarkGray"
+                android:textSize="@dimen/mediumtextsize"
+                android:layout_marginTop="7dp"
+                android:layout_height="wrap_content" />
 
-            android:text="M8"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/mediumtextsize"
-            android:layout_margin="3dp"
-
-            android:layout_height="wrap_content" />
-
+        </LinearLayout>
     </LinearLayout>
-    <LinearLayout
+    <View
         android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:weightSum="4"
-        android:background="@color/colorLightDarkGray"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_weight="1"
-            android:padding="10dp"
-            android:layout_margin="10dp"
-            android:background="@drawable/boxborder_shape"
-            android:layout_height="70dp" />
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_weight="1"
-            android:padding="10dp"
-
-            android:layout_margin="10dp"
-            android:background="@drawable/boxborder_shape"
-            android:layout_height="70dp" />
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_weight="1"
-            android:padding="10dp"
-
-            android:layout_margin="10dp"
-            android:background="@drawable/boxborder_shape"
-            android:layout_height="70dp" />
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_weight="1"
-            android:padding="10dp"
-
-            android:layout_margin="10dp"
-            android:background="@drawable/boxborder_shape"
-            android:layout_height="70dp" />
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:weightSum="4"
-        android:background="@color/colorLightDarkGray"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:layout_margin="3dp"
-            android:text="M9"
-            android:gravity="center"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/mediumtextsize"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-
-            android:gravity="center"
-
-            android:text="M10"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/mediumtextsize"
-            android:layout_margin="3dp"
-
-            android:layout_height="wrap_content" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-
-            android:gravity="center"
-
-            android:text="M11"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/mediumtextsize"
-            android:layout_margin="3dp"
-
-            android:layout_height="wrap_content" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-
-            android:gravity="center"
-
-            android:text="M12"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/mediumtextsize"
-            android:layout_margin="3dp"
-
-            android:layout_height="wrap_content" />
-
-    </LinearLayout>
-
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/red_shade"/>
 </LinearLayout>

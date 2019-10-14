@@ -78,595 +78,594 @@
 40-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:11:9-54
 41        android:supportsRtl="true"
 41-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:12:9-35
-42        android:testOnly="true"
-43        android:theme="@style/AppTheme" >
-43-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:13:9-40
-44        <activity
-44-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:14:9-16:68
-45            android:name="com.vms.customer.activity.CustomerMembershipActivity"
-45-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:14:19-70
-46            android:screenOrientation="portrait"
-46-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:15:13-49
-47            android:theme="@style/AppTheme.NoActionBar" />
-47-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:16:13-56
-48        <activity
-48-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:17:9-20:59
-49            android:name="com.vms.customer.activity.PrivacyPolicyActivity"
-49-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:18:13-59
-50            android:screenOrientation="portrait"
-50-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:19:13-49
-51            android:theme="@style/AppTheme.NoActionBar" />
-51-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:20:13-56
-52        <activity
-52-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:21:9-24:59
-53            android:name="com.vms.customer.activity.TermsOfUseActivity"
-53-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:22:13-56
-54            android:screenOrientation="portrait"
-54-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:23:13-49
-55            android:theme="@style/AppTheme.NoActionBar" />
-55-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:24:13-56
-56        <activity
-56-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:25:9-28:59
-57            android:name="com.vms.customer.activity.AboutAppActivity"
-57-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:26:13-54
-58            android:screenOrientation="portrait"
-58-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:27:13-49
-59            android:theme="@style/AppTheme.NoActionBar" />
-59-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:28:13-56
-60        <activity
-60-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:29:9-32:59
-61            android:name="com.vms.customer.activity.AboutUsActivity"
-61-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:30:13-53
-62            android:screenOrientation="portrait"
-62-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:31:13-49
-63            android:theme="@style/AppTheme.NoActionBar" />
-63-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:32:13-56
-64        <activity
-64-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:33:9-36:59
-65            android:name="com.vms.customer.activity.MoreActivity"
-65-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:34:13-50
-66            android:screenOrientation="portrait"
-66-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:35:13-49
-67            android:theme="@style/AppTheme.NoActionBar" />
-67-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:36:13-56
-68        <activity
-68-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:37:9-40:83
-69            android:name="com.vms.customer.activity.IntroductionPagerActivity"
-69-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:38:13-63
-70            android:screenOrientation="portrait"
-70-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:39:13-49
-71            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
-71-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:40:13-80
-72        <activity
-72-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:41:9-44:59
-73            android:name="com.vms.customer.activity.VerifyOtpActivity"
-73-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:42:13-55
-74            android:screenOrientation="portrait"
-74-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:43:13-49
-75            android:theme="@style/AppTheme.NoActionBar" />
-75-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:44:13-56
-76        <activity android:name="com.vms.customer.activity.VmsBaseActivity" />
-76-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:45:9-62
-76-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:45:19-59
-77        <activity
-77-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:46:9-49:72
-78            android:name="com.vms.customer.activity.SignUpActivity"
-78-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:47:13-52
-79            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
-79-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:48:13-80
-80            android:windowSoftInputMode="adjustResize|adjustNothing" />
-80-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:49:13-69
-81        <activity
-81-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:50:9-54:70
-82            android:name="com.vms.customer.activity.SignInActivity"
-82-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:51:13-52
-83            android:screenOrientation="portrait"
-83-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:52:13-49
-84            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
-84-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:53:13-80
-85            android:windowSoftInputMode="stateHidden|adjustResize" />
-85-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:54:13-67
-86        <activity
-86-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:55:9-58:59
-87            android:name="com.vms.customer.activity.EditContact"
-87-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:56:13-49
-88            android:screenOrientation="portrait"
-88-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:57:13-49
-89            android:theme="@style/AppTheme.NoActionBar" />
-89-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:58:13-56
-90        <activity
-90-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:59:9-62:59
-91            android:name="com.vms.customer.activity.ContactAllList"
-91-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:60:13-52
-92            android:screenOrientation="portrait"
-92-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:61:13-49
-93            android:theme="@style/AppTheme.NoActionBar" />
-93-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:62:13-56
-94        <activity android:name="com.vms.customer.models.BookingQuery" />
-94-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:9-57
-94-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:19-54
-95        <activity
-95-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:64:9-67:59
-96            android:name="com.vms.customer.activity.CustomerSupport"
-96-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:65:13-53
-97            android:screenOrientation="portrait"
-97-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:66:13-49
-98            android:theme="@style/AppTheme.NoActionBar" />
-98-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:67:13-56
-99        <activity
-99-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:68:9-71:59
-100            android:name="com.vms.customer.activity.Wallet"
-100-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:69:13-44
-101            android:screenOrientation="portrait"
-101-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:70:13-49
-102            android:theme="@style/AppTheme.NoActionBar" />
-102-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:71:13-56
-103        <activity
-103-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:72:9-75:59
-104            android:name="com.vms.customer.activity.ReferenceCodeActivity"
-104-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:73:13-59
-105            android:screenOrientation="portrait"
-105-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:74:13-49
-106            android:theme="@style/AppTheme.NoActionBar" />
-106-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:75:13-56
-107        <activity
-107-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:76:9-79:59
-108            android:name="com.vms.customer.activity.InsuranceProvider"
-108-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:77:13-55
-109            android:screenOrientation="portrait"
-109-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:78:13-49
-110            android:theme="@style/AppTheme.NoActionBar" />
-110-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:79:13-56
-111        <activity
-111-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:80:9-83:59
-112            android:name="com.vms.customer.activity.ContactDetailsInfo"
-112-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:81:13-56
-113            android:screenOrientation="portrait"
-113-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:82:13-49
-114            android:theme="@style/AppTheme.NoActionBar" />
-114-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:83:13-56
-115        <activity
-115-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:84:9-87:59
-116            android:name="com.vms.customer.activity.AddContact"
-116-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:85:13-48
-117            android:screenOrientation="portrait"
-117-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:86:13-49
-118            android:theme="@style/AppTheme.NoActionBar" />
-118-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:87:13-56
-119        <activity
-119-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:88:9-91:59
-120            android:name="com.vms.customer.activity.TruckDetailsFourOptions"
-120-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:89:13-61
-121            android:screenOrientation="portrait"
-121-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:90:13-49
-122            android:theme="@style/AppTheme.NoActionBar" />
-122-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:91:13-56
-123        <activity
-123-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:92:9-95:59
-124            android:name="com.vms.customer.activity.TruckBookingConfirmActivity"
-124-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:93:13-65
-125            android:screenOrientation="portrait"
-125-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:94:13-49
-126            android:theme="@style/AppTheme.NoActionBar" />
-126-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:95:13-56
-127        <activity
-127-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:96:9-99:59
-128            android:name="com.vms.customer.activity.MainFilterActivity"
-128-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:97:13-56
-129            android:screenOrientation="portrait"
-129-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:98:13-49
-130            android:theme="@style/AppTheme.NoActionBar" />
-130-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:99:13-56
-131        <activity
-131-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:100:9-103:59
-132            android:name="com.vms.customer.activity.ListOfVechilesActivity"
-132-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:101:13-60
-133            android:screenOrientation="portrait"
-133-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:102:13-49
-134            android:theme="@style/AppTheme.NoActionBar" />
-134-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:103:13-56
-135        <activity
-135-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:104:9-107:59
-136            android:name="com.vms.customer.activity.AddLoadActivity"
-136-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:105:13-53
-137            android:screenOrientation="portrait"
-137-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:106:13-49
-138            android:theme="@style/AppTheme.NoActionBar" />
-138-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:107:13-56
-139        <activity
-139-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:108:9-111:59
-140            android:name="com.vms.customer.activity.EditProfile"
-140-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:109:13-49
-141            android:screenOrientation="portrait"
-141-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:110:13-49
-142            android:theme="@style/AppTheme.NoActionBar" />
-142-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:111:13-56
-143        <activity
-143-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:112:9-115:59
-144            android:name="com.vms.customer.activity.NotificationActivity"
-144-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:113:13-58
-145            android:screenOrientation="portrait"
-145-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:114:13-49
-146            android:theme="@style/AppTheme.NoActionBar" />
-146-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:115:13-56
-147        <activity
-147-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:116:9-119:59
-148            android:name="com.vms.customer.activity.MapActivity"
-148-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:117:13-49
-149            android:screenOrientation="portrait"
-149-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:118:13-49
-150            android:theme="@style/AppTheme.NoActionBar" />
-150-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:119:13-56
-151        <activity
-151-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:120:9-123:59
-152            android:name="com.vms.customer.activity.BookingSummery"
-152-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:121:13-52
-153            android:screenOrientation="portrait"
-153-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:122:13-49
-154            android:theme="@style/AppTheme.NoActionBar" />
-154-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:123:13-56
-155        <activity
-155-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:124:9-127:59
-156            android:name="com.vms.customer.activity.ProfileActivity"
-156-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:125:13-53
-157            android:screenOrientation="portrait"
-157-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:126:13-49
-158            android:theme="@style/AppTheme.NoActionBar" />
-158-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:127:13-56
-159        <activity
-159-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:128:9-131:59
-160            android:name="com.vms.customer.activity.MaterialType"
-160-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:129:13-50
-161            android:screenOrientation="portrait"
-161-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:130:13-49
-162            android:theme="@style/AppTheme.NoActionBar" />
-162-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:131:13-56
-163        <activity
-163-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:132:9-135:59
-164            android:name="com.vms.customer.activity.BasicLoadActivity"
-164-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:133:13-55
-165            android:screenOrientation="portrait"
-165-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:134:13-49
-166            android:theme="@style/AppTheme.NoActionBar" />
-166-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:135:13-56
-167        <activity
-167-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:136:9-139:59
-168            android:name="com.vms.customer.activity.LoadBookings"
-168-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:137:13-50
-169            android:screenOrientation="portrait"
-169-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:138:13-49
-170            android:theme="@style/AppTheme.NoActionBar" />
-170-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:139:13-56
-171        <activity
-171-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:140:9-144:59
-172            android:name="com.vms.customer.activity.HomeActivity"
-172-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:141:13-50
-173            android:label="@string/title_activity_home"
-173-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:142:13-56
-174            android:screenOrientation="portrait"
-174-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:143:13-49
-175            android:theme="@style/AppTheme.NoActionBar" />
-175-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:144:13-56
-176        <activity
-176-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:145:9-154:20
-177            android:name="com.vms.customer.activity.SplashActivity"
-177-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:146:13-52
-178            android:screenOrientation="portrait"
-178-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:147:13-49
-179            android:theme="@style/AppTheme.NoActionBar" >
-179-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:148:13-56
-180            <intent-filter>
-180-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:149:13-153:29
-181                <action android:name="android.intent.action.MAIN" />
-181-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:150:17-69
-181-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:150:25-66
-182
-183                <category android:name="android.intent.category.LAUNCHER" />
-183-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:152:17-77
-183-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:152:27-74
-184            </intent-filter>
-185        </activity>
-186
-187        <meta-data
-187-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:156:9-158:71
-188            android:name="com.google.android.geo.API_KEY"
-188-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:157:13-58
-189            android:value="AIzaSyBHTMjAK03abscfm6m00ddeFAVcj58lSaM" />
-189-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:158:13-68
-190        <meta-data
-190-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:159:9-161:72
-191            android:name="io.fabric.ApiKey"
-191-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:160:13-44
-192            android:value="1f8b313e6053825bab65deec223dec7a3c4141bb" />
-192-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:161:13-69
-193
-194        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
-194-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:9-100
-194-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:19-97
-195
-196        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
-196-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:9-104
-196-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:18-101
-197        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
-197-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:9-93
-197-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:18-90
-198
-199        <meta-data
-199-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\b174f1a03dcc1ad85890f48cc039f572\mediarouter-v7-26.1.0\AndroidManifest.xml:23:9-25:38
-200            android:name="android.support.VERSION"
-200-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\b174f1a03dcc1ad85890f48cc039f572\mediarouter-v7-26.1.0\AndroidManifest.xml:24:13-51
-201            android:value="26.1.0" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-201-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\b174f1a03dcc1ad85890f48cc039f572\mediarouter-v7-26.1.0\AndroidManifest.xml:25:13-35
-202        <activity
-202-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:29:9-33:64
-203            android:name="com.google.android.gms.ads.AdActivity"
-203-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:30:13-65
-204            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-204-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:31:13-122
-205            android:exported="false"
-205-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:32:13-37
-206            android:theme="@android:style/Theme.Translucent" />
-206-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:33:13-61
-207
-208        <receiver
-208-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:30:9-34:20
-209            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
-209-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:31:13-78
-210            android:enabled="true"
-210-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:32:13-35
-211            android:exported="false" >
-211-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:33:13-37
-212        </receiver>
-213
-214        <service
-214-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:36:9-39:40
-215            android:name="com.google.android.gms.analytics.AnalyticsService"
-215-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:37:13-77
-216            android:enabled="true"
-216-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:38:13-35
-217            android:exported="false" />
-217-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:39:13-37
-218        <service
-218-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:40:9-44:72
-219            android:name="com.google.android.gms.analytics.AnalyticsJobService"
-219-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:41:13-80
-220            android:enabled="true"
-220-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:42:13-35
-221            android:exported="false"
-221-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:43:13-37
-222            android:permission="android.permission.BIND_JOB_SERVICE" />
-222-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:44:13-69
-223
-224        <activity
-224-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:25:9-34:20
-225            android:name="com.google.android.gms.appinvite.PreviewActivity"
-225-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:26:13-76
-226            android:exported="true"
-226-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:27:13-36
-227            android:theme="@style/Theme.AppInvite.Preview" >
-227-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:28:13-59
-228            <intent-filter>
-228-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:29:13-33:29
-229                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
-229-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:30:17-90
-229-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:30:25-87
-230
-231                <category android:name="android.intent.category.DEFAULT" />
-231-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
-231-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
-232            </intent-filter>
-233        </activity>
-234        <activity
-234-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:23:9-27:75
-235            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-235-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:24:13-93
-236            android:excludeFromRecents="true"
-236-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:25:13-46
-237            android:exported="false"
-237-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:26:13-37
-238            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-238-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:27:13-72
-239        <!--
-240            Service handling Google Sign-In user revocation. For apps that do not integrate with
-241            Google Sign-In, this service will never be started.
-242        -->
-243        <service
-243-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:33:9-36:110
-244            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-244-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:34:13-89
-245            android:exported="true"
-245-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:35:13-36
-246            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-246-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:36:13-107
-247
-248        <activity
-248-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:23:9-29:75
-249            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-249-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:24:13-85
-250            android:excludeFromRecents="true"
-250-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:25:13-46
-251            android:exported="true"
-251-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:26:13-36
-252            android:launchMode="singleInstance"
-252-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:27:13-48
-253            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-253-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:28:13-102
-254            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-254-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:29:13-72
-255        <activity
-255-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\dbb0775417edeec5a84443023b958649\play-services-base-12.0.1\AndroidManifest.xml:23:9-26:75
-256            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-256-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\dbb0775417edeec5a84443023b958649\play-services-base-12.0.1\AndroidManifest.xml:24:13-79
-257            android:exported="false"
-257-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\dbb0775417edeec5a84443023b958649\play-services-base-12.0.1\AndroidManifest.xml:25:13-37
-258            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-258-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\dbb0775417edeec5a84443023b958649\play-services-base-12.0.1\AndroidManifest.xml:26:13-72
-259        <!--
-260             FirebaseMessagingService performs security checks at runtime,
-261             no need for explicit permissions despite exported="true"
-262        -->
-263        <service
-263-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:28:9-34:19
-264            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-264-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:29:13-82
-265            android:exported="true" >
-265-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:30:13-36
-266            <intent-filter android:priority="-500" >
-266-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:31:13-33:29
-266-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:31:28-51
-267                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-267-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:32:17-78
-267-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:32:25-75
-268            </intent-filter>
-269        </service>
-270        <service
-270-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:27:9-30:40
-271            android:name="com.google.android.gms.tagmanager.TagManagerService"
-271-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:28:13-79
-272            android:enabled="true"
-272-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:29:13-35
-273            android:exported="false" />
-273-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:30:13-37
-274
-275        <activity
-275-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:32:9-44:20
-276            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
-276-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:33:13-87
-277            android:exported="true"
-277-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:34:13-36
-278            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
-278-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:35:13-37
-279            <intent-filter>
-279-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
-280                <data android:scheme="tagmanager.c.com.vms.customer" />
-280-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
-280-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:23-69
-281
-282                <action android:name="android.intent.action.VIEW" />
-282-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:17-69
-282-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:25-66
-283
-284                <category android:name="android.intent.category.DEFAULT" />
-284-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
-284-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
-285                <category android:name="android.intent.category.BROWSABLE" />
-285-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:17-78
-285-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:27-75
-286            </intent-filter>
-287        </activity>
-288
-289        <receiver
-289-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:28:9-32:20
-290            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-290-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:29:13-85
-291            android:enabled="true"
-291-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:30:13-35
-292            android:exported="false" >
-292-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:31:13-37
-293        </receiver>
-294        <receiver
-294-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:33:9-41:20
-295            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-295-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:34:13-100
-296            android:enabled="true"
-296-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:35:13-35
-297            android:exported="true"
-297-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:36:13-36
-298            android:permission="android.permission.INSTALL_PACKAGES" >
-298-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:37:13-69
-299            <intent-filter>
-299-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:38:13-40:29
-300                <action android:name="com.android.vending.INSTALL_REFERRER" />
-300-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:39:17-79
-300-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:39:25-76
-301            </intent-filter>
-302        </receiver>
-303
-304        <service
-304-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:43:9-46:40
-305            android:name="com.google.android.gms.measurement.AppMeasurementService"
-305-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:44:13-84
-306            android:enabled="true"
-306-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:45:13-35
-307            android:exported="false" />
-307-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:46:13-37
-308        <service
-308-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:47:9-51:72
-309            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-309-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:48:13-87
-310            android:enabled="true"
-310-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:49:13-35
-311            android:exported="false"
-311-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:50:13-37
-312            android:permission="android.permission.BIND_JOB_SERVICE" />
-312-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:51:13-69
-313
-314        <receiver
-314-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:35:9-44:20
-315            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-315-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:36:13-78
-316            android:exported="true"
-316-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:37:13-36
-317            android:permission="com.google.android.c2dm.permission.SEND" >
-317-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:38:13-73
-318            <intent-filter>
-318-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
-319                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-319-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
-319-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:40:25-78
-320
-321                <category android:name="com.vms.customer" />
-321-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
-321-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
-322            </intent-filter>
-323        </receiver>
-324        <!--
-325             FirebaseInstanceIdService performs security checks at runtime,
-326             no need for explicit permissions despite exported="true"
-327        -->
-328        <service
-328-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:50:9-56:19
-329            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-329-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:51:13-77
-330            android:exported="true" >
-330-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:52:13-36
-331            <intent-filter android:priority="-500" >
-331-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:53:13-55:29
-331-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:53:28-51
-332                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-332-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:54:17-80
-332-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:54:25-77
-333            </intent-filter>
-334        </service>
-335
-336        <provider
-336-->[com.google.firebase:firebase-common:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fe87e11c49a493408394db34e61da865\firebase-common-12.0.1\AndroidManifest.xml:8:9-12:39
-337            android:name="com.google.firebase.provider.FirebaseInitProvider"
-337-->[com.google.firebase:firebase-common:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fe87e11c49a493408394db34e61da865\firebase-common-12.0.1\AndroidManifest.xml:9:13-77
-338            android:authorities="com.vms.customer.firebaseinitprovider"
-338-->[com.google.firebase:firebase-common:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fe87e11c49a493408394db34e61da865\firebase-common-12.0.1\AndroidManifest.xml:10:13-72
-339            android:exported="false"
-339-->[com.google.firebase:firebase-common:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fe87e11c49a493408394db34e61da865\firebase-common-12.0.1\AndroidManifest.xml:11:13-37
-340            android:initOrder="100" />
-340-->[com.google.firebase:firebase-common:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fe87e11c49a493408394db34e61da865\firebase-common-12.0.1\AndroidManifest.xml:12:13-36
-341
-342        <meta-data
-342-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\949894adfdd02021b26a34585812ee7c\play-services-basement-12.0.1\AndroidManifest.xml:23:9-25:69
-343            android:name="com.google.android.gms.version"
-343-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\949894adfdd02021b26a34585812ee7c\play-services-basement-12.0.1\AndroidManifest.xml:24:13-58
-344            android:value="@integer/google_play_services_version" />
-344-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\949894adfdd02021b26a34585812ee7c\play-services-basement-12.0.1\AndroidManifest.xml:25:13-66
-345
-346        <provider
-346-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e0950fc3f0ddbe81ed07e924635e1a74\crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
-347            android:name="com.crashlytics.android.CrashlyticsInitProvider"
-347-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e0950fc3f0ddbe81ed07e924635e1a74\crashlytics-2.10.1\AndroidManifest.xml:20:13-75
-348            android:authorities="com.vms.customer.crashlyticsinitprovider"
-348-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e0950fc3f0ddbe81ed07e924635e1a74\crashlytics-2.10.1\AndroidManifest.xml:21:13-75
-349            android:exported="false"
-349-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e0950fc3f0ddbe81ed07e924635e1a74\crashlytics-2.10.1\AndroidManifest.xml:22:13-37
-350            android:initOrder="90" />
-350-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e0950fc3f0ddbe81ed07e924635e1a74\crashlytics-2.10.1\AndroidManifest.xml:23:13-35
-351    </application>
-352
-353</manifest>
+42        android:theme="@style/AppTheme" >
+42-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:13:9-40
+43        <activity
+43-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:14:9-16:68
+44            android:name="com.vms.customer.activity.CustomerMembershipActivity"
+44-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:14:19-70
+45            android:screenOrientation="portrait"
+45-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:15:13-49
+46            android:theme="@style/AppTheme.NoActionBar" />
+46-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:16:13-56
+47        <activity
+47-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:17:9-20:59
+48            android:name="com.vms.customer.activity.PrivacyPolicyActivity"
+48-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:18:13-59
+49            android:screenOrientation="portrait"
+49-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:19:13-49
+50            android:theme="@style/AppTheme.NoActionBar" />
+50-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:20:13-56
+51        <activity
+51-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:21:9-24:59
+52            android:name="com.vms.customer.activity.TermsOfUseActivity"
+52-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:22:13-56
+53            android:screenOrientation="portrait"
+53-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:23:13-49
+54            android:theme="@style/AppTheme.NoActionBar" />
+54-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:24:13-56
+55        <activity
+55-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:25:9-28:59
+56            android:name="com.vms.customer.activity.AboutAppActivity"
+56-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:26:13-54
+57            android:screenOrientation="portrait"
+57-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:27:13-49
+58            android:theme="@style/AppTheme.NoActionBar" />
+58-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:28:13-56
+59        <activity
+59-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:29:9-32:59
+60            android:name="com.vms.customer.activity.AboutUsActivity"
+60-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:30:13-53
+61            android:screenOrientation="portrait"
+61-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:31:13-49
+62            android:theme="@style/AppTheme.NoActionBar" />
+62-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:32:13-56
+63        <activity
+63-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:33:9-36:59
+64            android:name="com.vms.customer.activity.MoreActivity"
+64-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:34:13-50
+65            android:screenOrientation="portrait"
+65-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:35:13-49
+66            android:theme="@style/AppTheme.NoActionBar" />
+66-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:36:13-56
+67        <activity
+67-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:37:9-40:83
+68            android:name="com.vms.customer.activity.IntroductionPagerActivity"
+68-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:38:13-63
+69            android:screenOrientation="portrait"
+69-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:39:13-49
+70            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+70-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:40:13-80
+71        <activity
+71-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:41:9-44:59
+72            android:name="com.vms.customer.activity.VerifyOtpActivity"
+72-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:42:13-55
+73            android:screenOrientation="portrait"
+73-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:43:13-49
+74            android:theme="@style/AppTheme.NoActionBar" />
+74-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:44:13-56
+75        <activity android:name="com.vms.customer.activity.VmsBaseActivity" />
+75-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:45:9-62
+75-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:45:19-59
+76        <activity
+76-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:46:9-49:72
+77            android:name="com.vms.customer.activity.SignUpActivity"
+77-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:47:13-52
+78            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+78-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:48:13-80
+79            android:windowSoftInputMode="adjustResize|adjustNothing" />
+79-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:49:13-69
+80        <activity
+80-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:50:9-54:70
+81            android:name="com.vms.customer.activity.SignInActivity"
+81-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:51:13-52
+82            android:screenOrientation="portrait"
+82-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:52:13-49
+83            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+83-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:53:13-80
+84            android:windowSoftInputMode="stateHidden|adjustResize" />
+84-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:54:13-67
+85        <activity
+85-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:55:9-58:59
+86            android:name="com.vms.customer.activity.EditContact"
+86-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:56:13-49
+87            android:screenOrientation="portrait"
+87-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:57:13-49
+88            android:theme="@style/AppTheme.NoActionBar" />
+88-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:58:13-56
+89        <activity
+89-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:59:9-62:59
+90            android:name="com.vms.customer.activity.ContactAllList"
+90-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:60:13-52
+91            android:screenOrientation="portrait"
+91-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:61:13-49
+92            android:theme="@style/AppTheme.NoActionBar" />
+92-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:62:13-56
+93        <activity android:name="com.vms.customer.models.BookingQuery" />
+93-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:9-57
+93-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:19-54
+94        <activity
+94-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:64:9-67:59
+95            android:name="com.vms.customer.activity.CustomerSupport"
+95-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:65:13-53
+96            android:screenOrientation="portrait"
+96-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:66:13-49
+97            android:theme="@style/AppTheme.NoActionBar" />
+97-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:67:13-56
+98        <activity
+98-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:68:9-71:59
+99            android:name="com.vms.customer.activity.Wallet"
+99-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:69:13-44
+100            android:screenOrientation="portrait"
+100-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:70:13-49
+101            android:theme="@style/AppTheme.NoActionBar" />
+101-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:71:13-56
+102        <activity
+102-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:72:9-75:59
+103            android:name="com.vms.customer.activity.ReferenceCodeActivity"
+103-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:73:13-59
+104            android:screenOrientation="portrait"
+104-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:74:13-49
+105            android:theme="@style/AppTheme.NoActionBar" />
+105-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:75:13-56
+106        <activity
+106-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:76:9-79:59
+107            android:name="com.vms.customer.activity.InsuranceProvider"
+107-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:77:13-55
+108            android:screenOrientation="portrait"
+108-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:78:13-49
+109            android:theme="@style/AppTheme.NoActionBar" />
+109-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:79:13-56
+110        <activity
+110-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:80:9-83:59
+111            android:name="com.vms.customer.activity.ContactDetailsInfo"
+111-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:81:13-56
+112            android:screenOrientation="portrait"
+112-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:82:13-49
+113            android:theme="@style/AppTheme.NoActionBar" />
+113-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:83:13-56
+114        <activity
+114-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:84:9-87:59
+115            android:name="com.vms.customer.activity.AddContact"
+115-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:85:13-48
+116            android:screenOrientation="portrait"
+116-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:86:13-49
+117            android:theme="@style/AppTheme.NoActionBar" />
+117-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:87:13-56
+118        <activity
+118-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:88:9-91:59
+119            android:name="com.vms.customer.activity.TruckDetailsFourOptions"
+119-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:89:13-61
+120            android:screenOrientation="portrait"
+120-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:90:13-49
+121            android:theme="@style/AppTheme.NoActionBar" />
+121-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:91:13-56
+122        <activity
+122-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:92:9-95:59
+123            android:name="com.vms.customer.activity.TruckBookingConfirmActivity"
+123-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:93:13-65
+124            android:screenOrientation="portrait"
+124-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:94:13-49
+125            android:theme="@style/AppTheme.NoActionBar" />
+125-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:95:13-56
+126        <activity
+126-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:96:9-99:59
+127            android:name="com.vms.customer.activity.MainFilterActivity"
+127-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:97:13-56
+128            android:screenOrientation="portrait"
+128-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:98:13-49
+129            android:theme="@style/AppTheme.NoActionBar" />
+129-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:99:13-56
+130        <activity
+130-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:100:9-103:59
+131            android:name="com.vms.customer.activity.ListOfVechilesActivity"
+131-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:101:13-60
+132            android:screenOrientation="portrait"
+132-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:102:13-49
+133            android:theme="@style/AppTheme.NoActionBar" />
+133-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:103:13-56
+134        <activity
+134-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:104:9-107:59
+135            android:name="com.vms.customer.activity.AddLoadActivity"
+135-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:105:13-53
+136            android:screenOrientation="portrait"
+136-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:106:13-49
+137            android:theme="@style/AppTheme.NoActionBar" />
+137-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:107:13-56
+138        <activity
+138-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:108:9-111:59
+139            android:name="com.vms.customer.activity.EditProfile"
+139-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:109:13-49
+140            android:screenOrientation="portrait"
+140-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:110:13-49
+141            android:theme="@style/AppTheme.NoActionBar" />
+141-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:111:13-56
+142        <activity
+142-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:112:9-115:59
+143            android:name="com.vms.customer.activity.NotificationActivity"
+143-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:113:13-58
+144            android:screenOrientation="portrait"
+144-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:114:13-49
+145            android:theme="@style/AppTheme.NoActionBar" />
+145-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:115:13-56
+146        <activity
+146-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:116:9-119:59
+147            android:name="com.vms.customer.activity.MapActivity"
+147-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:117:13-49
+148            android:screenOrientation="portrait"
+148-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:118:13-49
+149            android:theme="@style/AppTheme.NoActionBar" />
+149-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:119:13-56
+150        <activity
+150-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:120:9-123:59
+151            android:name="com.vms.customer.activity.BookingSummery"
+151-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:121:13-52
+152            android:screenOrientation="portrait"
+152-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:122:13-49
+153            android:theme="@style/AppTheme.NoActionBar" />
+153-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:123:13-56
+154        <activity
+154-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:124:9-127:59
+155            android:name="com.vms.customer.activity.ProfileActivity"
+155-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:125:13-53
+156            android:screenOrientation="portrait"
+156-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:126:13-49
+157            android:theme="@style/AppTheme.NoActionBar" />
+157-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:127:13-56
+158        <activity
+158-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:128:9-131:59
+159            android:name="com.vms.customer.activity.MaterialType"
+159-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:129:13-50
+160            android:screenOrientation="portrait"
+160-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:130:13-49
+161            android:theme="@style/AppTheme.NoActionBar" />
+161-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:131:13-56
+162        <activity
+162-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:132:9-135:59
+163            android:name="com.vms.customer.activity.BasicLoadActivity"
+163-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:133:13-55
+164            android:screenOrientation="portrait"
+164-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:134:13-49
+165            android:theme="@style/AppTheme.NoActionBar" />
+165-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:135:13-56
+166        <activity
+166-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:136:9-139:59
+167            android:name="com.vms.customer.activity.LoadBookings"
+167-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:137:13-50
+168            android:screenOrientation="portrait"
+168-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:138:13-49
+169            android:theme="@style/AppTheme.NoActionBar" />
+169-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:139:13-56
+170        <activity
+170-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:140:9-144:59
+171            android:name="com.vms.customer.activity.HomeActivity"
+171-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:141:13-50
+172            android:label="@string/title_activity_home"
+172-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:142:13-56
+173            android:screenOrientation="portrait"
+173-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:143:13-49
+174            android:theme="@style/AppTheme.NoActionBar" />
+174-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:144:13-56
+175        <activity
+175-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:145:9-154:20
+176            android:name="com.vms.customer.activity.SplashActivity"
+176-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:146:13-52
+177            android:screenOrientation="portrait"
+177-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:147:13-49
+178            android:theme="@style/AppTheme.NoActionBar" >
+178-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:148:13-56
+179            <intent-filter>
+179-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:149:13-153:29
+180                <action android:name="android.intent.action.MAIN" />
+180-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:150:17-69
+180-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:150:25-66
+181
+182                <category android:name="android.intent.category.LAUNCHER" />
+182-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:152:17-77
+182-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:152:27-74
+183            </intent-filter>
+184        </activity>
+185
+186        <meta-data
+186-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:156:9-158:71
+187            android:name="com.google.android.geo.API_KEY"
+187-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:157:13-58
+188            android:value="AIzaSyBHTMjAK03abscfm6m00ddeFAVcj58lSaM" />
+188-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:158:13-68
+189        <meta-data
+189-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:159:9-161:72
+190            android:name="io.fabric.ApiKey"
+190-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:160:13-44
+191            android:value="1f8b313e6053825bab65deec223dec7a3c4141bb" />
+191-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:161:13-69
+192
+193        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+193-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:9-100
+193-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:19-97
+194
+195        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+195-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:9-104
+195-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:18-101
+196        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+196-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:9-93
+196-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\4d1ae63c04feb3bbc79cdc01d8c52fda\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:18-90
+197
+198        <meta-data
+198-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\b174f1a03dcc1ad85890f48cc039f572\mediarouter-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+199            android:name="android.support.VERSION"
+199-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\b174f1a03dcc1ad85890f48cc039f572\mediarouter-v7-26.1.0\AndroidManifest.xml:24:13-51
+200            android:value="26.1.0" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+200-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\b174f1a03dcc1ad85890f48cc039f572\mediarouter-v7-26.1.0\AndroidManifest.xml:25:13-35
+201        <activity
+201-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:29:9-33:64
+202            android:name="com.google.android.gms.ads.AdActivity"
+202-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:30:13-65
+203            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+203-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:31:13-122
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:32:13-37
+205            android:theme="@android:style/Theme.Translucent" />
+205-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8b3b3bf56b0b32f83e74e877dd185963\play-services-ads-lite-12.0.1\AndroidManifest.xml:33:13-61
+206
+207        <receiver
+207-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:30:9-34:20
+208            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+208-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:31:13-78
+209            android:enabled="true"
+209-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:32:13-35
+210            android:exported="false" >
+210-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:33:13-37
+211        </receiver>
+212
+213        <service
+213-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:36:9-39:40
+214            android:name="com.google.android.gms.analytics.AnalyticsService"
+214-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:37:13-77
+215            android:enabled="true"
+215-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:38:13-35
+216            android:exported="false" />
+216-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:39:13-37
+217        <service
+217-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:40:9-44:72
+218            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+218-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:41:13-80
+219            android:enabled="true"
+219-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:42:13-35
+220            android:exported="false"
+220-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:43:13-37
+221            android:permission="android.permission.BIND_JOB_SERVICE" />
+221-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\42359ac37dc4adce71987626ae659500\play-services-analytics-12.0.1\AndroidManifest.xml:44:13-69
+222
+223        <activity
+223-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:25:9-34:20
+224            android:name="com.google.android.gms.appinvite.PreviewActivity"
+224-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:26:13-76
+225            android:exported="true"
+225-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:27:13-36
+226            android:theme="@style/Theme.AppInvite.Preview" >
+226-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:28:13-59
+227            <intent-filter>
+227-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:29:13-33:29
+228                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+228-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:30:17-90
+228-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:30:25-87
+229
+230                <category android:name="android.intent.category.DEFAULT" />
+230-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+230-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+231            </intent-filter>
+232        </activity>
+233        <activity
+233-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:23:9-27:75
+234            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+234-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:24:13-93
+235            android:excludeFromRecents="true"
+235-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:25:13-46
+236            android:exported="false"
+236-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:26:13-37
+237            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+237-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:27:13-72
+238        <!--
+239            Service handling Google Sign-In user revocation. For apps that do not integrate with
+240            Google Sign-In, this service will never be started.
+241        -->
+242        <service
+242-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:33:9-36:110
+243            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+243-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:34:13-89
+244            android:exported="true"
+244-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:35:13-36
+245            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+245-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a49d7fe6b6043d523453dd58f5262d62\play-services-auth-12.0.1\AndroidManifest.xml:36:13-107
+246
+247        <activity
+247-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:23:9-29:75
+248            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+248-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:24:13-85
+249            android:excludeFromRecents="true"
+249-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:25:13-46
+250            android:exported="true"
+250-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:26:13-36
+251            android:launchMode="singleInstance"
+251-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:27:13-48
+252            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+252-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:28:13-102
+253            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+253-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\8c0b7bc90b97b9dd015893ee5c90488e\firebase-auth-12.0.1\AndroidManifest.xml:29:13-72
+254        <activity
+254-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\dbb0775417edeec5a84443023b958649\play-services-base-12.0.1\AndroidManifest.xml:23:9-26:75
+255            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+255-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\dbb0775417edeec5a84443023b958649\play-services-base-12.0.1\AndroidManifest.xml:24:13-79
+256            android:exported="false"
+256-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\dbb0775417edeec5a84443023b958649\play-services-base-12.0.1\AndroidManifest.xml:25:13-37
+257            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+257-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\dbb0775417edeec5a84443023b958649\play-services-base-12.0.1\AndroidManifest.xml:26:13-72
+258        <!--
+259             FirebaseMessagingService performs security checks at runtime,
+260             no need for explicit permissions despite exported="true"
+261        -->
+262        <service
+262-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:28:9-34:19
+263            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+263-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:29:13-82
+264            android:exported="true" >
+264-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:30:13-36
+265            <intent-filter android:priority="-500" >
+265-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:31:13-33:29
+265-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:31:28-51
+266                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+266-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:32:17-78
+266-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\c80468f163b44e92059bd4efe7852028\firebase-messaging-12.0.1\AndroidManifest.xml:32:25-75
+267            </intent-filter>
+268        </service>
+269        <service
+269-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:27:9-30:40
+270            android:name="com.google.android.gms.tagmanager.TagManagerService"
+270-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:28:13-79
+271            android:enabled="true"
+271-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:29:13-35
+272            android:exported="false" />
+272-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:30:13-37
+273
+274        <activity
+274-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:32:9-44:20
+275            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+275-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:33:13-87
+276            android:exported="true"
+276-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:34:13-36
+277            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+277-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:35:13-37
+278            <intent-filter>
+278-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
+279                <data android:scheme="tagmanager.c.com.vms.customer" />
+279-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
+279-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:23-69
+280
+281                <action android:name="android.intent.action.VIEW" />
+281-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:17-69
+281-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:25-66
+282
+283                <category android:name="android.intent.category.DEFAULT" />
+283-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+283-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e5d5a35f07dca14a8a03d6cb82773df5\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+284                <category android:name="android.intent.category.BROWSABLE" />
+284-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:17-78
+284-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\f919cab613b04ba07876982d069dab65\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:27-75
+285            </intent-filter>
+286        </activity>
+287
+288        <receiver
+288-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:28:9-32:20
+289            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+289-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:29:13-85
+290            android:enabled="true"
+290-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:30:13-35
+291            android:exported="false" >
+291-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:31:13-37
+292        </receiver>
+293        <receiver
+293-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:33:9-41:20
+294            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+294-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:34:13-100
+295            android:enabled="true"
+295-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:35:13-35
+296            android:exported="true"
+296-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:36:13-36
+297            android:permission="android.permission.INSTALL_PACKAGES" >
+297-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:37:13-69
+298            <intent-filter>
+298-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:38:13-40:29
+299                <action android:name="com.android.vending.INSTALL_REFERRER" />
+299-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:39:17-79
+299-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:39:25-76
+300            </intent-filter>
+301        </receiver>
+302
+303        <service
+303-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:43:9-46:40
+304            android:name="com.google.android.gms.measurement.AppMeasurementService"
+304-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:44:13-84
+305            android:enabled="true"
+305-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:45:13-35
+306            android:exported="false" />
+306-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:46:13-37
+307        <service
+307-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:47:9-51:72
+308            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+308-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:48:13-87
+309            android:enabled="true"
+309-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:49:13-35
+310            android:exported="false"
+310-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:50:13-37
+311            android:permission="android.permission.BIND_JOB_SERVICE" />
+311-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\88df6dfe3662cc2f39a949430f116b12\firebase-analytics-12.0.1\AndroidManifest.xml:51:13-69
+312
+313        <receiver
+313-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:35:9-44:20
+314            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+314-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:36:13-78
+315            android:exported="true"
+315-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:37:13-36
+316            android:permission="com.google.android.c2dm.permission.SEND" >
+316-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:38:13-73
+317            <intent-filter>
+317-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
+318                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+318-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
+318-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:40:25-78
+319
+320                <category android:name="com.vms.customer" />
+320-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
+320-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
+321            </intent-filter>
+322        </receiver>
+323        <!--
+324             FirebaseInstanceIdService performs security checks at runtime,
+325             no need for explicit permissions despite exported="true"
+326        -->
+327        <service
+327-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:50:9-56:19
+328            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+328-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:51:13-77
+329            android:exported="true" >
+329-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:52:13-36
+330            <intent-filter android:priority="-500" >
+330-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:53:13-55:29
+330-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:53:28-51
+331                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+331-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:54:17-80
+331-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\bd33739736dfd19c227eaa14853e8347\firebase-iid-12.0.1\AndroidManifest.xml:54:25-77
+332            </intent-filter>
+333        </service>
+334
+335        <provider
+335-->[com.google.firebase:firebase-common:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fe87e11c49a493408394db34e61da865\firebase-common-12.0.1\AndroidManifest.xml:8:9-12:39
+336            android:name="com.google.firebase.provider.FirebaseInitProvider"
+336-->[com.google.firebase:firebase-common:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fe87e11c49a493408394db34e61da865\firebase-common-12.0.1\AndroidManifest.xml:9:13-77
+337            android:authorities="com.vms.customer.firebaseinitprovider"
+337-->[com.google.firebase:firebase-common:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fe87e11c49a493408394db34e61da865\firebase-common-12.0.1\AndroidManifest.xml:10:13-72
+338            android:exported="false"
+338-->[com.google.firebase:firebase-common:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fe87e11c49a493408394db34e61da865\firebase-common-12.0.1\AndroidManifest.xml:11:13-37
+339            android:initOrder="100" />
+339-->[com.google.firebase:firebase-common:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fe87e11c49a493408394db34e61da865\firebase-common-12.0.1\AndroidManifest.xml:12:13-36
+340
+341        <meta-data
+341-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\949894adfdd02021b26a34585812ee7c\play-services-basement-12.0.1\AndroidManifest.xml:23:9-25:69
+342            android:name="com.google.android.gms.version"
+342-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\949894adfdd02021b26a34585812ee7c\play-services-basement-12.0.1\AndroidManifest.xml:24:13-58
+343            android:value="@integer/google_play_services_version" />
+343-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\949894adfdd02021b26a34585812ee7c\play-services-basement-12.0.1\AndroidManifest.xml:25:13-66
+344
+345        <provider
+345-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e0950fc3f0ddbe81ed07e924635e1a74\crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
+346            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+346-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e0950fc3f0ddbe81ed07e924635e1a74\crashlytics-2.10.1\AndroidManifest.xml:20:13-75
+347            android:authorities="com.vms.customer.crashlyticsinitprovider"
+347-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e0950fc3f0ddbe81ed07e924635e1a74\crashlytics-2.10.1\AndroidManifest.xml:21:13-75
+348            android:exported="false"
+348-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e0950fc3f0ddbe81ed07e924635e1a74\crashlytics-2.10.1\AndroidManifest.xml:22:13-37
+349            android:initOrder="90" />
+349-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e0950fc3f0ddbe81ed07e924635e1a74\crashlytics-2.10.1\AndroidManifest.xml:23:13-35
+350    </application>
+351
+352</manifest>
