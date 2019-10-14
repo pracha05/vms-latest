@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".activity.LoadBookings">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/img_loadbook_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/tv_loadbook_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="@dimen/headertextsize"
+            android:text="@string/load_booking"
+
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="@dimen/mainheadertextsize"
+        android:text="@string/select_your_load_type"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/tv_lb_sheader"
+        android:layout_margin="@dimen/margin20sp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="@dimen/margin20sp"
+        android:layout_marginRight="@dimen/margin20sp"
+        android:textAllCaps="false"
+        android:textSize="@dimen/mainheadertextsize"
+
+        android:layout_marginBottom="@dimen/margin20sp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/change_colcor"
+        android:id="@+id/btn_fullload"
+        android:text="@string/full_load"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="@dimen/mainheadertextsize"
+
+        android:layout_marginLeft="@dimen/margin20sp"
+        android:layout_marginRight="@dimen/margin20sp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="@dimen/margin20sp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/change_colcor"
+        android:id="@+id/btn_box"
+        android:text="Box"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="@dimen/mainheadertextsize"
+
+        android:layout_marginLeft="@dimen/margin20sp"
+        android:layout_marginRight="@dimen/margin20sp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="@dimen/margin20sp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/change_colcor"
+        android:id="@+id/btn_partload"
+        android:text="Part Load"/>
+
+
+
+</LinearLayout>

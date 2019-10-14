@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".activity.TruckBookingConfirmActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/img_bookcnfm_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/tv_bookcnfm_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="BOOKING ID - 014-20154-325"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/headertextsize" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/congratulation"
+                android:textColor="@color/colorDarkGreen"
+                android:textSize="@dimen/bigtextsize" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/ic_launcher_confirm" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Delhi - Bhopal"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/mediumtextsize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Distance : 1500 KM"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/verysmalltextsize" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="25-11-2019"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/verysmalltextsize" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Estimated Time Need : 25hr"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/verysmalltextsize" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Slot : 3PM - 6PM"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/verysmalltextsize" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/margin5dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorLightGray"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:id="@+id/three"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boxborder_shape"
+                    android:padding="10dp" />
+
+                <ImageView
+                    android:id="@+id/five"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boxborder_shape"
+                    android:padding="10dp" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/boxborder_shape"
+                    android:padding="10dp" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/boxborder_shape"
+                    android:padding="10dp" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/boxborder_shape"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorLightGray"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/category"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorDarkGreen"
+                    android:textSize="@dimen/verysmalltextsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="3dp"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/types"
+                    android:textColor="@color/colorDarkGreen"
+                    android:textStyle="bold"
+
+                    android:textSize="@dimen/verysmalltextsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+
+                    android:layout_margin="3dp"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Size"
+                    android:textColor="@color/colorDarkGreen"
+
+                    android:textSize="@dimen/verysmalltextsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="3dp"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/capicity"
+                    android:textColor="@color/colorDarkGreen"
+                    android:textStyle="bold"
+
+                    android:textSize="@dimen/verysmalltextsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="3dp"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/material"
+                    android:textColor="@color/colorDarkGreen"
+                    android:textStyle="bold"
+
+                    android:textSize="@dimen/verysmalltextsize" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rc_bookedtrucklist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="6dp"></android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="5dp"
+                android:gravity="end"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+
+                    android:text="@string/coupon_discount"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/verysmalltextsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+
+                    android:paddingLeft="6dp"
+                    android:text="700"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/verysmalltextsize" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="5dp"
+                android:gravity="end"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+
+                    android:text="@string/teanspoter_discount"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/verysmalltextsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+
+                    android:paddingLeft="6dp"
+                    android:text="500"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/verysmalltextsize" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="5dp"
+                android:gravity="end"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+
+                    android:text="@string/membership_discount"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/verysmalltextsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+
+                    android:paddingLeft="6dp"
+                    android:text="400"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/verysmalltextsize" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="5dp"
+                android:gravity="end"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+
+                    android:text="@string/payable_amount"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/verysmalltextsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+
+                    android:paddingLeft="6dp"
+                    android:text="INR 1600"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/verysmalltextsize" />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_bt_pay_now"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/allbuttonheight"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/verysmalltextsize"
+                android:background="@drawable/button_round_cornor_selector"
+                android:text="@string/pay_now"
+                android:textColor="@color/colorWhite" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="5dp"
+
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="@string/policy"
+
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dp"
+                    android:text="@string/absolute_100_cashless_claims_any_garage_premium_starts_rs_2999_get_quote_dedicated_claim_expert_for_fast_settlement_instant_claim_settlement_for_minor_car_damage_cashless_claim_everywhere_no_paperwork_instant_quote_calculator_irdai_certified_pickup_repair_and_drop"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/verysmalltextsize" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/terms_and_conditions"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dp"
+                    android:text="@string/absolute_100_cashless_claims_any_garage_premium_starts_rs_2999_get_quote_dedicated_claim_expert_for_fast_settlement_instant_claim_settlement_for_minor_car_damage_cashless_claim_everywhere_no_paperwork_instant_quote_calculator_irdai_certified_pickup_repair_and_drop"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/verysmalltextsize" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

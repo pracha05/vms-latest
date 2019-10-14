@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".activity.MaterialType">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/img_mattype_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/tv_mattypeheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="@dimen/headertextsize"
+            android:text="@string/material_type"
+
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+
+
+
+    <com.kofigyan.stateprogressbar.StateProgressBar
+        android:id="@+id/your_state_progress_bar_mattype2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin20sp"
+        app:spb_animateToCurrentProgressState="true"
+        app:spb_checkStateCompleted="true"
+        app:spb_currentStateDescriptionColor="@color/colorGreen"
+        app:spb_currentStateNumber="two"
+        app:spb_maxStateNumber="five"
+        app:spb_stateBackgroundColor="@color/colorLightDarkGray"
+        app:spb_stateDescriptionColor="@color/colorGreen"
+        app:spb_stateForegroundColor="@color/colorGreen"
+        app:spb_stateNumberBackgroundColor="@color/colorBlack"
+        app:spb_stateNumberForegroundColor="#eeeeee" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="@dimen/mainheadertextsize"
+        android:text="Select Material Type"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/tv_sm_sheader"
+        android:layout_margin="@dimen/margin20sp"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rev_sel_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_margin="3dp" />
+
+
+</LinearLayout>

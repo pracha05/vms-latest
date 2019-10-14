@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".activity.Wallet">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/img_wallet_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/tv_wallet_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="@dimen/headertextsize"
+            android:text="@string/wallet"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+
+            <ImageView
+                android:id="@+id/tv_wallet_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/wallet"
+                android:layout_gravity="center"
+                android:padding="5dp" />
+            <TextView
+                android:id="@+id/tv_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLightBlack"
+                android:textSize="16dp"
+                android:layout_marginBottom="@dimen/space10"
+                android:text="@string/wallet_price"
+                android:layout_gravity="center"
+                android:padding="5dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="@color/colorLightDarkGray"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite">
+                <TextView
+                    android:id="@+id/tv_wallet_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Expires on "
+                    android:textColor="@color/colorLightDarkGray"
+                    android:textSize="14dp"
+                    android:gravity="left"
+                    android:layout_gravity="left"
+                    android:padding="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_wallet_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="22 May, 2020"
+                    android:textColor="@color/colorLightDarkGray"
+                    android:textSize="14dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:padding="15dp" />
+            </RelativeLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="@color/colorLightDarkGray"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite">
+                <TextView
+                    android:id="@+id/tv_wallet_usage_allowed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Allowed usage per month "
+                    android:textColor="@color/colorLightDarkGray"
+                    android:gravity="left"
+                    android:layout_gravity="left"
+                    android:textSize="14dp"
+                    android:padding="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_wallet_usage_month"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wallet_price"
+                    android:textColor="@color/colorLightDarkGray"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:textSize="14dp"
+                    android:padding="15dp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="@color/colorLightDarkGray"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite">
+                <TextView
+                    android:id="@+id/tv_wallet_usage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Usable this month"
+                    android:textColor="@color/colorLightDarkGray"
+                    android:textSize="14dp"
+                    android:gravity="left"
+                    android:padding="15dp" />
+                <TextView
+                    android:id="@+id/tv_wallet_usage_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wallet_price_usable"
+                    android:textColor="@color/colorLightDarkGray"
+                    android:textSize="14dp"
+                    android:gravity="right"
+                    android:padding="15dp" />
+            </RelativeLayout>
+
+         </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".activity.MainFilterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/img_mainfilter_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/tv_mainfilter_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/filter"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/headertextsize" />
+
+
+    </RelativeLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:layout_marginBottom="15dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        android:text="Amenities"
+        android:textColor="@color/colorBlack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:background="@drawable/box_border_shape"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+
+        <Spinner
+            android:id="@+id/sp_flt_select_amenities"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:spinnerMode="dialog" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="5sp"
+        android:text="@string/price"
+        android:textColor="@color/colorBlack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:background="@drawable/box_border_shape"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <SeekBar
+            android:id="@+id/simpleSeekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="50000"
+            android:progress="0" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+
+        android:layout_marginRight="20sp">
+
+        <TextView
+            android:id="@+id/tv_minvalue_skbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 0"
+            android:textColor="@color/colorBlack"
+           />
+
+        <TextView
+            android:id="@+id/tv_maxvalue_skbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="₹ 50000"
+            android:textColor="@color/colorBlack"
+           />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        android:text="@string/rearing"
+        android:textColor="@color/colorBlack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:background="@drawable/box_border_shape"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+
+        <Spinner
+            android:id="@+id/sp_flt_select_rearing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:spinnerMode="dialog" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="5sp"
+        android:text="@string/number_load_completed"
+        android:textColor="@color/colorBlack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:background="@drawable/box_border_shape"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <SeekBar
+            android:id="@+id/simpleSeekBars"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+
+        android:layout_marginRight="20sp">
+
+        <TextView
+            android:id="@+id/tv_minivalue_skbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/colorBlack"
+             />
+
+        <TextView
+            android:id="@+id/tv_maxivalue_skbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="100"
+            android:textColor="@color/colorBlack"
+             />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        android:text="@string/member_ship"
+        android:textColor="@color/colorBlack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:background="@drawable/box_border_shape"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+
+        <Spinner
+            android:id="@+id/sp_flt_select_member"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:spinnerMode="dialog" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        android:text="@string/tons"
+        android:textColor="@color/colorBlack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:background="@drawable/box_border_shape"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+
+        <Spinner
+            android:id="@+id/sp_flt_select_tons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:spinnerMode="dialog" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        android:text="@string/height"
+        android:textColor="@color/colorBlack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:background="@drawable/box_border_shape"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+
+        <Spinner
+            android:id="@+id/sp_flt_select_height"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:spinnerMode="dialog" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        android:text="@string/weight"
+        android:textColor="@color/colorBlack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:background="@drawable/box_border_shape"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+
+        <Spinner
+            android:id="@+id/sp_flt_select_weight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:spinnerMode="dialog" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

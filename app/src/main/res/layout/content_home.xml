@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorLightDarkGraynew"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/btn_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_launcher_sidemenu"
+            android:background="@color/colorWhite"
+            android:text="B1"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/btn_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_launcher_sidemenu"
+            android:background="@color/colorWhite"
+            android:text="B2"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/btn_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_launcher_sidemenu"
+            android:background="@color/colorWhite"
+            android:text="B3"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/btn_four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_launcher_sidemenu"
+            android:background="@color/colorWhite"
+            android:text="B4"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/btn_five"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_launcher_sidemenu"
+            android:background="@color/colorWhite"
+            android:text="B5"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomnavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:labelVisibilityMode="labeled"
+        android:background="@color/colorLightDarkGray"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorWhite"
+        app:itemIconTint="@drawable/drawer_item_color"
+        app:itemTextColor="@drawable/drawer_item_color"
+        android:theme="@style/Widget.BottomNavigationView"
+        app:menu="@menu/navigation"/>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".activity.BookingSummery">
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+        <ImageView
+            android:id="@+id/img_booksum_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_booksum_header"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="@dimen/headertextsize"
+            android:text="@string/booking_summary"
+            android:textColor="@color/colorWhite" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/custom_progress_dialog"
+        android:indeterminate="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/rc_bookingsummary"
+        android:layout_margin="6dp">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

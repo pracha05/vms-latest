@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="sidemenutextsize">15sp</dimen>
+    <dimen name="headertextsize">16sp</dimen>
+    <dimen name="mainheadertextsize">17sp</dimen>
+    <dimen name="margin20sp">18sp</dimen>
+    <dimen name="smalltextsize">14sp</dimen>
+    <dimen name="verysmalltextsize">11sp</dimen>
+    <dimen name="mediumtextsize">15sp</dimen>
+    <dimen name="allbuttonheight">35dp</dimen>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/login_bg"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/space40"
+        android:src="@drawable/logo" />
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_below="@id/iv_logo"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_below="@+id/iv_logo"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:paddingLeft="@dimen/space20"-->
+<!--            android:paddingRight="@dimen/space20">-->
+
+            <LinearLayout
+                android:id="@+id/tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="60dp"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="@dimen/space5">
+
+                <EditText
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boxborder_shape"
+                    android:hint="Enter Email Or Mobile"
+                    android:inputType="textEmailAddress"
+                    android:drawableRight="@drawable/arrow_green"
+                    android:drawablePadding="10dp"
+                    android:lines="1"
+                    android:text=""
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorLightDarkGraynew"
+                    android:textSize="@dimen/txt16" />
+
+                <TextView
+                    android:id="@+id/tv_registration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/create_one"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="@dimen/space20"-->
+<!--                android:orientation="vertical"-->
+<!--                android:paddingBottom="@dimen/space5">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/et_password"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:background="@drawable/boxborder_shape"-->
+<!--                    android:hint="Enter Password"-->
+<!--                    android:inputType="textPassword"-->
+<!--                    android:lines="1"-->
+<!--                    android:text=""-->
+<!--                    android:drawablePadding="10dp"-->
+<!--                    android:paddingLeft="10dp"-->
+<!--                    android:textColor="@android:color/black"-->
+<!--                    android:textSize="@dimen/txt16" />-->
+
+<!--            </LinearLayout>-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_email"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/tv_forgot_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/hint_forgot_password"
+                    android:textColor="@color/colorLightDarkGraynew"
+                    android:visibility="gone"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+<!--                <Button-->
+<!--                    android:id="@+id/btn_sign_in"-->
+<!--                    android:layout_width="@dimen/btn_width"-->
+<!--                    android:layout_height="@dimen/allbuttonheight"-->
+<!--                    android:layout_marginBottom="@dimen/space10"-->
+<!--                    android:background="@color/colorPrimary"-->
+<!--                    android:text="Login"-->
+<!--                    android:layout_margin="@dimen/margin20sp"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    android:textColor="@color/colorWhite"-->
+<!--                    android:textSize="@dimen/txt16" />-->
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+</RelativeLayout>

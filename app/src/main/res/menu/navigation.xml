@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">>
+    <item
+        android:id="@+id/b_navigation_home"
+        android:icon="@drawable/ic_action_home"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/b_navigation_contact"
+        android:icon="@drawable/ic_action_user"
+        android:title="@string/contacts"/>
+
+    <item
+        android:id="@+id/b_navigation_booking"
+        android:icon="@drawable/ic_load_book"
+        android:title="@string/bookings"/>
+
+    <item
+        android:id="@+id/b_navigation_offer"
+        android:icon="@drawable/ic_invite"
+        android:title="@string/invitee"/>
+
+    <item
+        android:id="@+id/b_navigation_profile"
+        android:icon="@drawable/ic_account_circle"
+        android:title="@string/profile"/>
+
+</menu>

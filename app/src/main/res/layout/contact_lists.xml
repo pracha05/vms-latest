@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/margin5dp"
+    android:background="@drawable/boxborder_shape"
+    android:layout_marginTop="2.5dp"
+    android:layout_marginBottom="2.5dp"
+    android:layout_marginLeft="@dimen/margin5dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ll_contact_list"
+        android:clickable="true"
+        android:layout_margin="0.5dp"
+        android:background="@drawable/ripple"
+
+        android:focusable="true"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="7dp"
+
+            >
+
+
+
+
+            <TextView
+                android:id="@+id/txt_contact_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="Sathya Tech"
+                android:maxLines="1"
+
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+            <TextView
+                android:id="@+id/txt_contact_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:layout_alignParentRight="true"
+                android:ellipsize="end"
+                android:text="7889789891"
+                android:maxLength="10"
+                android:inputType="number"
+                android:maxLines="1"
+
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+
+
+        </RelativeLayout>
+              <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="7dp"
+
+
+            >
+
+
+
+
+
+            <TextView
+                android:id="@+id/txt_contact_customer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:ellipsize="end"
+                android:text="sridhar"
+                android:maxLines="1"
+
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

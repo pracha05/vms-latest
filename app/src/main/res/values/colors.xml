@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#af0000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#0e0e0e</color>
+    <color name="colorLightBlack">#303030</color>
+    <color name="colorLightGray">#F2E7E7E7</color>
+    <color name="colorWhiteGray">#57E9E9E4</color>
+    <color name="colorLightDarkGray">#969595</color>
+    <color name="colorLightDarkGraynew">#252525</color>
+    <color name="colorAccent">#0e0e0e</color>
+    <color name="colorGreen">#34BC9B</color>
+    <color name="colorDarkGreen">#3FB40C</color>
+    <color name="colorYellow">#CF9E08</color>
+    <color name="colorOrange">#FF7E26</color>
+    <color name="colorYellowLight">#FEF200</color>
+    <color name="colorCream">#9FF1E9E9</color>
+    <color name="colorBlue">#1E74CC</color>
+    <color name="cyan_blue">#4991B0</color>
+    <color name="red_shade">#F55064</color>
+    <color name="indicator_unselected">#4D000000</color>
+    <color name="orange_shade">#ed9818</color>
+    <color name="orange_shade2">#fac34d</color>
+    <color name="green_shade">#41b53f</color>
+    <color name="color_gray">#d7d7d7</color>
+    <color name="black_trans80">#33000000</color>
+    <color name="gray_shade_8">#4A4A4A</color>
+    <color name="lt_gray">#cccccc</color>
+    <color name="golden1">#d4af37</color>
+    <color name="golden">#631700</color>
+    <color name="golden_text">#DD9A6A</color>
+    <color name="gr1">#4AC06D</color>
+    <color name="deep_navi_blue">#02071e</color>
+    <color name="colorPrimaryBlue">#4267B2</color>
+</resources>

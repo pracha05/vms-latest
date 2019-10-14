@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".activity.ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/img_prof_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/tv_prof_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/my_profile"
+            android:textColor="@color/colorWhite"
+
+            android:textSize="@dimen/headertextsize" />
+
+        <ImageView
+            android:id="@+id/img_prof_edit"
+            android:layout_width="30dp"
+            android:layout_height="33dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/ic_launcher_edituser" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10sp"
+
+                android:background="@drawable/ll_gray_roundcorner"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:background="@mipmap/ic_launcher_sidemenu"
+                    android:gravity="center|start" />
+
+                <TextView
+                    android:id="@+id/tv_prof_regno"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="@string/registration_number"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10sp"
+
+                android:background="@drawable/ll_gray_roundcorner"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:background="@mipmap/ic_launcher_sidemenu"
+                    android:gravity="center|start" />
+
+                <TextView
+                    android:id="@+id/tv_prof_gst"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="@string/gst"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10sp"
+
+                android:background="@drawable/ll_gray_roundcorner"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:background="@mipmap/ic_launcher_sidemenu"
+                    android:gravity="center|start" />
+
+                <TextView
+                    android:id="@+id/tv_prof_pan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="@string/pan_card_no"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10sp"
+
+                android:background="@drawable/ll_gray_roundcorner"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:background="@mipmap/ic_launcher_sidemenu"
+                    android:gravity="center|start" />
+
+                <TextView
+                    android:id="@+id/tv_prof_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="@string/name"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10sp"
+
+                android:background="@drawable/ll_gray_roundcorner"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:background="@mipmap/ic_launcher_sidemenu"
+                    android:gravity="center|start" />
+
+                <TextView
+                    android:id="@+id/tv_prof_compname"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="@string/vms_pvt_ltd"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10sp"
+
+                android:background="@drawable/ll_gray_roundcorner"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:background="@mipmap/ic_launcher_sidemenu"
+                    android:gravity="center|start" />
+
+                <TextView
+                    android:id="@+id/tv_prof_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+
+                    android:text="9907449461"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10sp"
+
+                android:background="@drawable/ll_gray_roundcorner"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:background="@mipmap/ic_launcher_sidemenu"
+                    android:gravity="center|start" />
+
+                <TextView
+                    android:id="@+id/tv_prof_altnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="8919587562"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10sp"
+
+                android:background="@drawable/ll_gray_roundcorner"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:background="@mipmap/ic_launcher_sidemenu"
+                    android:gravity="center|start" />
+
+                <TextView
+                    android:id="@+id/tv_prof_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="bhupi@gmail.com"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10sp"
+
+                android:background="@drawable/ll_gray_roundcorner"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:background="@mipmap/ic_launcher_sidemenu"
+                    android:gravity="center|start" />
+
+                <TextView
+                    android:id="@+id/tv_prof_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="Prachatech Soft. Solution Hyd"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10sp"
+
+                android:background="@drawable/ll_gray_roundcorner"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:background="@mipmap/ic_launcher_sidemenu"
+                    android:gravity="center|start" />
+
+                <TextView
+                    android:id="@+id/tv_prof_geoloc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="@string/geo_location"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10sp"
+
+                android:background="@drawable/ll_gray_roundcorner"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+
+                    android:background="@mipmap/ic_launcher_sidemenu"
+                    android:gravity="center|start" />
+
+                <TextView
+                    android:id="@+id/tv_prof_godanloc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:paddingLeft="20dp"
+                    android:text="@string/goden_location"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/smalltextsize" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+
+
+
+
+

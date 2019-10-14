@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:weightSum="2"
+            android:padding="2dp">
+
+
+            <TextView
+                android:id="@+id/tv_insurance_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:text="Policy Number"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorLightGray"/>
+
+            <TextView
+                android:id="@+id/txt_insurance_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginLeft="8dp"
+
+            android:padding="2dp">
+
+
+            <TextView
+                android:id="@+id/tv_insurance_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:text="Order Number"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorLightGray"/>
+
+            <TextView
+                android:id="@+id/txt_insurance_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:weightSum="2"
+            android:padding="2dp">
+
+
+            <TextView
+                android:id="@+id/tv_insurance_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:text="Date Pick"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorLightGray"/>
+
+            <TextView
+                android:id="@+id/txt_insurance_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:maxLength="10"
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:weightSum="2"
+            android:padding="2dp">
+
+
+            <TextView
+                android:id="@+id/tv_insurance_pickup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:text="PickUp Place"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorLightGray"/>
+
+            <TextView
+                android:id="@+id/txt_insurance_pickup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:weightSum="2"
+            android:padding="2dp">
+
+
+            <TextView
+                android:id="@+id/tv_insurance_droping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:text="Droping Place"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorLightGray"/>
+
+            <TextView
+                android:id="@+id/txt_insurance_droping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:weightSum="2"
+            android:padding="2dp">
+
+
+            <TextView
+                android:id="@+id/tv_insurance_insurance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:text="Insurance Amount"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorLightGray"/>
+
+            <TextView
+                android:id="@+id/txt_insurance_insurance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:weightSum="2"
+
+            android:padding="2dp">
+
+
+            <TextView
+                android:id="@+id/tv_insurance_invoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:text="Invoice Amount"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorLightGray"/>
+
+            <TextView
+                android:id="@+id/txt_insurance_invoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:weightSum="2"
+            android:padding="2dp">
+
+
+            <TextView
+                android:id="@+id/tv_insurance_vadility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:text="Vadility"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorLightGray"/>
+
+            <TextView
+                android:id="@+id/txt_insurance_vadility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/box_border_shape"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/smalltextsize" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGray"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
