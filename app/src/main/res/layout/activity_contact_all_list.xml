@@ -53,13 +53,13 @@
         android:indeterminateDrawable="@drawable/custom_progress_dialog"
         android:indeterminate="true" />
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_below="@+id/toolbar"
         android:id="@+id/rc_contactlist"
         android:layout_marginTop="@dimen/margin5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </android.support.v7.widget.RecyclerView>
+    </androidx.recyclerview.widget.RecyclerView>
 
 </RelativeLayout>

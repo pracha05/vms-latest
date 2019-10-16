@@ -5,8 +5,9 @@ import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.provider.Settings;
-import android.support.v4.graphics.drawable.DrawableCompat;
 import android.text.TextUtils;
+
+import androidx.core.graphics.drawable.DrawableCompat;
 
 /**
  * Created by A10581 on 10/4/18.

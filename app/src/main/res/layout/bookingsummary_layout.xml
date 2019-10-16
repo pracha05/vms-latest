@@ -10,9 +10,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorWhite"
-
-        >
+        android:background="@color/colorWhite">
 
 
         <TextView
@@ -376,7 +374,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginLeft="@dimen/margin10dp"
-        android:layout_marginRight="@dimen/margin10dp"        android:orientation="vertical"
+        android:layout_marginRight="@dimen/margin10dp"
+        android:orientation="vertical"
         >
 
         <TextView

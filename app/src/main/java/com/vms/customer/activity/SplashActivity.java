@@ -5,12 +5,14 @@ import android.os.Handler;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.crashlytics.android.Crashlytics;
 import com.vms.customer.R;
 import com.crashlytics.android.answers.Answers;
 import io.fabric.sdk.android.Fabric;
 
-public class SplashActivity extends BaseActivity {
+public class SplashActivity extends AppCompatActivity {
     Handler handler=null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,10 +30,5 @@ public class SplashActivity extends BaseActivity {
                 finish();
             }
         },1500);
-    }
-
-    @Override
-    public void onClick(View view) {
-
     }
 }

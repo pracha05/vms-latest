@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
-    <array name="cast_expanded_controller_default_control_buttons"><item>@id/cast_button_type_closed_caption</item>
-<item>@id/cast_button_type_skip_previous</item>
-<item>@id/cast_button_type_skip_next</item>
-<item>@id/cast_button_type_mute_toggle</item>
-</array>
-    <array name="cast_mini_controller_default_control_buttons"><item>@id/cast_button_type_empty</item>
-<item>@id/cast_button_type_empty</item>
-<item>@id/cast_button_type_play_pause_toggle</item>
-</array>
     <string-array name="membership_plan">
         <item>Gold</item>
         <item>Silver</item>
@@ -34,7 +25,6 @@
     <attr format="reference" name="bottomSheetDialogTheme"/>
     <attr format="reference" name="bottomSheetStyle"/>
     <attr format="reference" name="cardViewStyle"/>
-    <attr format="reference" name="castExpandedControllerToolbarStyle"/>
     <attr format="boolean" name="chainUseRtl"/>
     <attr format="reference" name="chipGroupStyle"/>
     <attr format="reference" name="chipStandaloneStyle"/>
@@ -167,18 +157,6 @@
     </attr>
     <attr format="reference" name="materialButtonStyle"/>
     <attr format="reference" name="materialCardViewStyle"/>
-    <attr format="reference" name="mediaRouteAudioTrackDrawable"/>
-    <attr format="reference" name="mediaRouteButtonStyle"/>
-    <attr format="reference" name="mediaRouteCloseDrawable"/>
-    <attr format="reference" name="mediaRouteControlPanelThemeOverlay"/>
-    <attr format="reference" name="mediaRouteDefaultIconDrawable"/>
-    <attr format="reference" name="mediaRoutePauseDrawable"/>
-    <attr format="reference" name="mediaRoutePlayDrawable"/>
-    <attr format="reference" name="mediaRouteSpeakerGroupIconDrawable"/>
-    <attr format="reference" name="mediaRouteSpeakerIconDrawable"/>
-    <attr format="reference" name="mediaRouteStopDrawable"/>
-    <attr format="reference" name="mediaRouteTheme"/>
-    <attr format="reference" name="mediaRouteTvIconDrawable"/>
     <attr format="reference" name="navigationViewStyle"/>
     <attr format="color" name="rippleColor"/>
     <attr format="color|reference" name="scrimBackground"/>
@@ -230,17 +208,6 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="cast_expanded_controller_ad_container_white_stripe_color">#1AFFFFFF</color>
-    <color name="cast_expanded_controller_ad_label_background_color">#2F000000</color>
-    <color name="cast_expanded_controller_background_color">#000000</color>
-    <color name="cast_expanded_controller_progress_text_color">#E5FFFFFF</color>
-    <color name="cast_expanded_controller_seek_bar_progress_background_tint_color">#46FFFFFF</color>
-    <color name="cast_expanded_controller_text_color">#FFFFFF</color>
-    <color name="cast_intro_overlay_background_color">#CC000000</color>
-    <color name="cast_intro_overlay_button_background_color">#BB33B5E5</color>
-    <color name="cast_libraries_material_featurehighlight_outer_highlight_default_color">#2196F3</color>
-    <color name="cast_libraries_material_featurehighlight_text_body_color">#FFFFFFFF</color>
-    <color name="cast_libraries_material_featurehighlight_text_header_color">#FFFFFFFF</color>
     <color name="colorAccent">#0e0e0e</color>
     <color name="colorBlack">#0e0e0e</color>
     <color name="colorBlue">#1E74CC</color>
@@ -332,6 +299,23 @@
     <color name="place_autocomplete_search_hint">#BDBDBD</color>
     <color name="place_autocomplete_search_text">#212121</color>
     <color name="place_autocomplete_separator">#1F000000</color>
+    <color name="places_autocomplete_error_button">@color/quantum_googblue500</color>
+    <color name="places_autocomplete_error_message">@color/quantum_grey600</color>
+    <color name="places_autocomplete_fullscreen_background">#F1F1F1</color>
+    <color name="places_autocomplete_list_background">@color/quantum_grey100</color>
+    <color name="places_autocomplete_prediction_primary_text">@color/quantum_grey900</color>
+    <color name="places_autocomplete_prediction_primary_text_highlight">@color/quantum_grey600</color>
+    <color name="places_autocomplete_prediction_secondary_text">@color/quantum_grey600</color>
+    <color name="places_autocomplete_search_hint">@color/quantum_grey400</color>
+    <color name="places_autocomplete_search_text">@color/quantum_grey900</color>
+    <color name="places_autocomplete_separator">#1F000000</color>
+    <color name="places_text_black_alpha_26">#42010000</color>
+    <color name="places_text_black_alpha_87">#DE000000</color>
+    <color name="places_text_white_alpha_26">#42FFFFFF</color>
+    <color name="places_text_white_alpha_87">#DEFFFFFF</color>
+    <color name="places_ui_default_primary">@color/quantum_grey100</color>
+    <color name="places_ui_default_primary_dark">@color/quantum_grey700</color>
+    <color name="places_ui_default_text">@color/places_text_black_alpha_87</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -340,6 +324,349 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="quantum_amber100">#ffecb3</color>
+    <color name="quantum_amber200">#ffe082</color>
+    <color name="quantum_amber300">#ffd54f</color>
+    <color name="quantum_amber400">#ffca28</color>
+    <color name="quantum_amber50">#fff8e1</color>
+    <color name="quantum_amber500">#ffc107</color>
+    <color name="quantum_amber600">#ffb300</color>
+    <color name="quantum_amber700">#ffa000</color>
+    <color name="quantum_amber800">#ff8f00</color>
+    <color name="quantum_amber900">#ff6f00</color>
+    <color name="quantum_amberA100">#ffe57f</color>
+    <color name="quantum_amberA200">#ffd740</color>
+    <color name="quantum_amberA400">#ffc400</color>
+    <color name="quantum_amberA700">#ffab00</color>
+    <color name="quantum_black_100">#000000</color>
+    <color name="quantum_black_divider">#1f000000</color>
+    <color name="quantum_black_hint_text">#61000000</color>
+    <color name="quantum_black_secondary_text">#89000000</color>
+    <color name="quantum_black_text">#dd000000</color>
+    <color name="quantum_bluegrey100">#cfd8dc</color>
+    <color name="quantum_bluegrey200">#b0bec5</color>
+    <color name="quantum_bluegrey300">#90a4ae</color>
+    <color name="quantum_bluegrey400">#78909c</color>
+    <color name="quantum_bluegrey50">#eceff1</color>
+    <color name="quantum_bluegrey500">#607d8b</color>
+    <color name="quantum_bluegrey600">#546e7a</color>
+    <color name="quantum_bluegrey700">#455a64</color>
+    <color name="quantum_bluegrey800">#37474f</color>
+    <color name="quantum_bluegrey900">#263238</color>
+    <color name="quantum_bluegrey950">#21272b</color>
+    <color name="quantum_brown">@color/quantum_brown500</color>
+    <color name="quantum_brown100">#d7ccc8</color>
+    <color name="quantum_brown200">#bcaaa4</color>
+    <color name="quantum_brown300">#a1887f</color>
+    <color name="quantum_brown400">#8d6e63</color>
+    <color name="quantum_brown50">#efebe9</color>
+    <color name="quantum_brown500">#795548</color>
+    <color name="quantum_brown600">#6d4c41</color>
+    <color name="quantum_brown700">#5d4037</color>
+    <color name="quantum_brown800">#4e342e</color>
+    <color name="quantum_brown900">#3e2723</color>
+    <color name="quantum_cyan">@color/quantum_cyan500</color>
+    <color name="quantum_cyan100">#b2ebf2</color>
+    <color name="quantum_cyan200">#80deea</color>
+    <color name="quantum_cyan300">#4dd0e1</color>
+    <color name="quantum_cyan400">#26c6da</color>
+    <color name="quantum_cyan50">#e0f7fa</color>
+    <color name="quantum_cyan500">#00bcd4</color>
+    <color name="quantum_cyan600">#00acc1</color>
+    <color name="quantum_cyan700">#0097a7</color>
+    <color name="quantum_cyan800">#00838f</color>
+    <color name="quantum_cyan900">#006064</color>
+    <color name="quantum_cyanA100">#84ffff</color>
+    <color name="quantum_cyanA200">#18ffff</color>
+    <color name="quantum_cyanA400">#00e5ff</color>
+    <color name="quantum_cyanA700">#00b8d4</color>
+    <color name="quantum_deeporange">@color/quantum_deeporange500</color>
+    <color name="quantum_deeporange100">#ffccbc</color>
+    <color name="quantum_deeporange200">#ffab91</color>
+    <color name="quantum_deeporange300">#ff8a65</color>
+    <color name="quantum_deeporange400">#ff7043</color>
+    <color name="quantum_deeporange50">#fbe9e7</color>
+    <color name="quantum_deeporange500">#ff5722</color>
+    <color name="quantum_deeporange600">#f4511e</color>
+    <color name="quantum_deeporange700">#e64a19</color>
+    <color name="quantum_deeporange800">#d84315</color>
+    <color name="quantum_deeporange900">#bf360c</color>
+    <color name="quantum_deeporangeA100">#ff9e80</color>
+    <color name="quantum_deeporangeA200">#ff6e40</color>
+    <color name="quantum_deeporangeA400">#ff3d00</color>
+    <color name="quantum_deeporangeA700">#dd2c00</color>
+    <color name="quantum_deeppurple">@color/quantum_deeppurple500</color>
+    <color name="quantum_deeppurple100">#d1c4e9</color>
+    <color name="quantum_deeppurple200">#b39ddb</color>
+    <color name="quantum_deeppurple300">#9575cd</color>
+    <color name="quantum_deeppurple400">#7e57c2</color>
+    <color name="quantum_deeppurple50">#ede7f6</color>
+    <color name="quantum_deeppurple500">#673ab7</color>
+    <color name="quantum_deeppurple600">#5e35b1</color>
+    <color name="quantum_deeppurple700">#512da8</color>
+    <color name="quantum_deeppurple800">#4527a0</color>
+    <color name="quantum_deeppurple900">#311b92</color>
+    <color name="quantum_deeppurpleA100">#b388ff</color>
+    <color name="quantum_deeppurpleA200">#7c4dff</color>
+    <color name="quantum_deeppurpleA400">#651fff</color>
+    <color name="quantum_deeppurpleA700">#6200ea</color>
+    <color name="quantum_error_dark">#ff6e6e</color>
+    <color name="quantum_error_light">#d50000</color>
+    <color name="quantum_googblue">@color/quantum_googblue500</color>
+    <color name="quantum_googblue100">#c6dafc</color>
+    <color name="quantum_googblue200">#a1c2fa</color>
+    <color name="quantum_googblue300">#7baaf7</color>
+    <color name="quantum_googblue400">#5e97f6</color>
+    <color name="quantum_googblue50">#e8f0fe</color>
+    <color name="quantum_googblue500">#4285f4</color>
+    <color name="quantum_googblue600">#3b78e7</color>
+    <color name="quantum_googblue700">#3367d6</color>
+    <color name="quantum_googblue800">#2a56c6</color>
+    <color name="quantum_googblue900">#1c3aa9</color>
+    <color name="quantum_googblueA100">#82b1ff</color>
+    <color name="quantum_googblueA200">#448aff</color>
+    <color name="quantum_googblueA400">#2979ff</color>
+    <color name="quantum_googblueA700">#2962ff</color>
+    <color name="quantum_googgreen">@color/quantum_googgreen500</color>
+    <color name="quantum_googgreen100">#b7e1cd</color>
+    <color name="quantum_googgreen200">#87ceac</color>
+    <color name="quantum_googgreen300">#57bb8a</color>
+    <color name="quantum_googgreen400">#33ac71</color>
+    <color name="quantum_googgreen50">#e2f3eb</color>
+    <color name="quantum_googgreen500">#0f9d58</color>
+    <color name="quantum_googgreen600">#0d904f</color>
+    <color name="quantum_googgreen700">#0b8043</color>
+    <color name="quantum_googgreen800">#097138</color>
+    <color name="quantum_googgreen900">#055524</color>
+    <color name="quantum_googgreenA100">#b9f6ca</color>
+    <color name="quantum_googgreenA200">#69f0ae</color>
+    <color name="quantum_googgreenA400">#00e676</color>
+    <color name="quantum_googgreenA700">#00c853</color>
+    <color name="quantum_googred">@color/quantum_googred500</color>
+    <color name="quantum_googred100">#f4c7c3</color>
+    <color name="quantum_googred200">#eda29b</color>
+    <color name="quantum_googred300">#e67c73</color>
+    <color name="quantum_googred400">#e06055</color>
+    <color name="quantum_googred50">#fbe9e7</color>
+    <color name="quantum_googred500">#db4437</color>
+    <color name="quantum_googred600">#d23f31</color>
+    <color name="quantum_googred700">#c53929</color>
+    <color name="quantum_googred800">#b93221</color>
+    <color name="quantum_googred900">#a52714</color>
+    <color name="quantum_googredA100">#ff8a80</color>
+    <color name="quantum_googredA200">#ff5252</color>
+    <color name="quantum_googredA400">#ff1744</color>
+    <color name="quantum_googredA700">#d50000</color>
+    <color name="quantum_googyellow">@color/quantum_googyellow500</color>
+    <color name="quantum_googyellow100">#fce8b2</color>
+    <color name="quantum_googyellow200">#fada80</color>
+    <color name="quantum_googyellow300">#f7cb4d</color>
+    <color name="quantum_googyellow400">#f6bf26</color>
+    <color name="quantum_googyellow50">#fef6e0</color>
+    <color name="quantum_googyellow500">#f4b400</color>
+    <color name="quantum_googyellow600">#f2a600</color>
+    <color name="quantum_googyellow700">#f09300</color>
+    <color name="quantum_googyellow800">#ee8100</color>
+    <color name="quantum_googyellow900">#ea6100</color>
+    <color name="quantum_googyellowA100">#ffde80</color>
+    <color name="quantum_googyellowA200">#ffcd40</color>
+    <color name="quantum_googyellowA400">#ffbc00</color>
+    <color name="quantum_googyellowA700">#ff9e00</color>
+    <color name="quantum_grey">@color/quantum_grey500</color>
+    <color name="quantum_grey100">#f5f5f5</color>
+    <color name="quantum_grey200">#eeeeee</color>
+    <color name="quantum_grey300">#e0e0e0</color>
+    <color name="quantum_grey400">#bdbdbd</color>
+    <color name="quantum_grey50">#fafafa</color>
+    <color name="quantum_grey500">#9e9e9e</color>
+    <color name="quantum_grey600">#757575</color>
+    <color name="quantum_grey700">#616161</color>
+    <color name="quantum_grey800">#424242</color>
+    <color name="quantum_grey900">#212121</color>
+    <color name="quantum_greyblack1000">#000000</color>
+    <color name="quantum_greywhite1000">#ffffff</color>
+    <color name="quantum_indigo">@color/quantum_indigo500</color>
+    <color name="quantum_indigo100">#c5cae9</color>
+    <color name="quantum_indigo200">#9fa8da</color>
+    <color name="quantum_indigo300">#7986cb</color>
+    <color name="quantum_indigo400">#5c6bc0</color>
+    <color name="quantum_indigo50">#e8eaf6</color>
+    <color name="quantum_indigo500">#3f51b5</color>
+    <color name="quantum_indigo600">#3949ab</color>
+    <color name="quantum_indigo700">#303f9f</color>
+    <color name="quantum_indigo800">#283593</color>
+    <color name="quantum_indigo900">#1a237e</color>
+    <color name="quantum_indigoA100">#8c9eff</color>
+    <color name="quantum_indigoA200">#536dfe</color>
+    <color name="quantum_indigoA400">#3d5afe</color>
+    <color name="quantum_indigoA700">#304ffe</color>
+    <color name="quantum_lightblue">@color/quantum_lightblue500</color>
+    <color name="quantum_lightblue100">#b3e5fc</color>
+    <color name="quantum_lightblue200">#81d4fa</color>
+    <color name="quantum_lightblue300">#4fc3f7</color>
+    <color name="quantum_lightblue400">#29b6f6</color>
+    <color name="quantum_lightblue50">#e1f5fe</color>
+    <color name="quantum_lightblue500">#03a9f4</color>
+    <color name="quantum_lightblue600">#039be5</color>
+    <color name="quantum_lightblue700">#0288d1</color>
+    <color name="quantum_lightblue800">#0277bd</color>
+    <color name="quantum_lightblue900">#01579b</color>
+    <color name="quantum_lightblueA100">#80d8ff</color>
+    <color name="quantum_lightblueA200">#40c4ff</color>
+    <color name="quantum_lightblueA400">#00b0ff</color>
+    <color name="quantum_lightblueA700">#0091ea</color>
+    <color name="quantum_lightgreen">@color/quantum_lightgreen500</color>
+    <color name="quantum_lightgreen100">#dcedc8</color>
+    <color name="quantum_lightgreen200">#c5e1a5</color>
+    <color name="quantum_lightgreen300">#aed581</color>
+    <color name="quantum_lightgreen400">#9ccc65</color>
+    <color name="quantum_lightgreen50">#f1f8e9</color>
+    <color name="quantum_lightgreen500">#8bc34a</color>
+    <color name="quantum_lightgreen600">#7cb342</color>
+    <color name="quantum_lightgreen700">#689f38</color>
+    <color name="quantum_lightgreen800">#558b2f</color>
+    <color name="quantum_lightgreen900">#33691e</color>
+    <color name="quantum_lightgreenA100">#ccff90</color>
+    <color name="quantum_lightgreenA200">#b2ff59</color>
+    <color name="quantum_lightgreenA400">#76ff03</color>
+    <color name="quantum_lightgreenA700">#64dd17</color>
+    <color name="quantum_lime">@color/quantum_lime500</color>
+    <color name="quantum_lime100">#f0f4c3</color>
+    <color name="quantum_lime200">#e6ee9c</color>
+    <color name="quantum_lime300">#dce775</color>
+    <color name="quantum_lime400">#d4e157</color>
+    <color name="quantum_lime50">#f9fbe7</color>
+    <color name="quantum_lime500">#cddc39</color>
+    <color name="quantum_lime600">#c0ca33</color>
+    <color name="quantum_lime700">#afb42b</color>
+    <color name="quantum_lime800">#9e9d24</color>
+    <color name="quantum_lime900">#827717</color>
+    <color name="quantum_limeA100">#f4ff81</color>
+    <color name="quantum_limeA200">#eeff41</color>
+    <color name="quantum_limeA400">#c6ff00</color>
+    <color name="quantum_limeA700">#aeea00</color>
+    <color name="quantum_orange">@color/quantum_orange500</color>
+    <color name="quantum_orange100">#ffe0b2</color>
+    <color name="quantum_orange200">#ffcc80</color>
+    <color name="quantum_orange300">#ffb74d</color>
+    <color name="quantum_orange400">#ffa726</color>
+    <color name="quantum_orange50">#fff3e0</color>
+    <color name="quantum_orange500">#ff9800</color>
+    <color name="quantum_orange600">#fb8c00</color>
+    <color name="quantum_orange700">#f57c00</color>
+    <color name="quantum_orange800">#ef6c00</color>
+    <color name="quantum_orange900">#e65100</color>
+    <color name="quantum_orangeA100">#ffd180</color>
+    <color name="quantum_orangeA200">#ffab40</color>
+    <color name="quantum_orangeA400">#ff9100</color>
+    <color name="quantum_orangeA700">#ff6d00</color>
+    <color name="quantum_pink">@color/quantum_pink500</color>
+    <color name="quantum_pink100">#f8bbd0</color>
+    <color name="quantum_pink200">#f48fb1</color>
+    <color name="quantum_pink300">#f06292</color>
+    <color name="quantum_pink400">#ec407a</color>
+    <color name="quantum_pink50">#fce4ec</color>
+    <color name="quantum_pink500">#e91e63</color>
+    <color name="quantum_pink600">#d81b60</color>
+    <color name="quantum_pink700">#c2185b</color>
+    <color name="quantum_pink800">#ad1457</color>
+    <color name="quantum_pink900">#880e4f</color>
+    <color name="quantum_pinkA100">#ff80ab</color>
+    <color name="quantum_pinkA200">#ff4081</color>
+    <color name="quantum_pinkA400">#f50057</color>
+    <color name="quantum_pinkA700">#c51162</color>
+    <color name="quantum_purple">@color/quantum_purple500</color>
+    <color name="quantum_purple100">#e1bee7</color>
+    <color name="quantum_purple200">#ce93d8</color>
+    <color name="quantum_purple300">#ba68c8</color>
+    <color name="quantum_purple400">#ab47bc</color>
+    <color name="quantum_purple50">#f3e5f5</color>
+    <color name="quantum_purple500">#9c27b0</color>
+    <color name="quantum_purple600">#8e24aa</color>
+    <color name="quantum_purple700">#7b1fa2</color>
+    <color name="quantum_purple800">#6a1b9a</color>
+    <color name="quantum_purple900">#4a148c</color>
+    <color name="quantum_purpleA100">#ea80fc</color>
+    <color name="quantum_purpleA200">#e040fb</color>
+    <color name="quantum_purpleA400">#d500f9</color>
+    <color name="quantum_purpleA700">#aa00ff</color>
+    <color name="quantum_teal">@color/quantum_teal500</color>
+    <color name="quantum_teal100">#b2dfdb</color>
+    <color name="quantum_teal200">#80cbc4</color>
+    <color name="quantum_teal300">#4db6ac</color>
+    <color name="quantum_teal400">#26a69a</color>
+    <color name="quantum_teal50">#e0f2f1</color>
+    <color name="quantum_teal500">#009688</color>
+    <color name="quantum_teal600">#00897b</color>
+    <color name="quantum_teal700">#00796b</color>
+    <color name="quantum_teal800">#00695c</color>
+    <color name="quantum_teal900">#004d40</color>
+    <color name="quantum_tealA100">#a7ffeb</color>
+    <color name="quantum_tealA200">#64ffda</color>
+    <color name="quantum_tealA400">#1de9b6</color>
+    <color name="quantum_tealA700">#00bfa5</color>
+    <color name="quantum_vanillablue100">#bbdefb</color>
+    <color name="quantum_vanillablue200">#90caf9</color>
+    <color name="quantum_vanillablue300">#64b5f6</color>
+    <color name="quantum_vanillablue400">#42a5f5</color>
+    <color name="quantum_vanillablue50">#e3f2fd</color>
+    <color name="quantum_vanillablue500">#2196f3</color>
+    <color name="quantum_vanillablue600">#1e88e5</color>
+    <color name="quantum_vanillablue700">#1976d2</color>
+    <color name="quantum_vanillablue800">#1565c0</color>
+    <color name="quantum_vanillablue900">#0d47a1</color>
+    <color name="quantum_vanillablueA100">#82b1ff</color>
+    <color name="quantum_vanillablueA200">#448aff</color>
+    <color name="quantum_vanillablueA400">#2979ff</color>
+    <color name="quantum_vanillablueA700">#2962ff</color>
+    <color name="quantum_vanillagreen100">#c8e6c9</color>
+    <color name="quantum_vanillagreen200">#a5d6a7</color>
+    <color name="quantum_vanillagreen300">#81c784</color>
+    <color name="quantum_vanillagreen400">#66bb6a</color>
+    <color name="quantum_vanillagreen50">#e8f5e9</color>
+    <color name="quantum_vanillagreen500">#4caf50</color>
+    <color name="quantum_vanillagreen600">#43a047</color>
+    <color name="quantum_vanillagreen700">#388e3c</color>
+    <color name="quantum_vanillagreen800">#2e7d32</color>
+    <color name="quantum_vanillagreen900">#1b5e20</color>
+    <color name="quantum_vanillagreenA100">#b9f6ca</color>
+    <color name="quantum_vanillagreenA200">#69f0ae</color>
+    <color name="quantum_vanillagreenA400">#00e676</color>
+    <color name="quantum_vanillagreenA700">#00c853</color>
+    <color name="quantum_vanillared100">#ffcdd2</color>
+    <color name="quantum_vanillared200">#ef9a9a</color>
+    <color name="quantum_vanillared300">#e57373</color>
+    <color name="quantum_vanillared400">#ef5350</color>
+    <color name="quantum_vanillared50">#ffebee</color>
+    <color name="quantum_vanillared500">#f44336</color>
+    <color name="quantum_vanillared600">#e53935</color>
+    <color name="quantum_vanillared700">#d32f2f</color>
+    <color name="quantum_vanillared800">#c62828</color>
+    <color name="quantum_vanillared900">#b71c1c</color>
+    <color name="quantum_vanillaredA100">#ff8a80</color>
+    <color name="quantum_vanillaredA200">#ff5252</color>
+    <color name="quantum_vanillaredA400">#ff1744</color>
+    <color name="quantum_vanillaredA700">#d50000</color>
+    <color name="quantum_white_100">#ffffff</color>
+    <color name="quantum_white_divider">#1fffffff</color>
+    <color name="quantum_white_hint_text">#80ffffff</color>
+    <color name="quantum_white_secondary_text">#b3ffffff</color>
+    <color name="quantum_white_text">#ffffff</color>
+    <color name="quantum_yellow">@color/quantum_yellow500</color>
+    <color name="quantum_yellow100">#fff9c4</color>
+    <color name="quantum_yellow200">#fff59d</color>
+    <color name="quantum_yellow300">#fff176</color>
+    <color name="quantum_yellow400">#ffee58</color>
+    <color name="quantum_yellow50">#fffde7</color>
+    <color name="quantum_yellow500">#ffeb3b</color>
+    <color name="quantum_yellow600">#fdd835</color>
+    <color name="quantum_yellow700">#fbc02d</color>
+    <color name="quantum_yellow800">#f9a825</color>
+    <color name="quantum_yellow900">#f57f17</color>
+    <color name="quantum_yellowA100">#ffff8d</color>
+    <color name="quantum_yellowA200">#ffff00</color>
+    <color name="quantum_yellowA400">#ffea00</color>
+    <color name="quantum_yellowA700">#ffd600</color>
     <color name="red_shade">#F55064</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
@@ -353,17 +680,6 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
-    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
-    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
-    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
-    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
-    <color name="wallet_dim_foreground_holo_dark">#bebebe</color>
-    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
-    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
-    <color name="wallet_hint_foreground_holo_dark">#808080</color>
-    <color name="wallet_hint_foreground_holo_light">#808080</color>
-    <color name="wallet_holo_blue_light">#ff33b5e5</color>
-    <color name="wallet_link_text_light">#0000ee</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -449,35 +765,6 @@
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
-    <dimen name="cast_expanded_controller_ad_background_layout_height">350dp</dimen>
-    <dimen name="cast_expanded_controller_ad_background_layout_width">-1px</dimen>
-    <dimen name="cast_expanded_controller_ad_layout_height">350dp</dimen>
-    <dimen name="cast_expanded_controller_ad_layout_width">420dp</dimen>
-    <dimen name="cast_expanded_controller_control_button_margin">24dp</dimen>
-    <dimen name="cast_expanded_controller_control_toolbar_min_height">56dp</dimen>
-    <dimen name="cast_expanded_controller_margin_between_seek_bar_and_control_buttons">12dp</dimen>
-    <dimen name="cast_expanded_controller_margin_between_status_text_and_seek_bar">24dp</dimen>
-    <item format="float" name="cast_expanded_controller_seekbar_disabled_alpha" type="dimen">0.4</item>
-    <dimen name="cast_intro_overlay_button_margin_bottom">50dp</dimen>
-    <dimen name="cast_intro_overlay_focus_radius">35dp</dimen>
-    <dimen name="cast_intro_overlay_title_margin_top">100dp</dimen>
-    <dimen name="cast_libraries_material_featurehighlight_center_horizontal_offset">20dp</dimen>
-    <dimen name="cast_libraries_material_featurehighlight_center_threshold">88dp</dimen>
-    <dimen name="cast_libraries_material_featurehighlight_inner_margin">20dp</dimen>
-    <dimen name="cast_libraries_material_featurehighlight_inner_radius">40dp</dimen>
-    <dimen name="cast_libraries_material_featurehighlight_outer_padding">40dp</dimen>
-    <dimen name="cast_libraries_material_featurehighlight_text_body_size">16sp</dimen>
-    <dimen name="cast_libraries_material_featurehighlight_text_header_size">20sp</dimen>
-    <dimen name="cast_libraries_material_featurehighlight_text_horizontal_margin">40dp</dimen>
-    <dimen name="cast_libraries_material_featurehighlight_text_horizontal_offset">20dp</dimen>
-    <dimen name="cast_libraries_material_featurehighlight_text_max_width">320dp</dimen>
-    <dimen name="cast_libraries_material_featurehighlight_text_vertical_space">16dp</dimen>
-    <dimen name="cast_mini_controller_control_button_margin">16dp</dimen>
-    <dimen name="cast_mini_controller_icon_height">64dp</dimen>
-    <dimen name="cast_mini_controller_icon_width">64dp</dimen>
-    <dimen name="cast_notification_image_size">64dp</dimen>
-    <dimen name="cast_tracks_chooser_dialog_no_message_text_size">18sp</dimen>
-    <dimen name="cast_tracks_chooser_dialog_row_text_size">18sp</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
     <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
@@ -552,12 +839,6 @@
     <dimen name="margin20sp">18sp</dimen>
     <dimen name="margin5dp">5dp</dimen>
     <dimen name="mediumtextsize">15sp</dimen>
-    <dimen name="mr_controller_volume_group_list_item_height">68dp</dimen>
-    <dimen name="mr_controller_volume_group_list_item_icon_size">24dp</dimen>
-    <dimen name="mr_controller_volume_group_list_max_height">288dp</dimen>
-    <dimen name="mr_controller_volume_group_list_padding_top">16dp</dimen>
-    <dimen name="mr_dialog_fixed_width_major">320dp</dimen>
-    <dimen name="mr_dialog_fixed_width_minor">320dp</dimen>
     <dimen name="mtrl_bottomappbar_fabOffsetEndMode">60dp</dimen>
     <dimen name="mtrl_bottomappbar_fab_cradle_margin">5dp</dimen>
     <dimen name="mtrl_bottomappbar_fab_cradle_rounded_corner_radius">8dp</dimen>
@@ -633,6 +914,22 @@
     <dimen name="place_autocomplete_progress_horizontal_margin">16dp</dimen>
     <dimen name="place_autocomplete_progress_size">24dp</dimen>
     <dimen name="place_autocomplete_separator_start">72dp</dimen>
+    <dimen name="places_autocomplete_button_padding">16dp</dimen>
+    <dimen name="places_autocomplete_overlay_padding">8dp</dimen>
+    <dimen name="places_autocomplete_powered_by_google_height">40dp</dimen>
+    <dimen name="places_autocomplete_powered_by_google_separator_start">72dp</dimen>
+    <dimen name="places_autocomplete_powered_by_google_start">16dp</dimen>
+    <dimen name="places_autocomplete_prediction_height">72dp</dimen>
+    <dimen name="places_autocomplete_prediction_horizontal_margin">16dp</dimen>
+    <dimen name="places_autocomplete_prediction_primary_text">16sp</dimen>
+    <dimen name="places_autocomplete_prediction_secondary_text">14sp</dimen>
+    <dimen name="places_autocomplete_progress_horizontal_margin">16dp</dimen>
+    <dimen name="places_autocomplete_progress_size">24dp</dimen>
+    <dimen name="places_autocomplete_search_input_padding">16dp</dimen>
+    <dimen name="places_autocomplete_search_input_text">20dp</dimen>
+    <dimen name="places_autocomplete_toolbar_inset_end">0dp</dimen>
+    <dimen name="places_autocomplete_toolbar_inset_start">72dp</dimen>
+    <dimen name="places_autocomplete_vertical_dropdown">8dp</dimen>
     <dimen name="sidemenutextsize">15sp</dimen>
     <dimen name="smalltextsize">14sp</dimen>
     <dimen name="space10">10dp</dimen>
@@ -672,20 +969,6 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
-    <item name="cast_button_type_closed_caption" type="id"/>
-    <item name="cast_button_type_custom" type="id"/>
-    <item name="cast_button_type_empty" type="id"/>
-    <item name="cast_button_type_forward_30_seconds" type="id"/>
-    <item name="cast_button_type_mute_toggle" type="id"/>
-    <item name="cast_button_type_play_pause_toggle" type="id"/>
-    <item name="cast_button_type_rewind_30_seconds" type="id"/>
-    <item name="cast_button_type_skip_next" type="id"/>
-    <item name="cast_button_type_skip_previous" type="id"/>
-    <item name="cast_featurehighlight_help_text_body_view" type="id"/>
-    <item name="cast_featurehighlight_help_text_header_view" type="id"/>
-    <item name="cast_featurehighlight_view" type="id"/>
-    <item name="cast_notification_id" type="id"/>
-    <item name="crash_reporting_present" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="glide_custom_view_target_tag" type="id"/>
     <item name="home" type="id"/>
@@ -726,15 +1009,11 @@
     <integer name="app_bar_elevation_anim_duration">150</integer>
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
-    <integer name="cast_libraries_material_featurehighlight_pulse_base_alpha">138</integer>
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="design_tab_indicator_anim_duration_ms">300</integer>
-    <integer name="google_play_services_version">12211000</integer>
+    <integer name="google_play_services_version">12451000</integer>
     <integer name="hide_password_duration">320</integer>
-    <integer name="mr_controller_volume_group_list_animation_duration_ms">400</integer>
-    <integer name="mr_controller_volume_group_list_fade_in_duration_ms">400</integer>
-    <integer name="mr_controller_volume_group_list_fade_out_duration_ms">200</integer>
     <integer name="mtrl_btn_anim_delay_ms">100</integer>
     <integer name="mtrl_btn_anim_duration_ms">100</integer>
     <integer name="mtrl_chip_anim_duration">100</integer>
@@ -798,65 +1077,25 @@
     <string name="address">Address</string>
     <string name="address_value_1">Foliyoo Technologies Pvt. Ltd. 108-A, KIIT-TBI, Campus-11, KIIT, Patia, Bhubaneswar, Odisha, India</string>
     <string name="alternate_number">Alternate Number</string>
+    <string name="api_key">AIzaSyCQ0d6evaaKj72Q8LQHnRQJ8a5wsLXj6PY</string>
     <string name="app_name">VMS Customer</string>
     <string name="app_version">Version : %1$s (Build Number: %2$s) </string>
-    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="behaviour">Behaviour</string>
     <string name="booking_summary">Booking History</string>
     <string name="bookings">Booking</string>
-    <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="box_booking">Box Booking</string>
     <string name="btn_update">Update</string>
     <string name="buy_gold_membership">Buy Gold Membership</string>
     <string name="capicity">Capicity</string>
-    <string name="cast_ad_label">Ad</string>
-    <string name="cast_casting_to_device">Casting to %1$s</string>
-    <string name="cast_closed_captions">Closed captions</string>
-    <string name="cast_closed_captions_unavailable">Closed captions unavailable</string>
-    <string name="cast_connecting_to_device">Connecting to <ns1:g id="name">%1$s</ns1:g></string>
-    <string name="cast_disconnect">Disconnect</string>
-    <string name="cast_expanded_controller_ad_image_description">Image displayed while the cast receiver is playing an ad"</string>
-    <string name="cast_expanded_controller_ad_in_progress">Ad in progress…</string>
-    <string name="cast_expanded_controller_background_image">Album art</string>
-    <string name="cast_expanded_controller_live_stream_indicator">Live stream</string>
-    <string name="cast_expanded_controller_loading">Loading…</string>
-    <string name="cast_expanded_controller_skip_ad_label">Skip</string>
-    <string name="cast_forward">Forward</string>
-    <string name="cast_forward_10">Forward ten seconds</string>
-    <string name="cast_forward_30">Forward thirty seconds</string>
-    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
-    <string name="cast_invalid_stream_duration_text" translatable="false">--:--</string>
-    <string name="cast_invalid_stream_position_text" translatable="false">--:--</string>
-    <string name="cast_mute">Mute</string>
-    <string name="cast_notification_connected_message">Connected to <ns1:g id="name">%1$s</ns1:g></string>
-    <string name="cast_notification_connecting_message">Connecting to <ns1:g id="name">%1$s</ns1:g></string>
-    <string name="cast_notification_default_channel_name">Cast</string>
-    <string name="cast_notification_disconnect">Disconnect</string>
-    <string name="cast_pause">Pause</string>
-    <string name="cast_play">Play</string>
-    <string name="cast_rewind">Rewind</string>
-    <string name="cast_rewind_10">Rewind ten seconds</string>
-    <string name="cast_rewind_30">Rewind thirty seconds</string>
-    <string name="cast_seek_bar">Playback seek control</string>
-    <string name="cast_skip_next">Skip to next item</string>
-    <string name="cast_skip_prev">Skip to previous item</string>
-    <string name="cast_stop">Stop</string>
-    <string name="cast_stop_live_stream">Stop live stream</string>
-    <string name="cast_tracks_chooser_dialog_audio">Audio</string>
-    <string name="cast_tracks_chooser_dialog_cancel">Cancel</string>
-    <string name="cast_tracks_chooser_dialog_closed_captions">Closed Captions</string>
-    <string name="cast_tracks_chooser_dialog_default_track_name">Track <ns1:g example="2" id="position">%1$d</ns1:g></string>
-    <string name="cast_tracks_chooser_dialog_none">None</string>
-    <string name="cast_tracks_chooser_dialog_ok">OK</string>
-    <string name="cast_tracks_chooser_dialog_subtitles">Subtitles</string>
-    <string name="cast_unmute">Unmute</string>
     <string name="category">Category</string>
     <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="check_icon"></string>
     <string name="click_icon_for_geo_location">Click icon for Geo Location</string>
     <string name="click_icon_for_goden_location">Click icon for Goden Location</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">27d47fe1-74ac-4228-bd09-ce2eba5cdf68</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">6267bc6e-d097-4633-a931-f9d213e82aed</string>
     <string name="com_name">Company Name -</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
@@ -923,14 +1162,12 @@
     <string name="enter_your_no_of_vechiles">Enter Your No.of Vechiles</string>
     <string name="enter_your_pan">Enter your PAN</string>
     <string name="estimated_time_need_25_hrs">Estimated Time Need : 25 hrs</string>
-    <string name="fab_transformation_scrim_behavior" translatable="false">android.support.design.transformation.FabTransformationScrimBehavior</string>
-    <string name="fab_transformation_sheet_behavior" translatable="false">android.support.design.transformation.FabTransformationSheetBehavior</string>
+    <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="faq">FAQ:</string>
-    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="filter">Filter</string>
     <string name="first_page">First Page</string>
     <string name="full_load">Full Load</string>
-    <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="geo_location">Geo Location</string>
     <string name="git_version">Revision Number: %1$s</string>
     <string name="goden_address">Goden Address -</string>
@@ -947,7 +1184,7 @@
     </string>
     <string name="height">Height</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="hide_bottom_view_on_scroll_behavior" translatable="false">android.support.design.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="hint_forgot_password">Forgot Password?</string>
     <string name="hint_password">Password</string>
     <string name="home">Home</string>
@@ -974,27 +1211,6 @@
     <string name="mobile_num">Mobile Number -</string>
     <string name="mobile_number">Mobile Number</string>
     <string name="more">More</string>
-    <string name="mr_button_content_description">Cast button</string>
-    <string name="mr_cast_button_connected">Cast button. Connected</string>
-    <string name="mr_cast_button_connecting">Cast button. Connecting</string>
-    <string name="mr_cast_button_disconnected">Cast button. Disconnected</string>
-    <string name="mr_chooser_searching">Finding devices</string>
-    <string name="mr_chooser_title">Cast to</string>
-    <string name="mr_controller_album_art">Album art</string>
-    <string name="mr_controller_casting_screen">Casting screen</string>
-    <string name="mr_controller_close_description">Close</string>
-    <string name="mr_controller_collapse_group">Collapse</string>
-    <string name="mr_controller_disconnect">Disconnect</string>
-    <string name="mr_controller_expand_group">Expand</string>
-    <string name="mr_controller_no_info_available">No info available</string>
-    <string name="mr_controller_no_media_selected">No media selected</string>
-    <string name="mr_controller_pause">Pause</string>
-    <string name="mr_controller_play">Play</string>
-    <string name="mr_controller_stop">Stop</string>
-    <string name="mr_controller_stop_casting">Stop casting</string>
-    <string name="mr_controller_volume_slider">Volume slider</string>
-    <string name="mr_system_route_name">System</string>
-    <string name="mr_user_route_category_name">Devices</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="my_profile">My Profile</string>
     <string name="name">Name</string>
@@ -1029,6 +1245,14 @@
     <string name="pickup_point">Pickup Point</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
+    <string name="places_autocomplete_clear_button">Clear search</string>
+    <string name="places_autocomplete_label">Pick a place</string>
+    <string name="places_autocomplete_no_results_for_query">No results for <ns1:g example="pizza" id="query">%1$s</ns1:g></string>
+    <string name="places_autocomplete_search_hint">Search</string>
+    <string name="places_cancel">Cancel</string>
+    <string name="places_powered_by_google">Powered by Google</string>
+    <string name="places_search_error">Can\'t load search results.</string>
+    <string name="places_try_again">Try again</string>
     <string name="policies">Policies</string>
     <string name="policy">Policy:</string>
     <string name="price">Price</string>
@@ -1038,13 +1262,6 @@
     <string name="reference_code">Reference Code</string>
     <string name="registration_number">Registration Number :</string>
     <string name="reset_password">Reset Password</string>
-    <string name="s1">Save image</string>
-    <string name="s2">"Allow Ad to store image in Picture gallery?"</string>
-    <string name="s3">Accept</string>
-    <string name="s4">Decline</string>
-    <string name="s5">Create calendar event</string>
-    <string name="s6">Allow Ad to create a calendar event?</string>
-    <string name="s7">Test Ad</string>
     <string name="save_and_continue">Save and Continue</string>
     <string name="search">Search Vechiles, City or Location</string>
     <string name="search_menu_title">Search</string>
@@ -1064,9 +1281,6 @@
     <string name="submit">Submit</string>
     <string name="support">Support</string>
     <string name="sutherland">sutherland</string>
-    <string name="tagmanager_preview_dialog_button">Continue</string>
-    <string name="tagmanager_preview_dialog_message">Preview mode updated.</string>
-    <string name="tagmanager_preview_dialog_title">Preview</string>
     <string name="teanspoter_discount">Teanspoter Discount :</string>
     <string name="term_use_title">Terms of Use</string>
     <string name="terms_and_conditions">Terms and Conditions :</string>
@@ -1085,7 +1299,6 @@
     <string name="vms_pvt_ltd">VMS pvt ltd</string>
     <string name="wallet">Wallet</string>
     <string name="wallet_balance">Wallet Balance</string>
-    <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <string name="wallet_price">\u20B9 20000.00</string>
     <string name="wallet_price_usable">\u20B9 500.00</string>
     <string name="we_have_a_gift_for_you_refer_your_friend_and_earn_a_10_discount_voucher_your_refernce_code_is_v52gs1">We have a gift for you! Refer your friend and earn a 10% discount voucher. Your refernce code is v52gs1</string>
@@ -1498,7 +1711,7 @@
     <style name="Base.ThemeOverlay.MaterialComponents.Dialog" parent="Base.V14.ThemeOverlay.MaterialComponents.Dialog"/>
     <style name="Base.ThemeOverlay.MaterialComponents.Dialog.Alert" parent="Base.V14.ThemeOverlay.MaterialComponents.Dialog.Alert"/>
     <style name="Base.V14.Theme.MaterialComponents" parent="Base.V14.Theme.MaterialComponents.Bridge">
-    <item name="viewInflaterClass">android.support.design.theme.MaterialComponentsViewInflater</item>
+    <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
 
     
     <item name="colorPrimary">@color/design_default_color_primary</item>
@@ -1548,7 +1761,7 @@
     <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
   </style>
     <style name="Base.V14.Theme.MaterialComponents.Dialog" parent="Platform.MaterialComponents.Dialog">
-    <item name="viewInflaterClass">android.support.design.theme.MaterialComponentsViewInflater</item>
+    <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
 
     
     <item name="colorPrimary">@color/design_default_color_primary</item>
@@ -1594,7 +1807,7 @@
     <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
   </style>
     <style name="Base.V14.Theme.MaterialComponents.Light" parent="Base.V14.Theme.MaterialComponents.Light.Bridge">
-    <item name="viewInflaterClass">android.support.design.theme.MaterialComponentsViewInflater</item>
+    <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
 
     
     <item name="colorPrimary">@color/design_default_color_primary</item>
@@ -1664,7 +1877,7 @@
     <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
   </style>
     <style name="Base.V14.Theme.MaterialComponents.Light.Dialog" parent="Platform.MaterialComponents.Light.Dialog">
-    <item name="viewInflaterClass">android.support.design.theme.MaterialComponentsViewInflater</item>
+    <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
 
     
     <item name="colorPrimary">@color/design_default_color_primary</item>
@@ -1718,7 +1931,7 @@
     <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
   </style>
     <style name="Base.V7.Theme.AppCompat" parent="Platform.AppCompat">
-        <item name="viewInflaterClass">android.support.v7.app.AppCompatViewInflater</item>
+        <item name="viewInflaterClass">androidx.appcompat.app.AppCompatViewInflater</item>
         <item name="windowNoTitle">false</item>
         <item name="windowActionBar">true</item>
         <item name="windowActionBarOverlay">false</item>
@@ -1911,7 +2124,7 @@
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
     <style name="Base.V7.Theme.AppCompat.Light" parent="Platform.AppCompat.Light">
-        <item name="viewInflaterClass">android.support.v7.app.AppCompatViewInflater</item>
+        <item name="viewInflaterClass">androidx.appcompat.app.AppCompatViewInflater</item>
 
         <item name="windowNoTitle">false</item>
         <item name="windowActionBar">true</item>
@@ -2534,53 +2747,26 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
-    <style name="CastExpandedController">
-<item name="castForward30ButtonDrawable">@drawable/cast_ic_expanded_controller_forward30</item>
-<item name="castClosedCaptionsButtonDrawable">@drawable/cast_ic_expanded_controller_closed_caption</item>
-<item name="castControlButtons">@array/cast_expanded_controller_default_control_buttons</item>
-<item name="castSkipNextButtonDrawable">@drawable/cast_ic_expanded_controller_skip_next</item>
-<item name="castPauseButtonDrawable">@drawable/cast_ic_expanded_controller_pause</item>
-<item name="castStopButtonDrawable">@drawable/cast_ic_expanded_controller_stop</item>
-<item name="castButtonColor">@null</item>
-<item name="castRewind30ButtonDrawable">@drawable/cast_ic_expanded_controller_rewind30</item>
-<item name="castSkipPreviousButtonDrawable">@drawable/cast_ic_expanded_controller_skip_previous</item>
-<item name="castMuteToggleButtonDrawable">@drawable/cast_ic_expanded_controller_mute</item>
-<item name="castPlayButtonDrawable">@drawable/cast_ic_expanded_controller_play</item>
-<item name="castSeekBarProgressDrawable">@drawable/cast_expanded_controller_seekbar_track</item>
-<item name="castSeekBarThumbDrawable">@drawable/cast_expanded_controller_seekbar_thumb</item>
+    <style name="PlacesAutocompleteErrorButtonText" parent="@android:style/TextAppearance.Medium">
+<item name="android:textSize">14sp</item>
+<item name="android:textColor">@color/places_autocomplete_error_button</item>
 </style>
-    <style name="CastIntroOverlay">
-<item name="castButtonTextAppearance">@style/TextAppearance.CastIntroOverlay.Button</item>
-<item name="castFocusRadius">@dimen/cast_intro_overlay_focus_radius</item>
-<item name="castTitleTextAppearance">@style/TextAppearance.CastIntroOverlay.Title</item>
-<item name="castButtonText">@string/cast_intro_overlay_button_text</item>
-<item name="castBackgroundColor">@color/cast_intro_overlay_background_color</item>
-<item name="castButtonBackgroundColor">@color/cast_intro_overlay_button_background_color</item>
+    <style name="PlacesAutocompleteErrorMessageText" parent="@android:style/TextAppearance.Medium">
+<item name="android:textSize">16sp</item>
+<item name="android:textColor">@color/places_autocomplete_error_message</item>
 </style>
-    <style name="CastMiniController">
-<item name="castLargePauseButtonDrawable">@drawable/cast_ic_mini_controller_pause_large</item>
-<item name="castForward30ButtonDrawable">@drawable/cast_ic_mini_controller_forward30</item>
-<item name="castClosedCaptionsButtonDrawable">@drawable/cast_ic_mini_controller_closed_caption</item>
-<item name="castControlButtons">@array/cast_mini_controller_default_control_buttons</item>
-<item name="castSkipNextButtonDrawable">@drawable/cast_ic_mini_controller_skip_next</item>
-<item name="castSubtitleTextAppearance">@style/TextAppearance.CastMiniController.Subtitle</item>
-<item name="castPauseButtonDrawable">@drawable/cast_ic_mini_controller_pause</item>
-<item name="castStopButtonDrawable">@drawable/cast_ic_mini_controller_stop</item>
-<item name="castButtonColor">@null</item>
-<item name="castBackground">?android:attr/colorBackground</item>
-<item name="castLargePlayButtonDrawable">@drawable/cast_ic_mini_controller_play_large</item>
-<item name="castTitleTextAppearance">@style/TextAppearance.CastMiniController.Title</item>
-<item name="castLargeStopButtonDrawable">@drawable/cast_ic_mini_controller_stop_large</item>
-<item name="castRewind30ButtonDrawable">@drawable/cast_ic_mini_controller_rewind30</item>
-<item name="castSkipPreviousButtonDrawable">@drawable/cast_ic_mini_controller_skip_prev</item>
-<item name="castMuteToggleButtonDrawable">@drawable/cast_ic_mini_controller_mute</item>
-<item name="castPlayButtonDrawable">@drawable/cast_ic_mini_controller_play</item>
-<item name="castShowImageThumbnail">true</item>
+    <style name="PlacesAutocompleteThemeFullscreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+<item name="colorPrimary">@color/places_ui_default_primary</item>
+<item name="colorPrimaryDark">@color/places_ui_default_primary_dark</item>
+<item name="android:windowBackground">@color/places_autocomplete_fullscreen_background</item>
 </style>
-    <style name="CustomCastTheme">
-<item name="castExpandedControllerStyle">@style/CastExpandedController</item>
-<item name="castIntroOverlayStyle">@style/CastIntroOverlay</item>
-<item name="castMiniControllerStyle">@style/CastMiniController</item>
+    <style name="PlacesAutocompleteThemeOverlay" parent="@style/Theme.AppCompat.Light.NoActionBar">
+<item name="android:backgroundDimAmount">0.5</item>
+<item name="android:windowBackground">@android:color/transparent</item>
+<item name="android:windowContentOverlay">@null</item>
+<item name="android:windowNoTitle">true</item>
+<item name="android:backgroundDimEnabled">true</item>
+<item name="android:windowIsTranslucent">true</item>
 </style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
@@ -2835,16 +3021,6 @@
     <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small"/>
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="Base.TextAppearance.AppCompat.Widget.Switch"/>
     <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"/>
-    <style name="TextAppearance.CastIntroOverlay.Button" parent="android:style/TextAppearance">
-<item name="android:textColor">#FFFFFF</item>
-</style>
-    <style name="TextAppearance.CastIntroOverlay.Title" parent="android:style/TextAppearance.Large">
-<item name="android:textColor">#FFFFFF</item>
-</style>
-    <style name="TextAppearance.CastMiniController.Subtitle" parent="android:style/TextAppearance.Small">
-</style>
-    <style name="TextAppearance.CastMiniController.Title" parent="android:style/TextAppearance.Medium">
-</style>
     <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
     <style name="TextAppearance.Compat.Notification.Info">
         <item name="android:textSize">12sp</item>
@@ -2999,9 +3175,6 @@
     <style name="TextAppearance.MaterialComponents.Tab" parent="TextAppearance.Design.Tab">
     <item name="android:textColor">@color/mtrl_tabs_icon_color_selector</item>
   </style>
-    <style name="TextAppearance.MediaRouter.PrimaryText" parent="TextAppearance.AppCompat.Subhead"/>
-    <style name="TextAppearance.MediaRouter.SecondaryText" parent="TextAppearance.AppCompat.Body1"/>
-    <style name="TextAppearance.MediaRouter.Title" parent="TextAppearance.AppCompat.Title"/>
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
@@ -3043,13 +3216,6 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <style name="Theme.AppInvite.Preview" parent="Theme.AppInvite.Preview.Base">
-<item name="android:colorBackground">@android:color/white</item>
-<item name="android:windowBackground">@android:color/white</item>
-<item name="android:windowIsTranslucent">true</item>
-</style>
-    <style name="Theme.AppInvite.Preview.Base" parent="@android:style/Theme.Light.NoTitleBar">
-</style>
     <style name="Theme.Design" parent="Theme.AppCompat">
   </style>
     <style name="Theme.Design.BottomSheetDialog" parent="Theme.AppCompat.Dialog">
@@ -3072,14 +3238,6 @@
     <item name="windowActionBar">false</item>
     <item name="windowNoTitle">true</item>
   </style>
-    <style name="Theme.IAPTheme" parent="android:Theme">
-<item name="android:windowIsFloating">true</item>
-<item name="android:windowBackground">@android:color/transparent</item>
-<item name="android:windowContentOverlay">@null</item>
-<item name="android:windowNoTitle">true</item>
-<item name="android:backgroundDimEnabled">false</item>
-<item name="android:windowIsTranslucent">true</item>
-</style>
     <style name="Theme.MaterialComponents" parent="Base.Theme.MaterialComponents"/>
     <style name="Theme.MaterialComponents.BottomSheetDialog" parent="Theme.MaterialComponents.Dialog">
     <item name="android:windowBackground">@android:color/transparent</item>
@@ -3123,44 +3281,6 @@
     <item name="windowActionBar">false</item>
     <item name="windowNoTitle">true</item>
   </style>
-    <style name="Theme.MediaRouter" parent="ThemeOverlay.AppCompat.Dark">
-        <item name="windowNoTitle">true</item>
-        <item name="mediaRouteButtonStyle">@style/Widget.MediaRouter.MediaRouteButton</item>
-
-        <item name="mediaRouteCloseDrawable">@drawable/mr_dialog_close_dark</item>
-        <item name="mediaRoutePlayDrawable">@drawable/mr_media_play_dark</item>
-        <item name="mediaRoutePauseDrawable">@drawable/mr_media_pause_dark</item>
-        <item name="mediaRouteStopDrawable">@drawable/mr_media_stop_dark</item>
-        <item name="mediaRouteAudioTrackDrawable">@drawable/mr_vol_type_audiotrack_dark</item>
-        <item name="mediaRouteDefaultIconDrawable">@drawable/ic_mr_button_disconnected_dark</item>
-        <item name="mediaRouteTvIconDrawable">@drawable/ic_vol_type_tv_dark</item>
-        <item name="mediaRouteSpeakerIconDrawable">@drawable/ic_vol_type_speaker_dark</item>
-        <item name="mediaRouteSpeakerGroupIconDrawable">@drawable/ic_vol_type_speaker_group_dark</item>
-
-        <item name="mediaRouteControlPanelThemeOverlay">@null</item>
-    </style>
-    <style name="Theme.MediaRouter.Light" parent="ThemeOverlay.AppCompat.Light">
-        <item name="windowNoTitle">true</item>
-        <item name="mediaRouteButtonStyle">@style/Widget.MediaRouter.Light.MediaRouteButton</item>
-
-        <item name="mediaRouteCloseDrawable">@drawable/mr_dialog_close_light</item>
-        <item name="mediaRoutePlayDrawable">@drawable/mr_media_play_light</item>
-        <item name="mediaRoutePauseDrawable">@drawable/mr_media_pause_light</item>
-        <item name="mediaRouteStopDrawable">@drawable/mr_media_stop_light</item>
-        <item name="mediaRouteAudioTrackDrawable">@drawable/mr_vol_type_audiotrack_light</item>
-        <item name="mediaRouteDefaultIconDrawable">@drawable/ic_mr_button_grey</item>
-        <item name="mediaRouteTvIconDrawable">@drawable/ic_vol_type_tv_light</item>
-        <item name="mediaRouteSpeakerIconDrawable">@drawable/ic_vol_type_speaker_light</item>
-        <item name="mediaRouteSpeakerGroupIconDrawable">@drawable/ic_vol_type_speaker_group_light</item>
-
-        <item name="mediaRouteControlPanelThemeOverlay">@null</item>
-    </style>
-    <style name="Theme.MediaRouter.Light.DarkControlPanel">
-        <item name="mediaRouteControlPanelThemeOverlay">@style/ThemeOverlay.MediaRouter.Dark</item>
-    </style>
-    <style name="Theme.MediaRouter.LightControlPanel">
-        <item name="mediaRouteControlPanelThemeOverlay">@style/ThemeOverlay.MediaRouter.Light</item>
-    </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
@@ -3190,51 +3310,6 @@
     <item name="editTextStyle">@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense
     </item>
   </style>
-    <style name="ThemeOverlay.MediaRouter.Dark" parent="ThemeOverlay.AppCompat.Dark">
-        <item name="mediaRoutePlayDrawable">@drawable/mr_media_play_dark</item>
-        <item name="mediaRoutePauseDrawable">@drawable/mr_media_pause_dark</item>
-        <item name="mediaRouteStopDrawable">@drawable/mr_media_stop_dark</item>
-        <item name="mediaRouteAudioTrackDrawable">@drawable/mr_vol_type_audiotrack_dark</item>
-
-    </style>
-    <style name="ThemeOverlay.MediaRouter.Light" parent="ThemeOverlay.AppCompat.Light">
-        <item name="mediaRoutePlayDrawable">@drawable/mr_media_play_light</item>
-        <item name="mediaRoutePauseDrawable">@drawable/mr_media_pause_light</item>
-        <item name="mediaRouteStopDrawable">@drawable/mr_media_stop_light</item>
-        <item name="mediaRouteAudioTrackDrawable">@drawable/mr_vol_type_audiotrack_light</item>
-    </style>
-    <style name="WalletFragmentDefaultButtonTextAppearance">
-<item name="android:textColorLink">@color/wallet_link_text_light</item>
-<item name="android:textColorHint">@color/wallet_hint_foreground_holo_light</item>
-<item name="android:textStyle">normal</item>
-<item name="android:textSize">18sp</item>
-<item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_light</item>
-<item name="android:textColor">@color/wallet_primary_text_holo_light</item>
-</style>
-    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance" parent="WalletFragmentDefaultDetailsTextAppearance">
-<item name="android:textStyle">bold</item>
-</style>
-    <style name="WalletFragmentDefaultDetailsTextAppearance">
-<item name="android:textColorLink">@color/wallet_holo_blue_light</item>
-<item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
-<item name="android:textStyle">normal</item>
-<item name="android:textSize">14sp</item>
-<item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_dark</item>
-<item name="android:textColor">@color/wallet_secondary_text_holo_dark</item>
-</style>
-    <style name="WalletFragmentDefaultStyle">
-<item name="maskedWalletDetailsLogoImageType">android_pay</item>
-<item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
-<item name="buyButtonText">buy_with</item>
-<item name="maskedWalletDetailsTextAppearance">@style/WalletFragmentDefaultDetailsTextAppearance</item>
-<item name="buyButtonAppearance">android_pay_dark</item>
-<item name="maskedWalletDetailsButtonTextAppearance">@style/WalletFragmentDefaultButtonTextAppearance</item>
-<item name="maskedWalletDetailsButtonBackground">@android:drawable/btn_default</item>
-<item name="buyButtonWidth">match_parent</item>
-<item name="maskedWalletDetailsHeaderTextAppearance">@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
-<item name="buyButtonHeight">48dp</item>
-<item name="maskedWalletDetailsBackground">@color/wallet_bright_foreground_holo_light</item>
-</style>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Base.Widget.AppCompat.ActionBar.Solid">
@@ -3607,12 +3682,6 @@
     
     <item name="android:minHeight">@dimen/mtrl_toolbar_default_height</item>
   </style>
-    <style name="Widget.MediaRouter.Light.MediaRouteButton" parent="Widget.AppCompat.Light.ActionButton">
-        <item name="externalRouteEnabledDrawable">@drawable/mr_button_light</item>
-    </style>
-    <style name="Widget.MediaRouter.MediaRouteButton" parent="Widget.AppCompat.ActionButton">
-        <item name="externalRouteEnabledDrawable">@drawable/mr_button_dark</item>
-    </style>
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
     </style>
@@ -3723,13 +3792,6 @@
         
         <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
     </declare-styleable>
-    <declare-styleable name="AdsAttrs">
-<attr format="string" name="adSize"/>
-
-<attr format="string" name="adSizes"/>
-
-<attr format="string" name="adUnitId"/>
-</declare-styleable>
     <declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
@@ -4219,7 +4281,6 @@
 
         <attr format="string" name="viewInflaterClass"/>
     </declare-styleable>
-    <declare-styleable name="AppDataSearch"/>
     <declare-styleable name="BottomAppBar"><attr name="backgroundTint"/><attr name="fabAlignmentMode">
       
       <enum name="center" value="0"/>
@@ -4272,85 +4333,6 @@
         
         <attr name="android:minHeight"/>
     </declare-styleable>
-    <declare-styleable name="CastExpandedController">
-<attr name="castButtonColor"/>
-
-<attr name="castControlButtons"/>
-
-<attr format="reference" name="castSeekBarProgressDrawable"/>
-
-<attr format="reference" name="castSeekBarThumbDrawable"/>
-
-<attr name="castPlayButtonDrawable"/>
-
-<attr name="castPauseButtonDrawable"/>
-
-<attr name="castStopButtonDrawable"/>
-
-<attr name="castSkipPreviousButtonDrawable"/>
-
-<attr name="castSkipNextButtonDrawable"/>
-
-<attr name="castRewind30ButtonDrawable"/>
-
-<attr name="castForward30ButtonDrawable"/>
-
-<attr name="castMuteToggleButtonDrawable"/>
-
-<attr name="castClosedCaptionsButtonDrawable"/>
-</declare-styleable>
-    <declare-styleable name="CastIntroOverlay">
-<attr format="color|reference" name="castBackgroundColor"/>
-
-<attr format="color|reference" name="castButtonBackgroundColor"/>
-
-<attr format="reference" name="castButtonTextAppearance"/>
-
-<attr format="reference|string" name="castButtonText"/>
-
-<attr format="reference" name="castTitleTextAppearance"/>
-
-<attr format="dimension|reference" name="castFocusRadius"/>
-</declare-styleable>
-    <declare-styleable name="CastMiniController">
-<attr format="boolean" name="castShowImageThumbnail"/>
-
-<attr name="castTitleTextAppearance"/>
-
-<attr format="reference" name="castSubtitleTextAppearance"/>
-
-<attr format="reference" name="castControlButtons"/>
-
-<attr format="color|reference" name="castBackground"/>
-
-<attr format="color" name="castProgressBarColor"/>
-
-<attr format="color|reference" name="castButtonColor"/>
-
-<attr format="reference" name="castPlayButtonDrawable"/>
-
-<attr format="reference" name="castPauseButtonDrawable"/>
-
-<attr format="reference" name="castStopButtonDrawable"/>
-
-<attr format="reference" name="castLargePlayButtonDrawable"/>
-
-<attr format="reference" name="castLargePauseButtonDrawable"/>
-
-<attr format="reference" name="castLargeStopButtonDrawable"/>
-
-<attr format="reference" name="castSkipPreviousButtonDrawable"/>
-
-<attr format="reference" name="castSkipNextButtonDrawable"/>
-
-<attr format="reference" name="castRewind30ButtonDrawable"/>
-
-<attr format="reference" name="castForward30ButtonDrawable"/>
-
-<attr format="reference" name="castMuteToggleButtonDrawable"/>
-
-<attr format="reference" name="castClosedCaptionsButtonDrawable"/>
-</declare-styleable>
     <declare-styleable name="Chip"><attr format="color" name="chipBackgroundColor"/><attr format="dimension" name="chipMinHeight"/><attr format="dimension" name="chipCornerRadius"/><attr format="color" name="chipStrokeColor"/><attr format="dimension" name="chipStrokeWidth"/><attr name="rippleColor"/><attr name="android:text"/><attr name="android:textAppearance"/><attr name="android:ellipsize"/><attr name="android:maxWidth"/><attr format="boolean" name="chipIconVisible"/><attr format="boolean" name="chipIconEnabled"/><attr format="reference" name="chipIcon"/><attr format="color" name="chipIconTint"/><attr format="dimension" name="chipIconSize"/><attr format="boolean" name="closeIconVisible"/><attr format="boolean" name="closeIconEnabled"/><attr format="reference" name="closeIcon"/><attr format="color" name="closeIconTint"/><attr format="dimension" name="closeIconSize"/><attr name="android:checkable"/><attr format="boolean" name="checkedIconVisible"/><attr format="boolean" name="checkedIconEnabled"/><attr format="reference" name="checkedIcon"/><attr name="showMotionSpec"/><attr name="hideMotionSpec"/><attr format="dimension" name="chipStartPadding"/><attr format="dimension" name="iconStartPadding"/><attr format="dimension" name="iconEndPadding"/><attr format="dimension" name="textStartPadding"/><attr format="dimension" name="textEndPadding"/><attr format="dimension" name="closeIconStartPadding"/><attr format="dimension" name="closeIconEndPadding"/><attr format="dimension" name="chipEndPadding"/></declare-styleable>
     <declare-styleable name="ChipGroup"><attr format="dimension" name="chipSpacing"/><attr format="dimension" name="chipSpacingHorizontal"/><attr format="dimension" name="chipSpacingVertical"/><attr format="boolean" name="singleLine"/><attr format="boolean" name="singleSelection"/><attr format="reference" name="checkedChip"/></declare-styleable>
     <declare-styleable name="CollapsingToolbarLayout"><attr format="dimension" name="expandedTitleMargin"/><attr format="dimension" name="expandedTitleMarginStart"/><attr format="dimension" name="expandedTitleMarginTop"/><attr format="dimension" name="expandedTitleMarginEnd"/><attr format="dimension" name="expandedTitleMarginBottom"/><attr format="reference" name="expandedTitleTextAppearance"/><attr format="reference" name="collapsedTitleTextAppearance"/><attr format="color" name="contentScrim"/><attr format="color" name="statusBarScrim"/><attr format="reference" name="toolbarId"/><attr format="dimension" name="scrimVisibleHeightTrigger"/><attr format="integer" name="scrimAnimationDuration"/><attr name="collapsedTitleGravity">
@@ -4519,49 +4501,6 @@
             <flag name="all" value="0x77"/>
         </attr>
     </declare-styleable>
-    <declare-styleable name="Corpus">
-<attr format="string" name="corpusId"/>
-
-<attr format="string" name="corpusVersion"/>
-
-<attr format="string" name="contentProviderUri"/>
-
-<attr format="boolean" name="trimmable"/>
-
-<attr format="string" name="schemaOrgType"/>
-
-<attr format="boolean" name="semanticallySearchable"/>
-
-<attr format="integer" name="documentMaxAgeSecs"/>
-
-<attr format="boolean" name="perAccountTemplate"/>
-</declare-styleable>
-    <declare-styleable name="CustomCastTheme">
-<attr format="reference" name="castIntroOverlayStyle"/>
-
-<attr format="reference" name="castMiniControllerStyle"/>
-
-<attr format="reference" name="castExpandedControllerStyle"/>
-</declare-styleable>
-    <declare-styleable name="CustomWalletTheme"><attr name="windowTransitionStyle">
-<enum name="slide" value="1"/>
-
-<enum name="none" value="2"/>
-
-</attr>
-<attr name="toolbarTextColorStyle">
-<enum name="light" value="1"/>
-
-<enum name="dark" value="2"/>
-
-</attr>
-<attr name="customThemeStyle">
-<enum name="material" value="1"/>
-
-<enum name="googleMaterial2" value="2"/>
-
-</attr>
-</declare-styleable>
     <declare-styleable name="DesignTheme"><attr name="bottomSheetDialogTheme"/><attr name="bottomSheetStyle"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle">
         
@@ -4581,11 +4520,6 @@
         
         <attr format="dimension" name="thickness"/>
     </declare-styleable>
-    <declare-styleable name="FeatureParam">
-<attr format="string" name="paramName"/>
-
-<attr format="string" name="paramValue"/>
-</declare-styleable>
     <declare-styleable name="FloatingActionButton"><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr name="rippleColor"/><attr name="fabSize">
       
       <enum name="auto" value="-1"/>
@@ -4640,47 +4574,6 @@
         <attr name="android:ttcIndex"/>
     </declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
-    <declare-styleable name="GlobalSearch">
-<attr format="boolean" name="searchEnabled"/>
-
-<attr format="string" name="searchLabel"/>
-
-<attr format="string" name="settingsDescription"/>
-
-<attr format="string" name="defaultIntentAction"/>
-
-<attr format="string" name="defaultIntentData"/>
-
-<attr format="string" name="defaultIntentActivity"/>
-</declare-styleable>
-    <declare-styleable name="GlobalSearchCorpus">
-<attr format="boolean" name="allowShortcuts"/>
-</declare-styleable>
-    <declare-styleable name="GlobalSearchSection"><attr name="sectionType">
-<enum name="text1" value="0"/>
-
-<enum name="text2" value="1"/>
-
-<enum name="icon_uri" value="2"/>
-
-<enum name="intent_action" value="3"/>
-
-<enum name="intent_data" value="4"/>
-
-<enum name="intent_data_id" value="5"/>
-
-<enum name="intent_extra_data" value="6"/>
-
-<enum name="large_icon_uri" value="7"/>
-
-<enum name="intent_activity" value="8"/>
-
-<enum name="thing_proto" value="9"/>
-
-</attr>
-
-<attr format="string" name="sectionContent"/>
-</declare-styleable>
     <declare-styleable name="GradientColor">
         
         <attr name="android:startColor"/>
@@ -4720,25 +4613,6 @@
         
         <attr name="android:color"/>
     </declare-styleable>
-    <declare-styleable name="IMECorpus">
-<attr format="boolean" name="inputEnabled"/>
-<attr name="sourceClass">
-<enum name="email" value="0"/>
-
-<enum name="contact" value="1"/>
-
-<enum name="instant_message" value="2"/>
-
-</attr>
-
-<attr format="string" name="userInputTag"/>
-
-<attr format="string" name="userInputSection"/>
-
-<attr format="string" name="userInputValue"/>
-
-<attr format="string" name="toAddressesSection"/>
-</declare-styleable>
     <declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat">
         
@@ -4820,6 +4694,8 @@
 
 <attr format="boolean" name="uiScrollGestures"/>
 
+<attr format="boolean" name="uiScrollGesturesDuringRotateOrZoom"/>
+
 <attr format="boolean" name="uiTiltGestures"/>
 
 <attr format="boolean" name="uiZoomControls"/>
@@ -4854,7 +4730,6 @@
     </attr><attr format="color" name="iconTint"/><attr name="iconTintMode"/><attr name="strokeColor"/><attr name="strokeWidth"/><attr format="dimension" name="cornerRadius"/><attr name="rippleColor"/></declare-styleable>
     <declare-styleable name="MaterialCardView"><attr name="strokeColor"/><attr name="strokeWidth"/></declare-styleable>
     <declare-styleable name="MaterialComponentsTheme"><attr name="colorAccent"/><attr name="colorPrimary"/><attr name="colorPrimaryDark"/><attr name="colorSecondary"/><attr name="scrimBackground"/><attr name="colorBackgroundFloating"/><attr name="bottomSheetDialogTheme"/><attr name="bottomSheetStyle"/><attr name="materialButtonStyle"/><attr name="chipGroupStyle"/><attr name="chipStyle"/><attr name="chipStandaloneStyle"/><attr name="editTextStyle"/><attr name="floatingActionButtonStyle"/><attr name="materialCardViewStyle"/><attr name="navigationViewStyle"/><attr name="tabStyle"/><attr name="textInputStyle"/><attr name="snackbarButtonStyle"/><attr name="textAppearanceHeadline1"/><attr name="textAppearanceHeadline2"/><attr name="textAppearanceHeadline3"/><attr name="textAppearanceHeadline4"/><attr name="textAppearanceHeadline5"/><attr name="textAppearanceHeadline6"/><attr name="textAppearanceSubtitle1"/><attr name="textAppearanceSubtitle2"/><attr name="textAppearanceBody1"/><attr name="textAppearanceBody2"/><attr name="textAppearanceCaption"/><attr name="textAppearanceButton"/><attr name="textAppearanceOverline"/></declare-styleable>
-    <declare-styleable name="MediaRouteButton"><attr format="reference" name="externalRouteEnabledDrawable"/><attr format="color" name="mediaRouteButtonTint"/><attr name="android:minWidth"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="MenuGroup">
 
         
@@ -5081,46 +4956,6 @@
         <attr format="reference" name="submitBackground"/>
         <attr name="android:focusable"/>
     </declare-styleable>
-    <declare-styleable name="Section">
-<attr format="string" name="sectionId"/>
-<attr name="sectionFormat">
-<enum name="plain" value="0"/>
-
-<enum name="html" value="1"/>
-
-<enum name="rfc822" value="2"/>
-
-<enum name="url" value="3"/>
-
-<enum name="date" value="4"/>
-
-</attr>
-
-<attr format="boolean" name="noIndex"/>
-
-<attr format="integer" name="sectionWeight"/>
-
-<attr format="boolean" name="indexPrefixes"/>
-
-<attr format="string" name="subsectionSeparator"/>
-
-<attr format="string" name="schemaOrgProperty"/>
-</declare-styleable>
-    <declare-styleable name="SectionFeature"><attr name="featureType">
-<enum name="match_global_nicknames" value="1"/>
-
-<enum name="demote_common_words" value="2"/>
-
-<enum name="demote_rfc822_hostnames" value="3"/>
-
-<enum name="omnibox_url_section" value="4"/>
-
-<enum name="omnibox_title_section" value="5"/>
-
-<enum name="index_entity_types" value="6"/>
-
-</attr>
-</declare-styleable>
     <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
 <enum name="standard" value="0"/>
 
@@ -5401,102 +5236,4 @@
         <attr name="android:inflatedId"/>
         <attr name="android:id"/>
     </declare-styleable>
-    <declare-styleable name="WalletFragmentOptions"><attr name="appTheme">
-<enum name="holo_dark" value="0"/>
-
-<enum name="holo_light" value="1"/>
-
-</attr>
-<attr name="environment">
-<enum name="production" value="1"/>
-
-<enum name="test" value="3"/>
-
-<enum name="sandbox" value="0"/>
-
-<enum name="strict_sandbox" value="2"/>
-
-</attr>
-
-<attr format="reference" name="fragmentStyle"/>
-<attr name="fragmentMode">
-<enum name="buyButton" value="1"/>
-
-<enum name="selectionDetails" value="2"/>
-
-</attr>
-</declare-styleable>
-    <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight">
-<enum name="match_parent" value="-1"/>
-
-<enum name="wrap_content" value="-2"/>
-
-</attr>
-<attr format="dimension" name="buyButtonWidth">
-<enum name="match_parent" value="-1"/>
-
-<enum name="wrap_content" value="-2"/>
-
-</attr>
-<attr name="buyButtonText">
-<enum name="buy_with" value="5"/>
-
-<enum name="logo_only" value="6"/>
-
-<enum name="donate_with" value="7"/>
-
-<enum name="buy_with_google" value="1"/>
-
-<enum name="buy_now" value="2"/>
-
-<enum name="book_now" value="3"/>
-
-<enum name="donate_with_google" value="4"/>
-
-</attr>
-<attr name="buyButtonAppearance">
-<enum name="google_wallet_classic" value="1"/>
-
-<enum name="google_wallet_grayscale" value="2"/>
-
-<enum name="google_wallet_monochrome" value="3"/>
-
-<enum name="android_pay_dark" value="4"/>
-
-<enum name="android_pay_light" value="5"/>
-
-<enum name="android_pay_light_with_border" value="6"/>
-
-<enum name="classic" value="1"/>
-
-<enum name="grayscale" value="2"/>
-
-<enum name="monochrome" value="3"/>
-
-</attr>
-
-<attr format="reference" name="maskedWalletDetailsTextAppearance"/>
-
-<attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/>
-
-<attr format="color|reference" name="maskedWalletDetailsBackground"/>
-
-<attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/>
-
-<attr format="color|reference" name="maskedWalletDetailsButtonBackground"/>
-
-<attr format="color" name="maskedWalletDetailsLogoTextColor"/>
-<attr name="maskedWalletDetailsLogoImageType">
-<enum name="google_wallet_classic" value="1"/>
-
-<enum name="google_wallet_monochrome" value="2"/>
-
-<enum name="android_pay" value="3"/>
-
-<enum name="classic" value="1"/>
-
-<enum name="monochrome" value="2"/>
-
-</attr>
-</declare-styleable>
 </resources>

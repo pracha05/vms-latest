@@ -2,19 +2,20 @@ package com.vms.customer.activity;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
-import com.vms.customer.adapters.insuranceproviderAdapter;
+import com.vms.customer.adapters.InsuranceProviderAdapter;
 import com.vms.customer.R;
 import com.vms.customer.models.insuranceproviderPojo;
 import com.vms.customer.utils.AppFonts;
@@ -58,7 +59,7 @@ public class InsuranceProvider extends BaseActivity {
             Gson gson = new Gson();
             insuranceproviderPojo data = gson.fromJson(String.valueOf(response), insuranceproviderPojo.class);
 
-            insuranceproviderAdapter hAdapter = new insuranceproviderAdapter(InsuranceProvider.this, data);
+            InsuranceProviderAdapter hAdapter = new InsuranceProviderAdapter(InsuranceProvider.this, data);
             rc_insurance.setAdapter(hAdapter);
             progressBar.setVisibility(View.GONE);
         }, error -> {

@@ -2,11 +2,11 @@ package com.vms.customer.activity;
 
 import android.content.Context;
 import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.widget.Toolbar;
 
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;

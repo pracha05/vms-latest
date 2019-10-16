@@ -3,13 +3,6 @@ package com.vms.customer.activity;
 import android.animation.ArgbEvaluator;
 import android.graphics.Color;
 import android.os.Build;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,6 +12,13 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.content.ContextCompat;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
 import com.vms.customer.R;
 import com.vms.customer.intents.IntentFactory;
 import com.vms.customer.preferences.VmsPreferenceHelper;
@@ -27,16 +27,9 @@ import com.vms.customer.utils.AppUtils;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class IntroductionPagerActivity extends AppCompatActivity {
+public class IntroductionPagerActivity extends BaseActivity {
 
-    /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide
-     * fragments for each of the sections. We use a
-     * {@link FragmentPagerAdapter} derivative, which will keep every
-     * loaded fragment in memory. If this becomes too memory intensive, it
-     * may be best to switch to a
-     * {@link android.support.v4.app.FragmentStatePagerAdapter}.
-     */
+
 
     private static final String TAG = IntroductionPagerActivity.class.getSimpleName();
     private SectionsPagerAdapter mSectionsPagerAdapter;
@@ -193,6 +186,11 @@ public class IntroductionPagerActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onClick(View v) {
+
+    }
+
     /**
      * A placeholder fragment containing a simple view.
      */
@@ -281,5 +279,6 @@ public class IntroductionPagerActivity extends AppCompatActivity {
         }
 
     }
+
 }
 

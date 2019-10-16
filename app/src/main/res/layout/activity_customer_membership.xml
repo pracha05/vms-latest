@@ -7,7 +7,7 @@
     android:background="@color/colorWhite"
     android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
         android:layout_marginBottom="@dimen/space10"
         android:layout_marginRight="@dimen/space5"
         android:layout_marginLeft="@dimen/space5"
-        android:background="@color/cast_expanded_controller_ad_label_background_color" />
+        android:background="@color/cardview_shadow_start_color" />
 
     <com.tmall.ultraviewpager.UltraViewPager
         android:id="@+id/ultra_viewpager"

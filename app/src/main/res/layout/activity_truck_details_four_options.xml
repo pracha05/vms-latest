@@ -141,7 +141,7 @@
     <LinearLayout
         android:id="@+id/ll_amemities"
         android:layout_width="match_parent"
-android:background="@color/colorLightGray"
+        android:background="@color/colorLightGray"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:visibility="gone">

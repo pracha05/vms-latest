@@ -3,22 +3,25 @@ package com.vms.customer.activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
 import android.view.View;
-import android.support.v4.view.GravityCompat;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.view.MenuItem;
-import android.support.design.widget.NavigationView;
-import android.support.v4.widget.DrawerLayout;
 
-import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
+
 import android.view.Menu;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import com.google.android.material.navigation.NavigationView;
 import com.vms.customer.R;
 import com.vms.customer.intents.IntentFactory;
 import com.vms.customer.utils.AppFonts;
@@ -253,9 +256,8 @@ public class HomeActivity extends BaseActivity
                 overridePendingTransition(R.anim.slide_in_from_right, R.anim.fade_out);
                 break;
             case R.id.tv_searchview:
-//                    Intent ff = new Intent(HomeActivity.this, AddLoadActivity.class);
-//                    startActivity(ff);
-//                overridePendingTransition(R.anim.slide_in_from_right, R.anim.fade_out);
+                startActivity(IntentFactory.createAddLoadActivity(HomeActivity.this));
+                overridePendingTransition(R.anim.slide_in_from_right, R.anim.fade_out);
 
                 break;
 

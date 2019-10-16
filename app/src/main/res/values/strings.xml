@@ -219,6 +219,8 @@
         <item>Privacy Policy</item>
     </string-array>
 
+    <string name="api_key">AIzaSyCQ0d6evaaKj72Q8LQHnRQJ8a5wsLXj6PY</string>
+
     <string-array name="membership_plan">
         <item>Gold</item>
         <item>Silver</item>

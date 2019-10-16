@@ -1,11 +1,12 @@
 package com.vms.customer.activity;
 
+import android.Manifest;
 import android.app.DatePickerDialog;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,12 +17,17 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.common.api.Status;
-import com.google.android.gms.location.places.Place;
-import com.google.android.gms.location.places.ui.PlaceAutocomplete;
 
+import com.google.android.libraries.places.compat.Place;
+import com.google.android.libraries.places.compat.Places;
+import com.google.android.libraries.places.compat.ui.PlaceAutocomplete;
 
 import com.vms.customer.adapters.CustomTimeSlotAdapter;
 import com.vms.customer.intents.IntentFactory;
@@ -31,12 +37,16 @@ import com.vms.customer.utils.AppFonts;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
+import static android.Manifest.permission.ACCESS_FINE_LOCATION;
+
 
 public class AddLoadActivity extends BaseActivity {
     @BindView(R.id.img_addload_back)
@@ -107,6 +117,11 @@ public class AddLoadActivity extends BaseActivity {
         CustomTimeSlotAdapter adapter = new CustomTimeSlotAdapter(AddLoadActivity.this,
                 R.layout.spinner_item, timelist);
         sp_al_select_time.setAdapter(adapter);
+
+        /** init place api key */
+//        Places.initialize(getApplicationContext(),getString(R.string.api_key));
+//        PlacesClient placesClient = Places.createClient(this);
+
     }
 
 
@@ -240,16 +255,25 @@ public class AddLoadActivity extends BaseActivity {
 
                 break;
             case R.id.tv_addload_sourcepoint:
-                try {
-                    Intent intent =
-                            new PlaceAutocomplete
-                                    .IntentBuilder(PlaceAutocomplete.MODE_FULLSCREEN)
-                                    .build(this);
-                    startActivityForResult(intent, 1);
-                } catch (GooglePlayServicesRepairableException e) {
-                    // TODO: Handle the error.
-                } catch (GooglePlayServicesNotAvailableException e) {
-                    // TODO: Handle the error.
+//                if (!Places.isInitialized()) {
+//                    Places.initialize(getApplicationContext(), getString(R.string.api_key));
+//                }
+                int permission = ContextCompat.checkSelfPermission(this, ACCESS_FINE_LOCATION);
+                if (permission != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(this, new String[]{ACCESS_FINE_LOCATION}, 0);
+                    return;
+                }else{
+                    try {
+                        Intent intent =
+                                new PlaceAutocomplete
+                                        .IntentBuilder(PlaceAutocomplete.MODE_FULLSCREEN)
+                                        .build(this);
+                        startActivityForResult(intent, 1);
+                    } catch (GooglePlayServicesRepairableException e) {
+                        Log.d("AddLoadActivity",e.getMessage());
+                    } catch (GooglePlayServicesNotAvailableException e) {
+                        Log.d("AddLoadActivity",e.getMessage());
+                    }
                 }
 
                 break;

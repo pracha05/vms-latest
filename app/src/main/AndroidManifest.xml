@@ -153,13 +153,19 @@
             </intent-filter>
         </activity>
 
+<!--        <meta-data-->
+<!--            android:name="com.google.android.geo.API_KEY"-->
+<!--            android:value="AIzaSyBHTMjAK03abscfm6m00ddeFAVcj58lSaM" />-->
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBHTMjAK03abscfm6m00ddeFAVcj58lSaM" />
+            android:value="AIzaSyCQ0d6evaaKj72Q8LQHnRQJ8a5wsLXj6PY" />
+
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="1f8b313e6053825bab65deec223dec7a3c4141bb" />
     </application>
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />

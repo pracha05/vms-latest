@@ -61,7 +61,7 @@
         android:id="@+id/tv_sm_sheader"
         android:layout_margin="@dimen/margin20sp"
         android:layout_height="wrap_content" />
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rev_sel_material"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
