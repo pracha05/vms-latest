@@ -50,10 +50,13 @@ import com.vms.customer.utils.AppUtils;
 
 import java.util.List;
 
-public class MapActivity extends BaseActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, com.google.android.gms.location.LocationListener {
+public class MapActivity extends BaseActivity implements OnMapReadyCallback,
+        GoogleApiClient.ConnectionCallbacks,
+        GoogleApiClient.OnConnectionFailedListener,
+        com.google.android.gms.location.LocationListener {
     private GoogleMap mMap;
     private GoogleApiClient mGoogleApiClient;
-    Geocoder geocoder;
+    private Geocoder geocoder;
     private LatLng mCenterLatLong;
     private AddressResultReceiver mResultReceiver;
 
@@ -62,19 +65,19 @@ public class MapActivity extends BaseActivity implements OnMapReadyCallback, Goo
     public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
     private static String TAG = "MAP LOCATION";
 
-    int mStatusCode;
-    Context mContext;
-    TextView locality,tv_Goden_header;
-    EditText mLocationAddress;
-    Location location;
-    LocationManager locationManager;
-    String city, state;
-    double latitude, longitude;
+    private int mStatusCode;
+    private Context mContext;
+    private TextView locality,tv_Goden_header;
+    private EditText mLocationAddress;
+    private Location location;
+    private LocationManager locationManager;
+    private String city, state;
+    private double latitude, longitude;
     protected String mAddressOutput;
     protected String mAreaOutput;
     protected String mCityOutput;
     protected String mStateOutput;
-    ImageView img_goden_back;
+    private ImageView img_goden_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

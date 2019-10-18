@@ -12,18 +12,18 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int layoutManager = 0x7f040126;
-        public static final int reverseLayout = 0x7f0401a1;
-        public static final int spanCount = 0x7f0401b7;
-        public static final int stackFromEnd = 0x7f0401d5;
-        public static final int upv_automeasure = 0x7f040246;
-        public static final int upv_autoscroll = 0x7f040247;
-        public static final int upv_disablescroll = 0x7f040248;
-        public static final int upv_infiniteloop = 0x7f040249;
-        public static final int upv_itemratio = 0x7f04024a;
-        public static final int upv_multiscreen = 0x7f04024b;
-        public static final int upv_ratio = 0x7f04024c;
-        public static final int upv_scrollmode = 0x7f04024d;
+        public static final int layoutManager = 0x7f04012c;
+        public static final int reverseLayout = 0x7f0401a7;
+        public static final int spanCount = 0x7f0401bd;
+        public static final int stackFromEnd = 0x7f0401db;
+        public static final int upv_automeasure = 0x7f04024c;
+        public static final int upv_autoscroll = 0x7f04024d;
+        public static final int upv_disablescroll = 0x7f04024e;
+        public static final int upv_infiniteloop = 0x7f04024f;
+        public static final int upv_itemratio = 0x7f040250;
+        public static final int upv_multiscreen = 0x7f040251;
+        public static final int upv_ratio = 0x7f040252;
+        public static final int upv_scrollmode = 0x7f040253;
     }
     public static final class dimen {
         private dimen() {}
@@ -33,13 +33,13 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int backward = 0x7f0a002e;
-        public static final int forward = 0x7f0a00aa;
-        public static final int horizontal = 0x7f0a00b4;
-        public static final int item_touch_helper_previous_elevation = 0x7f0a00e8;
-        public static final int none = 0x7f0a0113;
-        public static final int ultraviewpager_page_container = 0x7f0a0265;
-        public static final int vertical = 0x7f0a026a;
+        public static final int backward = 0x7f0a002f;
+        public static final int forward = 0x7f0a00ae;
+        public static final int horizontal = 0x7f0a00b8;
+        public static final int item_touch_helper_previous_elevation = 0x7f0a00ec;
+        public static final int none = 0x7f0a011f;
+        public static final int ultraviewpager_page_container = 0x7f0a0279;
+        public static final int vertical = 0x7f0a027e;
     }
     public static final class string {
         private string() {}
@@ -49,7 +49,7 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] RecyclerView = { 0x10100c4, 0x10100f1, 0x7f0400dc, 0x7f0400dd, 0x7f0400de, 0x7f0400df, 0x7f0400e0, 0x7f040126, 0x7f0401a1, 0x7f0401b7, 0x7f0401d5 };
+        public static final int[] RecyclerView = { 0x10100c4, 0x10100f1, 0x7f0400e2, 0x7f0400e3, 0x7f0400e4, 0x7f0400e5, 0x7f0400e6, 0x7f04012c, 0x7f0401a7, 0x7f0401bd, 0x7f0401db };
         public static final int RecyclerView_android_orientation = 0;
         public static final int RecyclerView_android_descendantFocusability = 1;
         public static final int RecyclerView_fastScrollEnabled = 2;
@@ -61,7 +61,7 @@ public final class R {
         public static final int RecyclerView_reverseLayout = 8;
         public static final int RecyclerView_spanCount = 9;
         public static final int RecyclerView_stackFromEnd = 10;
-        public static final int[] UltraViewPager = { 0x7f040246, 0x7f040247, 0x7f040248, 0x7f040249, 0x7f04024a, 0x7f04024b, 0x7f04024c, 0x7f04024d };
+        public static final int[] UltraViewPager = { 0x7f04024c, 0x7f04024d, 0x7f04024e, 0x7f04024f, 0x7f040250, 0x7f040251, 0x7f040252, 0x7f040253 };
         public static final int UltraViewPager_upv_automeasure = 0;
         public static final int UltraViewPager_upv_autoscroll = 1;
         public static final int UltraViewPager_upv_disablescroll = 2;

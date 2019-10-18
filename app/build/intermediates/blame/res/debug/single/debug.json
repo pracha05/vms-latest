@@ -132,6 +132,10 @@
         "source": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_invite.png"
     },
     {
+        "merged": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_email.png.flat",
+        "source": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\src\\main\\res\\drawable-hdpi\\ic_email.png"
+    },
+    {
         "merged": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\SIDHHI\\.gradle\\caches\\transforms-2\\files-2.1\\4c712a943b3ef7b03236bd690992ba5a\\appcompat-1.0.0\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
@@ -772,6 +776,10 @@
         "source": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\src\\main\\res\\drawable\\arrow_green.png"
     },
     {
+        "merged": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_drawable.xml.flat",
+        "source": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\src\\main\\res\\drawable\\profile_drawable.xml"
+    },
+    {
         "merged": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_legacy_text_color_selector.xml.flat",
         "source": "C:\\Users\\SIDHHI\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\color\\mtrl_tabs_legacy_text_color_selector.xml"
     },
@@ -810,6 +818,10 @@
     {
         "merged": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_add.png.flat",
         "source": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_add.png"
+    },
+    {
+        "merged": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_user_default.png.flat",
+        "source": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\src\\main\\res\\drawable-hdpi\\ic_user_default.png"
     },
     {
         "merged": "F:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",

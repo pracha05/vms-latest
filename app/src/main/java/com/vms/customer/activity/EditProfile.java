@@ -1,6 +1,7 @@
 package com.vms.customer.activity;
 
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 
 import android.os.Bundle;
@@ -10,11 +11,15 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.core.content.ContextCompat;
+
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
+import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 
 public class EditProfile extends BaseActivity {
     @BindView(R.id.img_profile_back)
@@ -144,16 +149,21 @@ public class EditProfile extends BaseActivity {
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        int permission = ContextCompat.checkSelfPermission(this, ACCESS_FINE_LOCATION);
         if (requestCode == 1) {
 
             if (resultCode == RESULT_OK) {
-                String strEditText = data.getStringExtra("editTextValue");
-                txt_goldenlocation.setText(strEditText);
+                if (permission == PackageManager.PERMISSION_GRANTED) {
+                    String strEditText = data.getStringExtra("editTextValue");
+                    txt_goldenlocation.setText(strEditText);
+                }
             }
         } else if (requestCode == 2) {
             if (resultCode == RESULT_OK) {
-                String strEditText = data.getStringExtra("editTextValue");
-                txt_geolocation.setText(strEditText);
+                if (permission == PackageManager.PERMISSION_GRANTED) {
+                    String strEditText = data.getStringExtra("editTextValue");
+                    txt_geolocation.setText(strEditText);
+                }
             }
         }
     }

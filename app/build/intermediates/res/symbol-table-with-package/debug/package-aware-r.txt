@@ -166,6 +166,12 @@ attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
 attr circleCrop
+attr civ_border
+attr civ_border_color
+attr civ_border_width
+attr civ_shadow
+attr civ_shadow_color
+attr civ_shadow_radius
 attr closeIcon
 attr closeIconEnabled
 attr closeIconEndPadding
@@ -1618,6 +1624,7 @@ drawable ic_construction
 drawable ic_dob
 drawable ic_electrical
 drawable ic_electronics_goods
+drawable ic_email
 drawable ic_filter
 drawable ic_filters
 drawable ic_foods_agricultures
@@ -1651,6 +1658,7 @@ drawable ic_petroleum_paint
 drawable ic_pharma
 drawable ic_support
 drawable ic_truck_booking
+drawable ic_user_default
 drawable iconvmstruck
 drawable indicator_selected
 drawable indicator_unselected
@@ -1688,6 +1696,7 @@ drawable places_powered_by_google_light
 drawable plusbutton
 drawable powered_by_google_dark
 drawable powered_by_google_light
+drawable profile_drawable
 drawable quantum_ic_arrow_back_grey600_24
 drawable quantum_ic_clear_grey600_24
 drawable quantum_ic_cloud_off_vd_theme_24
@@ -1756,6 +1765,7 @@ id b_navigation_contact
 id b_navigation_home
 id b_navigation_offer
 id b_navigation_profile
+id background
 id backward
 id badge_home
 id barrier
@@ -1792,7 +1802,9 @@ id buttonPanel
 id cancel_action
 id card_layout
 id card_view
+id card_view_commercial
 id card_view_listtruck
+id card_view_personal
 id cb_business
 id cb_person
 id center
@@ -1804,6 +1816,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id commercial_info
 id contact_phone
 id contact_us
 id contact_us_phone
@@ -1952,6 +1965,14 @@ id iv_person
 id iv_person_text
 id labeled
 id largeLabel
+id layout_address
+id layout_email
+id layout_godwin_address
+id layout_gst
+id layout_mobile
+id layout_name
+id layout_pancard
+id layout_registration
 id left
 id light
 id line1
@@ -2001,6 +2022,7 @@ id parent
 id parentPanel
 id parent_matrix
 id percent
+id personal_info
 id phone_text
 id pin
 id place_autocomplete_clear_button
@@ -2033,6 +2055,8 @@ id pop_booknow
 id pop_delete
 id pop_edit
 id pop_view
+id profile_photo
+id profile_type
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -2087,6 +2111,7 @@ id showHome
 id showTitle
 id simpleSeekBar
 id simpleSeekBars
+id simpleSwitch
 id sliderimageView
 id smallLabel
 id snackbar_action
@@ -2174,7 +2199,15 @@ id tv_condetails_contact_header
 id tv_condetails_contact_map
 id tv_condetails_contact_mobile
 id tv_condetails_contact_save
+id tv_contact_address_value
+id tv_contact_adress
+id tv_contact_email
+id tv_contact_email_value
 id tv_contact_header
+id tv_contact_mobile
+id tv_contact_mobile_value
+id tv_contact_name
+id tv_contact_name_value
 id tv_cprice
 id tv_cprice1
 id tv_cus_bookingsummery
@@ -2207,6 +2240,10 @@ id tv_faq2
 id tv_faqs
 id tv_forgot_password
 id tv_fprice
+id tv_godwin_address_value
+id tv_godwin_adress
+id tv_gst
+id tv_gst_value
 id tv_guidelines
 id tv_guidelines_data
 id tv_insurance_date
@@ -2236,23 +2273,15 @@ id tv_minivalue_skbar
 id tv_minvalue_skbar
 id tv_more
 id tv_notification_header
+id tv_pan_value
+id tv_pancard
 id tv_payment
-id tv_prof_address
-id tv_prof_altnumber
-id tv_prof_compname
-id tv_prof_email
-id tv_prof_geoloc
-id tv_prof_godanloc
-id tv_prof_gst
-id tv_prof_header
-id tv_prof_mobile
-id tv_prof_name
-id tv_prof_pan
-id tv_prof_regno
 id tv_profile_header
 id tv_referal_header
 id tv_referal_ref_code
 id tv_registration
+id tv_registration_name
+id tv_registration_value
 id tv_searchview
 id tv_see_all
 id tv_sm_sheader
@@ -3328,6 +3357,7 @@ styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipStartPadding chipStrokeColor chipStrokeWidth closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible hideMotionSpec iconEndPadding iconStartPadding rippleColor showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical singleLine singleSelection
+styleable CircularImageView civ_border civ_border_color civ_border_width civ_shadow civ_shadow_color civ_shadow_radius
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha

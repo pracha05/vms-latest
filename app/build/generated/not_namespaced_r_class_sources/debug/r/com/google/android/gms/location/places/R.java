@@ -36,22 +36,22 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int places_ic_clear = 0x7f0800e2;
-        public static final int places_ic_search = 0x7f0800e3;
-        public static final int powered_by_google_dark = 0x7f0800e7;
-        public static final int powered_by_google_light = 0x7f0800e8;
+        public static final int places_ic_clear = 0x7f0800e4;
+        public static final int places_ic_search = 0x7f0800e5;
+        public static final int powered_by_google_dark = 0x7f0800e9;
+        public static final int powered_by_google_light = 0x7f0800ea;
     }
     public static final class id {
         private id() {}
 
-        public static final int place_autocomplete_clear_button = 0x7f0a0125;
-        public static final int place_autocomplete_powered_by_google = 0x7f0a0126;
-        public static final int place_autocomplete_prediction_primary_text = 0x7f0a0127;
-        public static final int place_autocomplete_prediction_secondary_text = 0x7f0a0128;
-        public static final int place_autocomplete_progress = 0x7f0a0129;
-        public static final int place_autocomplete_search_button = 0x7f0a012a;
-        public static final int place_autocomplete_search_input = 0x7f0a012b;
-        public static final int place_autocomplete_separator = 0x7f0a012c;
+        public static final int place_autocomplete_clear_button = 0x7f0a0132;
+        public static final int place_autocomplete_powered_by_google = 0x7f0a0133;
+        public static final int place_autocomplete_prediction_primary_text = 0x7f0a0134;
+        public static final int place_autocomplete_prediction_secondary_text = 0x7f0a0135;
+        public static final int place_autocomplete_progress = 0x7f0a0136;
+        public static final int place_autocomplete_search_button = 0x7f0a0137;
+        public static final int place_autocomplete_search_input = 0x7f0a0138;
+        public static final int place_autocomplete_separator = 0x7f0a0139;
     }
     public static final class layout {
         private layout() {}
