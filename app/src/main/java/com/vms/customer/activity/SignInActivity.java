@@ -24,6 +24,8 @@ public class SignInActivity extends BaseActivity {
     @BindView(R.id.et_email)
     EditText edtEmail;
 
+
+
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {

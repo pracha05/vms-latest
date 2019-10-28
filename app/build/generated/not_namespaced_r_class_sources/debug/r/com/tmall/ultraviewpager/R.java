@@ -28,18 +28,18 @@ public final class R {
     public static final class dimen {
         private dimen() {}
 
-        public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f070097;
+        public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f070098;
     }
     public static final class id {
         private id() {}
 
-        public static final int backward = 0x7f0a002f;
-        public static final int forward = 0x7f0a00ae;
-        public static final int horizontal = 0x7f0a00b8;
+        public static final int backward = 0x7f0a0030;
+        public static final int forward = 0x7f0a00af;
+        public static final int horizontal = 0x7f0a00b9;
         public static final int item_touch_helper_previous_elevation = 0x7f0a00ec;
-        public static final int none = 0x7f0a011f;
-        public static final int ultraviewpager_page_container = 0x7f0a0279;
-        public static final int vertical = 0x7f0a027e;
+        public static final int none = 0x7f0a0120;
+        public static final int ultraviewpager_page_container = 0x7f0a027d;
+        public static final int vertical = 0x7f0a0282;
     }
     public static final class string {
         private string() {}

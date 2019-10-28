@@ -9,7 +9,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.vms.customer.adapters.CustomTimeSlotAdapter;
-import com.vms.customer.models.TimeSlotPojo;
+import com.vms.customer.model.TimeSlotPojo;
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 

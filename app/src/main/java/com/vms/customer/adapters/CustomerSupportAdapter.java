@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.vms.customer.activity.CustomerSupport;
-import com.vms.customer.models.CustomerSupportPojo;
+import com.vms.customer.model.CustomerSupportPojo;
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 

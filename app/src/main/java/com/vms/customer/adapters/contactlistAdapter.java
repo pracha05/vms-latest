@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.vms.customer.activity.ContactAllList;
 import com.vms.customer.activity.ContactDetailsInfo;
-import com.vms.customer.models.contactlistPojo;
+import com.vms.customer.model.contactlistPojo;
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 

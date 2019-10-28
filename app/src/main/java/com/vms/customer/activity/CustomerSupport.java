@@ -17,7 +17,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.vms.customer.adapters.CustomerSupportAdapter;
-import com.vms.customer.models.CustomerSupportPojo;
+import com.vms.customer.model.CustomerSupportPojo;
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 

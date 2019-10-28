@@ -8,7 +8,6 @@ import android.content.pm.ResolveInfo;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -18,7 +17,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.vms.customer.BuildConfig;
 import com.vms.customer.R;
-import com.vms.customer.network.ApiUrl;
+import com.vms.customer.network.NetworkConstant;
 import com.vms.customer.utils.AppFonts;
 import com.vms.customer.utils.PlatformUtils;
 
@@ -129,10 +128,10 @@ public class AboutAppActivity extends BaseActivity {
                 openFacebookApp();
                 break;
             case R.id.twitter_image :
-                openBrowser(ApiUrl.TWITTER_URL);
+                openBrowser(NetworkConstant.TWITTER_URL);
                 break;
             case R.id.youtube_image:
-                openBrowser(ApiUrl.YOU_TUBE_URL);
+                openBrowser(NetworkConstant.YOU_TUBE_URL);
                 break;
             case R.id.contact_us_value:
                 openEmailIntent();
@@ -203,8 +202,8 @@ public class AboutAppActivity extends BaseActivity {
     }
 
     private void openFacebookApp() {
-        String facebookUrl = ApiUrl.FB_URL;
-        String facebookID = ApiUrl.FACEBOOK_PAGE_ID;
+        String facebookUrl = NetworkConstant.FB_URL;
+        String facebookID = NetworkConstant.FACEBOOK_PAGE_ID;
 
         try {
             int versionCode = getApplicationContext().getPackageManager().getPackageInfo("com.facebook.katana", 0).versionCode;

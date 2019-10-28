@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.vms.customer.activity.ProfileActivity"
+    tools:showIn="@layout/activity_profile_base">
+
+    <!--    <RelativeLayout-->
+<!--        android:id="@+id/background"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="280dp"-->
+<!--        android:background="@drawable/profile_drawable" >-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_prof_back"-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:background="@mipmap/back" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_prof_edit"-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="33dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:src="@mipmap/ic_launcher_edituser" />-->
+
+<!--    </RelativeLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/profile_photo"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/background"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="-80dp">-->
+
+<!--        <com.mikhaellopez.circularimageview.CircularImageView-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="120dp"-->
+<!--            android:src="@drawable/profile_drawable"-->
+<!--            app:civ_border_color="#BCffffff"-->
+<!--            app:civ_border_width="10dp" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginStart="@dimen/space10"-->
+<!--            android:layout_gravity="center">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:layout_weight="2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <TextView-->
+<!--                    android:layout_weight="1.5"-->
+<!--                    android:id="@+id/profile_type"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:text="Commercial"-->
+<!--                    android:textColor="@color/gray_shade_8"-->
+<!--                    android:textSize="@dimen/txt16" />-->
+
+<!--                <Switch-->
+<!--                    android:layout_weight="0.5"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:id="@+id/simpleSwitch"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_below="@+id/profile_photo"-->
+<!--            android:scrollbars="none">-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/space10"
+                    android:layout_gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_weight="1.5"
+                            android:id="@+id/profile_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="right"
+                            android:text="Commercial"
+                            android:textColor="@color/gray_shade_8"
+                            android:textSize="@dimen/txt16" />
+
+                        <Switch
+                            android:layout_weight="0.5"
+                            android:layout_alignParentRight="true"
+                            android:id="@+id/simpleSwitch"
+                            android:padding="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view_personal"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:elevation="@dimen/space10"
+                    card_view:cardCornerRadius="4dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:id="@+id/personal_info"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="@dimen/space10"
+                                    android:textSize="@dimen/txt16"
+                                    android:textColor="@color/gray_shade_8"
+                                    android:text="Personal Info:"/>
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:layout_marginTop="5dp"
+                                        android:background="@color/colorLightGray"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_below="@+id/personal_info"
+                                    android:id="@+id/layout_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/space10"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/tv_contact_name"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center|start"
+                                        android:paddingLeft="20dp"
+                                        android:text="Name:"
+                                        android:textColor="@color/gray_shade_8"
+                                        android:textSize="@dimen/smalltextsize" />
+
+                                    <TextView
+                                        android:id="@+id/tv_contact_name_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="right"
+                                        android:gravity="right"
+                                        android:paddingLeft="20dp"
+                                        android:text="Bhupendra Sahu"
+                                        android:textColor="@color/gray_shade_8"
+                                        android:textSize="@dimen/smalltextsize" />
+                                </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_below="@+id/layout_name"
+                                        android:id="@+id/layout_mobile"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/space10"
+                                        android:orientation="horizontal">
+
+                                         <TextView
+                                            android:id="@+id/tv_contact_mobile"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:gravity="center|start"
+                                            android:paddingLeft="20dp"
+                                            android:text="Mobile Number:"
+                                            android:textColor="@color/gray_shade_8"
+                                            android:textSize="@dimen/smalltextsize" />
+
+                                        <TextView
+                                            android:id="@+id/tv_contact_mobile_value"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="right"
+                                            android:gravity="right"
+                                            android:paddingLeft="20dp"
+                                            android:text="9210738457"
+                                            android:textColor="@color/gray_shade_8"
+                                            android:textSize="@dimen/smalltextsize" />
+                                    </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_below="@+id/layout_mobile"
+                                    android:id="@+id/layout_email"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/tv_contact_email"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center|start"
+                                        android:paddingLeft="20dp"
+                                        android:text="Email:"
+                                        android:textColor="@color/gray_shade_8"
+                                        android:textSize="@dimen/smalltextsize" />
+
+                                    <TextView
+                                        android:id="@+id/tv_contact_email_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="right"
+                                        android:gravity="right"
+                                        android:paddingLeft="20dp"
+                                        android:text="bhupi.sahu@gmail.com"
+                                        android:textColor="@color/gray_shade_8"
+                                        android:textSize="@dimen/smalltextsize" />
+                                     </LinearLayout>
+                                <LinearLayout
+                                    android:layout_below="@+id/layout_email"
+                                    android:id="@+id/layout_company"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/tv_company"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="left"
+                                        android:gravity="center|start"
+                                        android:paddingLeft="20dp"
+                                        android:text="Company Name:"
+                                        android:textColor="@color/gray_shade_8"
+                                        android:textSize="@dimen/smalltextsize" />
+
+                                    <TextView
+                                        android:id="@+id/tv_company_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:paddingLeft="10dp"
+                                        android:text="Foliyoo Technologies Pvt. Ltd."
+                                        android:textColor="@color/gray_shade_8"
+                                        android:textSize="@dimen/smalltextsize" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_below="@+id/layout_company"
+                                    android:id="@+id/layout_address"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/tv_contact_adress"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="left"
+                                        android:gravity="center|start"
+                                        android:paddingLeft="20dp"
+                                        android:text="Address:"
+                                        android:textColor="@color/gray_shade_8"
+                                        android:textSize="@dimen/smalltextsize" />
+
+                                    <TextView
+                                        android:id="@+id/tv_contact_address_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:paddingLeft="@dimen/margin10dp"
+                                        android:text="Kiit University, Bhubaneswar, Odisha, India"
+                                        android:textColor="@color/gray_shade_8"
+                                        android:textSize="@dimen/smalltextsize" />
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view_commercial"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="10dp"
+                    android:elevation="@dimen/space10"
+                    android:visibility="gone"
+                    card_view:cardCornerRadius="4dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/commercial_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/space10"
+                                android:textSize="@dimen/txt16"
+                                android:textColor="@color/gray_shade_8"
+                                android:text="Commercial Info:"/>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@color/colorLightGray"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_below="@+id/commercial_info"
+                            android:id="@+id/layout_registration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/space10"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_registration_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center|start"
+                                android:paddingLeft="20dp"
+                                android:text="Registration Number:"
+                                android:textColor="@color/gray_shade_8"
+                                android:textSize="@dimen/smalltextsize" />
+
+                            <TextView
+                                android:id="@+id/tv_registration_value"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:gravity="right"
+                                android:paddingLeft="20dp"
+                                android:text="1234567"
+                                android:textColor="@color/gray_shade_8"
+                                android:textSize="@dimen/smalltextsize" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_below="@+id/layout_registration"
+                            android:id="@+id/layout_gst"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/space10"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_gst"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center|start"
+                                android:paddingLeft="20dp"
+                                android:text="GST Number:"
+                                android:textColor="@color/gray_shade_8"
+                                android:textSize="@dimen/smalltextsize" />
+
+                            <TextView
+                                android:id="@+id/tv_gst_value"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:gravity="right"
+                                android:paddingLeft="10dp"
+                                android:text="THD12367990"
+                                android:textColor="@color/gray_shade_8"
+                                android:textSize="@dimen/smalltextsize" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_below="@+id/layout_gst"
+                            android:id="@+id/layout_pancard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_pancard"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center|start"
+                                android:paddingLeft="20dp"
+                                android:text="Pan Card:"
+                                android:textColor="@color/gray_shade_8"
+                                android:textSize="@dimen/smalltextsize" />
+
+                            <TextView
+                                android:id="@+id/tv_pan_value"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:gravity="right"
+                                android:paddingLeft="20dp"
+                                android:text="AZUPK01990"
+                                android:textColor="@color/gray_shade_8"
+                                android:textSize="@dimen/smalltextsize" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_below="@+id/layout_pancard"
+                            android:id="@+id/layout_godwin_address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_godwin_adress"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:gravity="center|start"
+                                android:paddingLeft="20dp"
+                                android:text="Address:"
+                                android:textColor="@color/gray_shade_8"
+                                android:textSize="@dimen/smalltextsize" />
+
+                            <TextView
+                                android:id="@+id/tv_godwin_address_value"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:paddingLeft="@dimen/margin10dp"
+                                android:text="KIIT University, Bhubaneswar, Odisha, India"
+                                android:textColor="@color/gray_shade_8"
+                                android:textSize="@dimen/smalltextsize" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+<!--        </ScrollView>-->
+
+</androidx.core.widget.NestedScrollView>
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@color/colorWhite"-->
+<!--    tools:context=".activity.ProfileActivity">-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        android:background="@color/colorPrimary">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_prof_back"-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:background="@mipmap/back" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_prof_header"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:gravity="center"-->
+<!--            android:text="@string/my_profile"-->
+<!--            android:textColor="@color/colorWhite"-->
+
+<!--            android:textSize="@dimen/headertextsize" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_prof_edit"-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="33dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:src="@mipmap/ic_launcher_edituser" />-->
+
+<!--    </RelativeLayout>-->
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginBottom="10dp"-->
+
+<!--        android:scrollbars="none">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10sp"-->
+
+<!--                android:background="@drawable/ll_gray_roundcorner"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="25dp"-->
+<!--                    android:layout_height="25dp"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    android:background="@mipmap/ic_launcher_sidemenu"-->
+<!--                    android:gravity="center|start" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_prof_regno"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center|start"-->
+<!--                    android:paddingLeft="20dp"-->
+<!--                    android:text="@string/registration_number"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="@dimen/smalltextsize" />-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10sp"-->
+
+<!--                android:background="@drawable/ll_gray_roundcorner"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="25dp"-->
+<!--                    android:layout_height="25dp"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    android:background="@mipmap/ic_launcher_sidemenu"-->
+<!--                    android:gravity="center|start" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_prof_gst"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center|start"-->
+<!--                    android:paddingLeft="20dp"-->
+<!--                    android:text="@string/gst"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="@dimen/smalltextsize" />-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10sp"-->
+
+<!--                android:background="@drawable/ll_gray_roundcorner"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="25dp"-->
+<!--                    android:layout_height="25dp"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    android:background="@mipmap/ic_launcher_sidemenu"-->
+<!--                    android:gravity="center|start" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_prof_pan"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center|start"-->
+<!--                    android:paddingLeft="20dp"-->
+<!--                    android:text="@string/pan_card_no"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="@dimen/smalltextsize" />-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10sp"-->
+
+<!--                android:background="@drawable/ll_gray_roundcorner"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="25dp"-->
+<!--                    android:layout_height="25dp"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    android:background="@mipmap/ic_launcher_sidemenu"-->
+<!--                    android:gravity="center|start" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_prof_name"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center|start"-->
+<!--                    android:paddingLeft="20dp"-->
+<!--                    android:text="@string/name"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="@dimen/smalltextsize" />-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10sp"-->
+
+<!--                android:background="@drawable/ll_gray_roundcorner"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="25dp"-->
+<!--                    android:layout_height="25dp"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    android:background="@mipmap/ic_launcher_sidemenu"-->
+<!--                    android:gravity="center|start" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_prof_compname"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center|start"-->
+<!--                    android:paddingLeft="20dp"-->
+<!--                    android:text="@string/vms_pvt_ltd"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="@dimen/smalltextsize" />-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10sp"-->
+
+<!--                android:background="@drawable/ll_gray_roundcorner"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="25dp"-->
+<!--                    android:layout_height="25dp"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    android:background="@mipmap/ic_launcher_sidemenu"-->
+<!--                    android:gravity="center|start" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_prof_mobile"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center|start"-->
+<!--                    android:paddingLeft="20dp"-->
+
+<!--                    android:text="9907449461"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="@dimen/smalltextsize" />-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10sp"-->
+
+<!--                android:background="@drawable/ll_gray_roundcorner"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="25dp"-->
+<!--                    android:layout_height="25dp"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    android:background="@mipmap/ic_launcher_sidemenu"-->
+<!--                    android:gravity="center|start" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_prof_altnumber"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center|start"-->
+<!--                    android:paddingLeft="20dp"-->
+<!--                    android:text="8919587562"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="@dimen/smalltextsize" />-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10sp"-->
+
+<!--                android:background="@drawable/ll_gray_roundcorner"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="25dp"-->
+<!--                    android:layout_height="25dp"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    android:background="@mipmap/ic_launcher_sidemenu"-->
+<!--                    android:gravity="center|start" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_prof_email"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center|start"-->
+<!--                    android:paddingLeft="20dp"-->
+<!--                    android:text="bhupi@gmail.com"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="@dimen/smalltextsize" />-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10sp"-->
+
+<!--                android:background="@drawable/ll_gray_roundcorner"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="25dp"-->
+<!--                    android:layout_height="25dp"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    android:background="@mipmap/ic_launcher_sidemenu"-->
+<!--                    android:gravity="center|start" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_prof_address"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center|start"-->
+<!--                    android:paddingLeft="20dp"-->
+<!--                    android:text="Prachatech Soft. Solution Hyd"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="@dimen/smalltextsize" />-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10sp"-->
+
+<!--                android:background="@drawable/ll_gray_roundcorner"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="25dp"-->
+<!--                    android:layout_height="25dp"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    android:background="@mipmap/ic_launcher_sidemenu"-->
+<!--                    android:gravity="center|start" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_prof_geoloc"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center|start"-->
+<!--                    android:paddingLeft="20dp"-->
+<!--                    android:text="@string/geo_location"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="@dimen/smalltextsize" />-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10sp"-->
+
+<!--                android:background="@drawable/ll_gray_roundcorner"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="25dp"-->
+<!--                    android:layout_height="25dp"-->
+<!--                    android:layout_gravity="center"-->
+
+<!--                    android:background="@mipmap/ic_launcher_sidemenu"-->
+<!--                    android:gravity="center|start" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_prof_godanloc"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center|start"-->
+<!--                    android:paddingLeft="20dp"-->
+<!--                    android:text="@string/goden_location"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    android:textSize="@dimen/smalltextsize" />-->
+
+
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+<!--</LinearLayout>-->
+
+<!-- new code -->
+
+
+
+
+
+
+
+
+
+
+

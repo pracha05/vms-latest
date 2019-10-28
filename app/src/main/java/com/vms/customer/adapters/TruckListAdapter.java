@@ -13,7 +13,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.vms.customer.activity.TruckDetailsFourOptions;
-import com.vms.customer.models.BookingSummaryPojo;
+import com.vms.customer.model.BookingSummaryPojo;
 import com.vms.customer.R;
 
 import java.util.ArrayList;

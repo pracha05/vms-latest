@@ -1,6 +1,5 @@
 package com.vms.customer.activity;
 
-import android.Manifest;
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -26,18 +25,16 @@ import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.common.api.Status;
 
 import com.google.android.libraries.places.compat.Place;
-import com.google.android.libraries.places.compat.Places;
 import com.google.android.libraries.places.compat.ui.PlaceAutocomplete;
 
 import com.vms.customer.adapters.CustomTimeSlotAdapter;
 import com.vms.customer.intents.IntentFactory;
-import com.vms.customer.models.TimeSlotPojo;
+import com.vms.customer.model.TimeSlotPojo;
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;

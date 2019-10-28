@@ -1,6 +1,6 @@
 package com.vms.customer.service;
 
-import com.vms.customer.network.ApiUrl;
+import com.vms.customer.network.ServiceURL;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
@@ -15,7 +15,7 @@ public class VmsApiClient {
         interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
         OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
         retrofit = new Retrofit.Builder()
-                .baseUrl(ApiUrl.getBaseURL())
+                .baseUrl(ServiceURL.getBaseURL())
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build();

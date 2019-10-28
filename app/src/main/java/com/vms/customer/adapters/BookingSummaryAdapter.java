@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.vms.customer.activity.BookingSummery;
-import com.vms.customer.models.BookingSummaryPojo;
+import com.vms.customer.model.BookingSummaryPojo;
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 

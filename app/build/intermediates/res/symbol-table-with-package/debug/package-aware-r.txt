@@ -1270,6 +1270,7 @@ dimen activity_horizontal_margin
 dimen activity_margin_half
 dimen activity_vertical_margin
 dimen allbuttonheight
+dimen app_bar_height
 dimen bigtextsize
 dimen btn_height
 dimen btn_width
@@ -1600,6 +1601,7 @@ drawable drawable_shadow
 drawable drawer_item_color
 drawable dropdown_icon
 drawable drwable_white
+drawable fab_stroke
 drawable fb_about
 drawable foliyoo_logo
 drawable googleg_disabled_color_18
@@ -1756,6 +1758,7 @@ id adjust_width
 id alertTitle
 id all
 id always
+id app_bar
 id app_large_icon
 id app_version
 id async
@@ -1934,7 +1937,6 @@ id img_mainfilter_back
 id img_mattype_back
 id img_mtype
 id img_noti_back
-id img_prof_back
 id img_prof_edit
 id img_profile_back
 id img_referal_back
@@ -1966,6 +1968,7 @@ id iv_person_text
 id labeled
 id largeLabel
 id layout_address
+id layout_company
 id layout_email
 id layout_godwin_address
 id layout_gst
@@ -2162,6 +2165,7 @@ id titleDividerNoCustom
 id title_template
 id titles
 id toolbar
+id toolbar_layout
 id top
 id topPanel
 id touch_outside
@@ -2190,6 +2194,8 @@ id tv_booksum_vehicle
 id tv_booksum_vname
 id tv_booksum_vnumber
 id tv_cancel_order
+id tv_company
+id tv_company_value
 id tv_condetails_contact_Address
 id tv_condetails_contact_company
 id tv_condetails_contact_customer
@@ -2445,7 +2451,8 @@ layout activity_material_type
 layout activity_more
 layout activity_notification
 layout activity_privacy_policy
-layout activity_profile
+layout activity_profile_base
+layout activity_profile_content
 layout activity_reference_code
 layout activity_sign_in
 layout activity_sign_up

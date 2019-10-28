@@ -10,7 +10,7 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.bumptech.glide.Glide;
-import com.vms.customer.models.TruckImgPojo;
+import com.vms.customer.model.TruckImgPojo;
 import com.vms.customer.R;
 
 import java.util.ArrayList;

@@ -1,6 +1,5 @@
 package com.vms.customer.activity;
 
-import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
@@ -18,7 +17,7 @@ import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.vms.customer.adapters.contactlistAdapter;
 import com.vms.customer.intents.IntentFactory;
-import com.vms.customer.models.contactlistPojo;
+import com.vms.customer.model.contactlistPojo;
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 

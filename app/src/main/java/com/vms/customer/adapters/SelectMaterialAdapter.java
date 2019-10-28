@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.vms.customer.activity.MaterialType;
-import com.vms.customer.models.SelMaterialCategory;
+import com.vms.customer.model.SelMaterialCategory;
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 

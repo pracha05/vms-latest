@@ -16,7 +16,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.vms.customer.adapters.ViewPagerSliderAdapter;
-import com.vms.customer.models.TruckImgPojo;
+import com.vms.customer.model.TruckImgPojo;
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 

@@ -1,24 +1,37 @@
 package com.vms.customer.activity;
 
-import android.content.Intent;
-import android.graphics.Typeface;
-
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
-import android.widget.TextView;
+import android.widget.Switch;
+
+import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 
 import com.vms.customer.R;
 import com.vms.customer.intents.IntentFactory;
-import com.vms.customer.utils.AppFonts;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class ProfileActivity extends BaseActivity {
 
-//    @BindView(R.id.img_prof_edit)
-//    ImageView img_prof_edit;
+    @BindView(R.id.toolbar)
+    Toolbar mToolBar;
+
+    @BindView(R.id.img_prof_edit)
+    ImageView img_prof_edit;
+
+    @BindView(R.id.card_view_personal)
+    CardView cvPersonalData;
+
+    @BindView(R.id.card_view_commercial)
+    CardView cvCommercialData;
+
+    @BindView(R.id.simpleSwitch)
+    Switch simpleSwitch;
+
 //    @BindView(R.id.tv_prof_header)
 //    TextView tv_prof_header;
 //
@@ -44,16 +57,27 @@ public class ProfileActivity extends BaseActivity {
 //    TextView tv_prof_geoloc;
 //    @BindView(R.id.tv_prof_godanloc)
 //    TextView tv_prof_godanloc;
-//    @BindView(R.id.img_prof_back)
-//    ImageView img_prof_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.activity_profile_base);
         ButterKnife.bind(this);
-//        img_prof_back.setOnClickListener(this);
-//        img_prof_edit.setOnClickListener(this);
+        if (mToolBar != null) {
+            setSupportActionBar(mToolBar);
+            getSupportActionBar().setDisplayShowTitleEnabled(true);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+            mToolBar.setTitleTextColor(getResources().getColor(R.color.colorWhite));
+
+            mToolBar.setNavigationOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    finish();
+                    overridePendingTransition(R.anim.slide_in_from_right, R.anim.fade_out);
+                }
+            });
+            img_prof_edit.setOnClickListener(this);
 //        tv_prof_header.setTypeface(Typeface.createFromAsset(getResources().getAssets(), AppFonts.GetRobotoBold(this)));
 //        tv_prof_regno.setTypeface(Typeface.createFromAsset(getResources().getAssets(), AppFonts.GetAvenirRegular(this)));
 //        tv_prof_gst.setTypeface(Typeface.createFromAsset(getResources().getAssets(), AppFonts.GetAvenirRegular(this)));
@@ -67,29 +91,27 @@ public class ProfileActivity extends BaseActivity {
 //        tv_prof_geoloc.setTypeface(Typeface.createFromAsset(getResources().getAssets(), AppFonts.GetAvenirRegular(this)));
 //        tv_prof_godanloc.setTypeface(Typeface.createFromAsset(getResources().getAssets(), AppFonts.GetAvenirRegular(this)));
 
-    }
+            simpleSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    if (isChecked) {
+                        cvCommercialData.setVisibility(View.VISIBLE);
+                    } else {
+                        cvCommercialData.setVisibility(View.GONE);
+                    }
+                }
+            });
+        }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        finish();
-        overridePendingTransition(R.anim.slide_in_from_left, R.anim.fade_out);
     }
 
     @Override
     public void onClick(View view) {
-//        switch (view.getId()) {
-//            case R.id.img_prof_edit:
-//                startActivity(IntentFactory.createEditProfileActivity(ProfileActivity.this));
-//                break;
-//            case R.id.img_prof_back:
-//                finish();
-//                overridePendingTransition(R.anim.slide_in_from_left, R.anim.fade_out);
-//
-//                break;
-//
-//        }
+        switch (view.getId()) {
+            case R.id.img_prof_edit:
+                startActivity(IntentFactory.createEditProfileActivity(ProfileActivity.this));
+                overridePendingTransition(R.anim.slide_in_from_right, R.anim.fade_out);
+                break;
+        }
 
     }
-
 }

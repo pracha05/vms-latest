@@ -60,7 +60,7 @@
             android:name=".activity.ContactAllList"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".models.BookingQuery" />
+        <activity android:name=".model.BookingQuery" />
         <activity
             android:name=".activity.CustomerSupport"
             android:screenOrientation="portrait"

@@ -17,7 +17,7 @@ import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.vms.customer.adapters.InsuranceProviderAdapter;
 import com.vms.customer.R;
-import com.vms.customer.models.insuranceproviderPojo;
+import com.vms.customer.model.insuranceproviderPojo;
 import com.vms.customer.utils.AppFonts;
 
 import butterknife.BindView;

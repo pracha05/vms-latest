@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.vms.customer.activity.InsuranceProvider;
-import com.vms.customer.models.insuranceproviderPojo;
+import com.vms.customer.model.insuranceproviderPojo;
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 

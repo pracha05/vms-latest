@@ -15,9 +15,10 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.kofigyan.stateprogressbar.StateProgressBar;
-import com.vms.customer.network.ApiUrl;
+import com.vms.customer.network.NetworkConstant;
+import com.vms.customer.network.ServiceURL;
 import com.vms.customer.adapters.SelectMaterialAdapter;
-import com.vms.customer.models.SelMaterialCategory;
+import com.vms.customer.model.SelMaterialCategory;
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 
@@ -56,7 +57,7 @@ public class MaterialType extends BaseActivity {
     //TODO: getting data from server without passing any value
     private void menuListOptionAPI() {
         RequestQueue requestQueue = Volley.newRequestQueue(this);
-        String URL = ApiUrl.BaseUrl + ApiUrl.categories;
+        String URL = ServiceURL.BaseUrl + NetworkConstant.categories;
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, URL,
                 response -> {

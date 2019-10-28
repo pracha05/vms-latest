@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="membership_plan">
         <item>Gold</item>
         <item>Silver</item>
@@ -219,7 +219,7 @@
     <color name="colorLightDarkGraynew">#252525</color>
     <color name="colorLightGray">#F2E7E7E7</color>
     <color name="colorOrange">#FF7E26</color>
-    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimary">#F55064</color>
     <color name="colorPrimaryBlue">#4267B2</color>
     <color name="colorPrimaryDark">#af0000</color>
     <color name="colorWhite">#ffffff</color>
@@ -759,6 +759,7 @@
     <dimen name="activity_margin_half">8dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="allbuttonheight">35dp</dimen>
+    <dimen name="app_bar_height">300dp</dimen>
     <dimen name="bigtextsize">22sp</dimen>
     <dimen name="btn_height">50dp</dimen>
     <dimen name="btn_width">250dp</dimen>
@@ -788,7 +789,7 @@
     <dimen name="design_bottom_sheet_peek_height_min">64dp</dimen>
     <dimen name="design_fab_border_width">0.5dp</dimen>
     <dimen name="design_fab_elevation">6dp</dimen>
-    <dimen name="design_fab_image_size">24dp</dimen>
+    <dimen name="design_fab_image_size" ns1:override="true">80dp</dimen>
     <dimen name="design_fab_size_mini">40dp</dimen>
     <dimen name="design_fab_size_normal">56dp</dimen>
     <dimen name="design_fab_translation_z_hovered_focused">6dp</dimen>
@@ -1060,7 +1061,7 @@
     <string name="abc_searchview_description_submit">Submit query</string>
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
-    <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
+    <string name="abc_shareactionprovider_share_with_application">Share with <ns2:g example="Mail" id="application_name">%s</ns2:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="about_app">About App</string>
     <string name="about_app_text">Book your vechiles anywhere, anytime...</string>
@@ -1095,22 +1096,22 @@
     <string name="check_icon"></string>
     <string name="click_icon_for_geo_location">Click icon for Geo Location</string>
     <string name="click_icon_for_goden_location">Click icon for Goden Location</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">db92f181-c7c0-441d-9400-3bd7d6da8532</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">c47779e9-103b-4bd2-9fc4-b250608ff35d</string>
     <string name="com_name">Company Name -</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
     <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
-    <string name="common_google_play_services_install_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string name="common_google_play_services_install_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are missing from your device.</string>
     <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
     <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
     <string name="common_google_play_services_notification_ticker">Google Play services error</string>
-    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
-    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string name="common_google_play_services_unknown_issue"><ns2:g id="app_name">%1$s</ns2:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are not supported by your device.</string>
     <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run unless you update Google Play services.</string>
     <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
-    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are currently updating.</string>
     <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
@@ -1247,7 +1248,7 @@
     <string name="place_autocomplete_search_hint">Search</string>
     <string name="places_autocomplete_clear_button">Clear search</string>
     <string name="places_autocomplete_label">Pick a place</string>
-    <string name="places_autocomplete_no_results_for_query">No results for <ns1:g example="pizza" id="query">%1$s</ns1:g></string>
+    <string name="places_autocomplete_no_results_for_query">No results for <ns2:g example="pizza" id="query">%1$s</ns2:g></string>
     <string name="places_autocomplete_search_hint">Search</string>
     <string name="places_cancel">Cancel</string>
     <string name="places_powered_by_google">Powered by Google</string>
@@ -1737,8 +1738,8 @@
 
     
     <item name="alertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
-    <item name="android:datePickerDialogTheme" ns2:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
-    <item name="android:timePickerDialogTheme" ns2:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
+    <item name="android:datePickerDialogTheme" ns1:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
+    <item name="android:timePickerDialogTheme" ns1:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
   </style>
     <style name="Base.V14.Theme.MaterialComponents.Bridge" parent="Platform.MaterialComponents">
     <item name="colorSecondary">?attr/colorPrimary</item>
@@ -1833,8 +1834,8 @@
 
     
     <item name="alertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
-    <item name="android:datePickerDialogTheme" ns2:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
-    <item name="android:timePickerDialogTheme" ns2:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
+    <item name="android:datePickerDialogTheme" ns1:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
+    <item name="android:timePickerDialogTheme" ns1:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
   </style>
     <style name="Base.V14.Theme.MaterialComponents.Light.Bridge" parent="Platform.MaterialComponents.Light">
     <item name="colorSecondary">?attr/colorPrimary</item>
@@ -2684,7 +2685,7 @@
     <item name="android:focusable">true</item>
     <item name="android:clickable">true</item>
     <item name="android:checkable">false</item>
-    <item name="android:stateListAnimator" ns2:ignore="NewApi">
+    <item name="android:stateListAnimator" ns1:ignore="NewApi">
       @animator/mtrl_chip_state_list_anim
     </item>
 
@@ -2722,8 +2723,8 @@
     <item name="chipEndPadding">6dp</item>
   </style>
     <style name="Base.Widget.MaterialComponents.TextInputEditText" parent="Widget.AppCompat.EditText">
-    <item name="android:paddingStart" ns2:ignore="NewApi">12dp</item>
-    <item name="android:paddingEnd" ns2:ignore="NewApi">12dp</item>
+    <item name="android:paddingStart" ns1:ignore="NewApi">12dp</item>
+    <item name="android:paddingEnd" ns1:ignore="NewApi">12dp</item>
     <item name="android:paddingLeft">12dp</item>
     <item name="android:paddingRight">12dp</item>
     <item name="android:paddingTop">16dp</item>
@@ -3411,11 +3412,11 @@
     <style name="Widget.Compat.NotificationActionText" parent=""/>
     <style name="Widget.Design.AppBarLayout" parent="android:Widget">
     <item name="android:background">?attr/colorPrimary</item>
-    <item name="android:stateListAnimator" ns2:ignore="NewApi">
+    <item name="android:stateListAnimator" ns1:ignore="NewApi">
       @animator/design_appbar_state_list_animator
     </item>
-    <item name="android:keyboardNavigationCluster" ns2:ignore="NewApi">true</item>
-    <item name="android:touchscreenBlocksFocus" ns2:ignore="NewApi">true</item>
+    <item name="android:keyboardNavigationCluster" ns1:ignore="NewApi">true</item>
+    <item name="android:touchscreenBlocksFocus" ns1:ignore="NewApi">true</item>
   </style>
     <style name="Widget.Design.BottomNavigationView" parent="">
     <item name="elevation">@dimen/design_bottom_navigation_elevation</item>
@@ -3426,7 +3427,7 @@
   </style>
     <style name="Widget.Design.BottomSheet.Modal" parent="android:Widget">
     <item name="android:background">?android:attr/colorBackground</item>
-    <item name="android:elevation" ns2:ignore="NewApi">
+    <item name="android:elevation" ns1:ignore="NewApi">
       @dimen/design_bottom_sheet_modal_elevation
     </item>
     <item name="behavior_peekHeight">auto</item>
@@ -3528,7 +3529,7 @@
     <item name="android:insetRight">0dp</item>
     <item name="android:insetTop">@dimen/mtrl_btn_inset</item>
     <item name="android:insetBottom">@dimen/mtrl_btn_inset</item>
-    <item name="android:stateListAnimator" ns2:ignore="NewApi">@animator/mtrl_btn_state_list_anim</item>
+    <item name="android:stateListAnimator" ns1:ignore="NewApi">@animator/mtrl_btn_state_list_anim</item>
     <item name="cornerRadius">@dimen/mtrl_btn_corner_radius</item>
     <item name="iconPadding">@dimen/mtrl_btn_icon_padding</item>
     <item name="iconTint">@color/mtrl_btn_text_color_selector</item>
@@ -3566,7 +3567,7 @@
     
   </style>
     <style name="Widget.MaterialComponents.Button.UnelevatedButton">
-    <item name="android:stateListAnimator" ns2:ignore="NewApi">@animator/mtrl_btn_unelevated_state_list_anim</item>
+    <item name="android:stateListAnimator" ns1:ignore="NewApi">@animator/mtrl_btn_unelevated_state_list_anim</item>
   </style>
     <style name="Widget.MaterialComponents.Button.UnelevatedButton.Icon">
     <item name="android:paddingLeft">@dimen/mtrl_btn_icon_btn_padding_left</item>
