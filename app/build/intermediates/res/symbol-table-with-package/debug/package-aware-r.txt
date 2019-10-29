@@ -1699,6 +1699,7 @@ drawable plusbutton
 drawable powered_by_google_dark
 drawable powered_by_google_light
 drawable profile_drawable
+drawable progress_dialog_gray
 drawable quantum_ic_arrow_back_grey600_24
 drawable quantum_ic_clear_grey600_24
 drawable quantum_ic_cloud_off_vd_theme_24
@@ -1896,6 +1897,7 @@ id first
 id five
 id fixed
 id forever
+id forgot_password
 id forward
 id four
 id ghost_view
@@ -2083,6 +2085,7 @@ id right_icon
 id right_side
 id rl_lov
 id rl_maphead
+id root_layout
 id satellite
 id save_image_matrix
 id save_non_transition_alpha
@@ -2244,7 +2247,6 @@ id tv_email
 id tv_faq1
 id tv_faq2
 id tv_faqs
-id tv_forgot_password
 id tv_fprice
 id tv_godwin_address_value
 id tv_godwin_adress
@@ -2669,6 +2671,7 @@ string edit_contact
 string edit_profile
 string email
 string email_activity_error_mesage
+string email_error_mesage
 string email_id
 string enter_address
 string enter_company_name
@@ -2734,6 +2737,7 @@ string menu_slideshow
 string menu_tools
 string mobile_num
 string mobile_number
+string mobile_number_error_mesage
 string more
 string mtrl_chip_close_icon_content_description
 string my_profile
@@ -2800,6 +2804,7 @@ string select_truck
 string select_vehicle
 string select_your_load_type
 string servererror
+string sign_in_error_mesage
 string sridhar
 string status_bar_notification_info_overflow
 string submit

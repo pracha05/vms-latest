@@ -10,6 +10,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.crashlytics.android.Crashlytics;
 import com.vms.customer.R;
 import com.crashlytics.android.answers.Answers;
+import com.vms.customer.constant.Constant;
+import com.vms.customer.preferences.VmsPreferenceHelper;
+
 import io.fabric.sdk.android.Fabric;
 
 public class SplashActivity extends AppCompatActivity {
@@ -19,14 +22,34 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Fabric.with(this, new Answers(), new Crashlytics());
         setContentView(R.layout.activity_splash);
-
         handler=new Handler();
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this,HomeActivity.class));
-                //startActivity(new Intent(SplashActivity.this,IntroductionPagerActivity.class));
-                //startActivity(new Intent(SplashActivity.this,SignUpActivity.class));
+
+                /**
+                 * Guided tour not visited by the user
+                 * show guided tour page
+                 */
+                if(!VmsPreferenceHelper.GetGuidedTourVisitStatus(SplashActivity.this)){
+
+                    startActivity(new Intent(SplashActivity.this, IntroductionPagerActivity.class));
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                }
+                /**
+                 * if user has been logout or email is not in preferences show signin screen
+                 */
+                else if(VmsPreferenceHelper.getValueFromPreferenceForLogoutStatus(SplashActivity.this)
+                    || (VmsPreferenceHelper.getValueFromPreference(SplashActivity.this, Constant.KEY_USER_EMAIL).isEmpty())){
+
+                    startActivity(new Intent(SplashActivity.this,SignInActivity.class));
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+
+                }else {
+                    //show dashboard to user
+                    startActivity(new Intent(SplashActivity.this,HomeActivity.class));
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                }
                 finish();
             }
         },1500);

@@ -18,8 +18,10 @@ public class Constant {
     public static final String KEY_ACCOUNT_TYPE_PERSONAL = "personal";
     public static final String KEY_ACCOUNT_TYPE_BUSINESS = "business";
 
-
-
+    /**
+     *
+     */
+    final public static int MOBILE_NUMBER_MINIMUM_LENGTH = 10;
 
 
 }

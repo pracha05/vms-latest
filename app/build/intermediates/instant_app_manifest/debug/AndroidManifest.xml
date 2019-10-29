@@ -84,7 +84,7 @@
             android:name="com.vms.customer.activity.ContactAllList"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.vms.customer.models.BookingQuery" />
+        <activity android:name="com.vms.customer.model.BookingQuery" />
         <activity
             android:name="com.vms.customer.activity.CustomerSupport"
             android:screenOrientation="portrait"

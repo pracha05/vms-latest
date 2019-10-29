@@ -15,10 +15,10 @@ public class ServiceURL {
         switch (selectedState) {
 
             case STAGING:
-                url = "http://vms.prachatech.com/api/";
+                url = "http://vms.prachatech.com";
                 break;
             case LIVE:
-                url = "http://vms.prachatech.com/api/";
+                url = "http://vms.prachatech.com";
                 break;
         }
         return url;

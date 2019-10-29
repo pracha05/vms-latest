@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:background="@drawable/login_bg"
+    android:id="@+id/root_layout"
     android:layout_height="match_parent">
 
     <ImageView
@@ -53,16 +54,34 @@
                     android:textColor="@color/colorLightDarkGraynew"
                     android:textSize="@dimen/txt16" />
 
-                <TextView
-                    android:id="@+id/tv_registration"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:text="@string/create_one"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:textColor="@color/colorWhite"
-                    android:textSize="14dp" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_email"
+                        android:layout_marginLeft="10dp">
+                            <TextView
+                                android:id="@+id/tv_registration"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="@string/create_one"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:id="@+id/forgot_password"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:text="@string/hint_forgot_password"
+                                android:textColor="@color/colorWhite"
+                                android:visibility="gone"
+                                android:textSize="14dp" />
+                    </RelativeLayout>
 
             </LinearLayout>
 
@@ -89,23 +108,23 @@
 
 <!--            </LinearLayout>-->
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/tv_email"
-                android:layout_marginLeft="10dp">
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/tv_email"-->
+<!--                android:layout_marginLeft="10dp">-->
 
-                <TextView
-                    android:id="@+id/tv_forgot_password"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:text="@string/hint_forgot_password"
-                    android:textColor="@color/colorLightDarkGraynew"
-                    android:visibility="gone"
-                    android:textSize="14dp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_forgot_password"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:text="@string/hint_forgot_password"-->
+<!--                    android:textColor="@color/colorLightDarkGraynew"-->
+<!--                    android:visibility="gone"-->
+<!--                    android:textSize="14dp" />-->
 
-            </RelativeLayout>
+<!--            </RelativeLayout>-->
 
 <!--                <Button-->
 <!--                    android:id="@+id/btn_sign_in"-->
@@ -120,4 +139,13 @@
 <!--                    android:textSize="@dimen/txt16" />-->
 <!--        </LinearLayout>-->
 <!--    </ScrollView>-->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:indeterminateDrawable="@drawable/progress_dialog_gray"
+        android:indeterminate="true" />
 </RelativeLayout>

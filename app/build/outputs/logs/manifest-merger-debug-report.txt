@@ -261,10 +261,10 @@ ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\Android
 		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:62:13-56
 	android:name
 		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:60:13-52
-activity#com.vms.customer.models.BookingQuery
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:9-57
+activity#com.vms.customer.model.BookingQuery
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:9-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:19-54
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:19-53
 activity#com.vms.customer.activity.CustomerSupport
 ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:64:9-67:59
 	android:screenOrientation

@@ -167,9 +167,9 @@
 84-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:61:13-49
 85            android:theme="@style/AppTheme.NoActionBar" />
 85-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:62:13-56
-86        <activity android:name="com.vms.customer.models.BookingQuery" />
-86-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:9-57
-86-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:19-54
+86        <activity android:name="com.vms.customer.model.BookingQuery" />
+86-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:9-56
+86-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:19-53
 87        <activity
 87-->F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:64:9-67:59
 88            android:name="com.vms.customer.activity.CustomerSupport"

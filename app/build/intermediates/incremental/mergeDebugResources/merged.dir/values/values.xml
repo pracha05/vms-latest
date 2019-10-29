@@ -1096,7 +1096,7 @@
     <string name="check_icon"></string>
     <string name="click_icon_for_geo_location">Click icon for Geo Location</string>
     <string name="click_icon_for_goden_location">Click icon for Goden Location</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">c47779e9-103b-4bd2-9fc4-b250608ff35d</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">e24e27f6-3d6f-47aa-9a43-d7a891bd9488</string>
     <string name="com_name">Company Name -</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
@@ -1142,6 +1142,7 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="email">Email -</string>
     <string name="email_activity_error_mesage">"There are no email clients installed."</string>
+    <string name="email_error_mesage">Enter valid email !</string>
     <string name="email_id">Email Id</string>
     <string name="enter_address">Enter address</string>
     <string name="enter_company_name">Enter Company Name</string>
@@ -1186,7 +1187,7 @@
     <string name="height">Height</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
-    <string name="hint_forgot_password">Forgot Password?</string>
+    <string name="hint_forgot_password">Forgot Password ?</string>
     <string name="hint_password">Password</string>
     <string name="home">Home</string>
     <string name="i_agree_with_t_and_c">I agree with <html><a href="www.google.com"> T&amp;C</a></html></string>
@@ -1211,6 +1212,7 @@
     <string name="menu_tools">Tools</string>
     <string name="mobile_num">Mobile Number -</string>
     <string name="mobile_number">Mobile Number</string>
+    <string name="mobile_number_error_mesage">Enter valid mobile number !</string>
     <string name="more">More</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="my_profile">My Profile</string>
@@ -1277,6 +1279,7 @@
     <string name="select_vehicle">Select Vehicle</string>
     <string name="select_your_load_type">Select your load type</string>
     <string name="servererror">Problem Occurred in server Side</string>
+    <string name="sign_in_error_mesage">Enter valid email or mobile number !</string>
     <string name="sridhar">sridhar</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="submit">Submit</string>

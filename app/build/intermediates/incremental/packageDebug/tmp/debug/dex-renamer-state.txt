@@ -1,0 +1,7 @@
+#Tue Oct 29 17:25:15 IST 2019
+base.0=F\:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=F\:\\Foliyoo\\vmscustomer-master\\vmscustomer-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

@@ -5,17 +5,22 @@ import com.google.gson.annotations.SerializedName;
 public class SignInRequestModel {
 
     @SerializedName("email")
-    private String email;
+    public String email;
 
     @SerializedName("step")
-    private String step;
+    public String step;
 
-    @SerializedName("password")
-    private String password;
+//    @SerializedName("password")
+//    private String password;
+
+    public SignInRequestModel(String email, String step){
+        this.setEmail(email);
+        this.setStep(step);
+    }
 
     public SignInRequestModel(String email, String password,String step){
         this.setEmail(email);
-        this.setPassword(password);
+       // this.setPassword(password);
         this.setStep(step);
     }
 
@@ -35,11 +40,11 @@ public class SignInRequestModel {
         this.step = step;
     }
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
+//    public String getPassword() {
+//        return password;
+//    }
+//
+//    public void setPassword(String password) {
+//        this.password = password;
+//    }
 }
