@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">VMS Customer</string>
+    <string name="app_name">Foliyoo</string>
     <string name="title_activity_home">VMS Customer</string>
     <string name="RobotoRegular">fonts/Avenir_Book.ttf</string>
     <string name="RobotoBold">fonts/Avenir_Heavy.ttf</string>

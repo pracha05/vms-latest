@@ -13,7 +13,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".activity.CustomerMembershipActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
         <activity
             android:name=".activity.PrivacyPolicyActivity"
             android:screenOrientation="portrait"

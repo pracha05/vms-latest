@@ -6,6 +6,8 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import androidx.annotation.CallSuper;
 import androidx.annotation.UiThread;
 import butterknife.Unbinder;
@@ -34,6 +36,8 @@ public class SignUpActivity_ViewBinding implements Unbinder {
     target.etPassword = Utils.findRequiredViewAsType(source, R.id.et_password, "field 'etPassword'", EditText.class);
     target.btnSignUp = Utils.findRequiredViewAsType(source, R.id.btn_sign_up, "field 'btnSignUp'", Button.class);
     target.ivBack = Utils.findRequiredViewAsType(source, R.id.iv_logo_img_back, "field 'ivBack'", ImageView.class);
+    target.progressBar = Utils.findRequiredViewAsType(source, R.id.progressBar, "field 'progressBar'", ProgressBar.class);
+    target.rootLayout = Utils.findRequiredViewAsType(source, R.id.root_layout, "field 'rootLayout'", RelativeLayout.class);
   }
 
   @Override
@@ -51,5 +55,7 @@ public class SignUpActivity_ViewBinding implements Unbinder {
     target.etPassword = null;
     target.btnSignUp = null;
     target.ivBack = null;
+    target.progressBar = null;
+    target.rootLayout = null;
   }
 }

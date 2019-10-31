@@ -88,7 +88,7 @@ public class SignInActivity extends BaseActivity {
                                         public void onResponse(Call<SignInResponseModel> call, Response<SignInResponseModel> response) {
                                             SignInResponseModel signInResponseModel = response.body();
                                             Timber.d("Response message" + signInResponseModel.message);
-                                            if (signInResponseModel.status.equals(NetworkConstant.STATUS_ONE)) {
+                                            if (signInResponseModel.status == NetworkConstant.STATUS_ONE) {
                                                 progressBar.setVisibility(View.GONE);
                                                 tvForgotPassword.setVisibility(View.VISIBLE);
                                             } else {
@@ -103,6 +103,7 @@ public class SignInActivity extends BaseActivity {
                                         public void onFailure(Call<SignInResponseModel> call, Throwable t) {
                                             Log.d("FAIL","onfail");
                                             progressBar.setVisibility(View.GONE);
+                                            showErrorDialog(getString(R.string.general_error_message));
                                             call.cancel();
                                         }
                                     });

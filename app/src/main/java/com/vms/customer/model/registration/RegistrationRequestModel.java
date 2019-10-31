@@ -13,12 +13,12 @@ public class RegistrationRequestModel {
     @SerializedName("account_type")
     private String accountType;
     @SerializedName("step")
-    private String step;
+    private int step;
     @SerializedName("gst")
     private String gst;
 
     public RegistrationRequestModel(String email, String password, String mobile,
-                                    String accountType, String step, String gst  ){
+                                    String accountType, int step, String gst  ){
         this.setEmail(email);
         this.setPassword(password);
         this.setMobile(mobile);
@@ -60,11 +60,11 @@ public class RegistrationRequestModel {
         this.accountType = accountType;
     }
 
-    public String getStep() {
+    public int getStep() {
         return step;
     }
 
-    public void setStep(String step) {
+    public void setStep(int step) {
         this.step = step;
     }
 

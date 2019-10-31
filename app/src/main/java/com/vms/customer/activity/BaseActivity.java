@@ -14,10 +14,12 @@ import androidx.core.content.ContextCompat;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
-
 import com.vms.customer.R;
+import com.vms.customer.service.SmartDialogClickListener;
 import com.vms.customer.utils.DialogsUtils;
 import com.vms.customer.utils.NetworkConnection;
+import com.vms.customer.utils.SmartDialog;
+import com.vms.customer.utils.SmartDialogBuilder;
 
 import java.util.ArrayList;
 
@@ -168,5 +170,32 @@ public abstract class BaseActivity extends AppCompatActivity implements View.OnC
 
     public void showNetworkErrorDialog(){
         Toast.makeText(this, getString(R.string.email_id), Toast.LENGTH_SHORT).show();
+    }
+
+    /**
+     * show error dialog
+     */
+
+    public void showErrorDialog(String message){
+        new SmartDialogBuilder(this)
+                .setTitle("Error")
+                .setSubTitle(message)
+                .setCancalable(false)
+                .setNegativeButtonHide(true) //hide cancel button
+                .setPositiveButton("OK", new SmartDialogClickListener() {
+                    @Override
+                    public void onClick(SmartDialog smartDialog) {
+                        //Toast.makeText(BaseActivity.this,"Ok button Click",Toast.LENGTH_SHORT).show();
+                        smartDialog.dismiss();
+                    }
+                }).build().show();
+//                .setNegativeButton("Cancel", new SmartDialogClickListener() {
+//            @Override
+//            public void onClick(SmartDialog smartDialog) {
+//                Toast.makeText(BaseActivity.this,"Cancel button Click",Toast.LENGTH_SHORT).show();
+//                smartDialog.dismiss();
+//
+//            }
+
     }
 }

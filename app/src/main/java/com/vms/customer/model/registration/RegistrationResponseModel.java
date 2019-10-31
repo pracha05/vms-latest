@@ -5,17 +5,17 @@ import com.google.gson.annotations.SerializedName;
 public class RegistrationResponseModel {
 
     @SerializedName("status")
-    private String status;
+    public int status;
     @SerializedName("id")
-    private String id;
+    public int id;
     @SerializedName("otp")
-    private String otp;
+    public String otp;
     @SerializedName("message")
-    private String message;
+    public String message;
     @SerializedName("user_otp")
-    private String userOtp;
+    public String userOtp;
 
-    public RegistrationResponseModel(String status, String id, String otp, String message, String userOtp){
+    public RegistrationResponseModel(int status, int id, String otp, String message, String userOtp){
         this.setStatus(status);
         this.setId(id);
         this.setOtp(otp);
@@ -24,19 +24,19 @@ public class RegistrationResponseModel {
     }
 
 
-    public String getStatus() {
+    public int getStatus() {
         return status;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(int status) {
         this.status = status;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

@@ -15,12 +15,28 @@ public class VmsApiClient {
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
         interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
         OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
-        Timber.d("Base url is"+ServiceURL.getBaseURL());
+        Timber.d("Base url is" + ServiceURL.getBaseURL());
         retrofit = new Retrofit.Builder()
-                .baseUrl("http://vms.prachatech.com")
+                .baseUrl("http://vms.prachatech.com/")
+                //.addConverterFactory(new NullOnEmptyConverterFactory())
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build();
         return retrofit;
     }
+
+
+//    class NullOnEmptyConverterFactory implements Converter.Factory {
+//        @Override
+//        public Converter<ResponseBody, ?> responseBody(Type type, Annotation[] annotations, Retrofit retrofit) {
+//            final Converter<ResponseBody, ?> delegate = retrofit.nextResponseBodyConverter(this, type, annotations);
+//            return new Converter<>() {
+//                @Override
+//                public void convert(ResponseBody body) {
+//                    if (body.contentLength() == 0) return null;
+//                    return delegate.convert(body);
+//                }
+//            };
+//        }
+//    }
 }

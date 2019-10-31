@@ -37,7 +37,8 @@
         <activity
             android:name="com.vms.customer.activity.CustomerMembershipActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
         <activity
             android:name="com.vms.customer.activity.PrivacyPolicyActivity"
             android:screenOrientation="portrait"

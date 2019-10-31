@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 public class SignInResponseModel {
 
     @SerializedName("status")
-    public String status;
+    public int status;
 
     @SerializedName("message")
     public String message;

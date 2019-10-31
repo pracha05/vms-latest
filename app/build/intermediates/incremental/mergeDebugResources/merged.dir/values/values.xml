@@ -1079,7 +1079,7 @@
     <string name="address_value_1">Foliyoo Technologies Pvt. Ltd. 108-A, KIIT-TBI, Campus-11, KIIT, Patia, Bhubaneswar, Odisha, India</string>
     <string name="alternate_number">Alternate Number</string>
     <string name="api_key">AIzaSyCQ0d6evaaKj72Q8LQHnRQJ8a5wsLXj6PY</string>
-    <string name="app_name">VMS Customer</string>
+    <string name="app_name">Foliyoo</string>
     <string name="app_version">Version : %1$s (Build Number: %2$s) </string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="behaviour">Behaviour</string>
@@ -1096,7 +1096,7 @@
     <string name="check_icon"></string>
     <string name="click_icon_for_geo_location">Click icon for Geo Location</string>
     <string name="click_icon_for_goden_location">Click icon for Goden Location</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">e24e27f6-3d6f-47aa-9a43-d7a891bd9488</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">d258da03-0c78-4e3a-bd0c-b34a787365b5</string>
     <string name="com_name">Company Name -</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
@@ -1142,6 +1142,7 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="email">Email -</string>
     <string name="email_activity_error_mesage">"There are no email clients installed."</string>
+    <string name="email_blank">Email should not be blank !</string>
     <string name="email_error_mesage">Enter valid email !</string>
     <string name="email_id">Email Id</string>
     <string name="enter_address">Enter address</string>
@@ -1163,6 +1164,7 @@
     <string name="enter_your_mobile_number">Enter your mobile number</string>
     <string name="enter_your_no_of_vechiles">Enter Your No.of Vechiles</string>
     <string name="enter_your_pan">Enter your PAN</string>
+    <string name="error">Error</string>
     <string name="estimated_time_need_25_hrs">Estimated Time Need : 25 hrs</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
@@ -1170,6 +1172,7 @@
     <string name="filter">Filter</string>
     <string name="first_page">First Page</string>
     <string name="full_load">Full Load</string>
+    <string name="general_error_message">Something went wrong, Try again</string>
     <string name="geo_location">Geo Location</string>
     <string name="git_version">Revision Number: %1$s</string>
     <string name="goden_address">Goden Address -</string>
@@ -1177,8 +1180,10 @@
     <string name="gold_membership">Gold Membership</string>
     <string name="gold_membership_validity">Valid till: \n31/03/2020</string>
     <string name="gst">GST</string>
+    <string name="gst_blank">GST should not be blank !</string>
     <string name="gst_num">GST Number -</string>
     <string name="gst_number">GST Number</string>
+    <string name="gst_number_error_mesage">Enter valid GST number !</string>
     <string name="guide_lines">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat vestibulum eros, vitae placerat libero vestibulum vel.
         consectetur diam. Sed dolor nulla, ornare a maximus sit amet, gravida vitae velit.
@@ -1234,6 +1239,8 @@
     <string name="pan">PAN</string>
     <string name="pan_card_no">PAN Card No</string>
     <string name="part_load">Part Load</string>
+    <string name="password_blank">Password should not be blank !</string>
+    <string name="password_size_check">Password should not be less than 6 char and more than 8 char !</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -1291,7 +1298,7 @@
     <string name="third_page">Third Page</string>
     <string name="title_about_app">About App</string>
     <string name="title_activity_basicload">Basicload</string>
-    <string name="title_activity_home">VMS Customer</string>
+    <string name="title_activity_home">Foliyoo</string>
     <string name="title_membership">Foliyoo Membership</string>
     <string name="title_privacy_policy">Privacy Policy</string>
     <string name="title_terms_use">Terms of Use</string>

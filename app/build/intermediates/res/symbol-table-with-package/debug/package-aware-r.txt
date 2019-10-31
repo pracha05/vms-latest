@@ -1469,6 +1469,9 @@ dimen txt_btn
 dimen txt_heading
 dimen txt_paragraph
 dimen verysmalltextsize
+drawable a_circle
+drawable a_corner
+drawable a_drawable_round_corner_background
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -1554,6 +1557,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable arrow_green
+drawable arrow_green1
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_spinner
@@ -1567,6 +1571,7 @@ drawable button_background
 drawable button_round_corner_shape_selected
 drawable button_round_cornor_selector
 drawable calendar
+drawable card_view_border
 drawable cartwhite
 drawable change_colcor
 drawable clock
@@ -1614,6 +1619,8 @@ drawable ic_action_home
 drawable ic_action_user
 drawable ic_alarmclock_booking
 drawable ic_alcoholic_beverages
+drawable ic_alert
+drawable ic_alert_green
 drawable ic_arrow_left
 drawable ic_auto_mobiles
 drawable ic_battery
@@ -1777,6 +1784,8 @@ id beginning
 id blocking
 id bottom
 id bottomnavigationView
+id btnDialogCancel
+id btnDialogOk
 id btn_add_loaded
 id btn_book_trucks
 id btn_box
@@ -1948,6 +1957,7 @@ id img_threedot
 id img_truck_list_next
 id img_wallet
 id img_wallet_back
+id include
 id info
 id intro_btn_finish
 id intro_btn_next
@@ -1982,6 +1992,7 @@ id left
 id light
 id line1
 id line3
+id linearLayout
 id list
 id listMode
 id list_item
@@ -2156,6 +2167,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_password_toggle
 id text_long
 id textinput_counter
@@ -2177,6 +2189,9 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv1
+id tv2
+id tvCan
 id tv_4opt_header
 id tv_Goden_header
 id tv_addload_destpoint
@@ -2306,6 +2321,7 @@ id tv_wallet_usage_allowed
 id tv_wallet_usage_month
 id tv_wallet_usage_price
 id tv_wallet_value
+id tvok
 id twitter_image
 id two
 id tx_contactcustomer
@@ -2470,6 +2486,7 @@ layout bookingsummary_layout
 layout capacity_dialog
 layout contact_lists
 layout content_home
+layout custome_dailog_layout
 layout customslider_layout
 layout customtoastfornetwork
 layout date_time_picker
@@ -2487,6 +2504,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout ee
 layout fragment_pager
 layout insurance_provider
 layout layout_child
@@ -2544,6 +2562,7 @@ mipmap ic_launcher_add
 mipmap ic_launcher_confirm
 mipmap ic_launcher_dummyicon
 mipmap ic_launcher_edituser
+mipmap ic_launcher_foreground
 mipmap ic_launcher_next
 mipmap ic_launcher_noti
 mipmap ic_launcher_round
@@ -2671,6 +2690,7 @@ string edit_contact
 string edit_profile
 string email
 string email_activity_error_mesage
+string email_blank
 string email_error_mesage
 string email_id
 string enter_address
@@ -2692,6 +2712,7 @@ string enter_your_loading_point
 string enter_your_mobile_number
 string enter_your_no_of_vechiles
 string enter_your_pan
+string error
 string estimated_time_need_25_hrs
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -2699,6 +2720,7 @@ string faq
 string filter
 string first_page
 string full_load
+string general_error_message
 string geo_location
 string git_version
 string goden_address
@@ -2706,8 +2728,10 @@ string goden_location
 string gold_membership
 string gold_membership_validity
 string gst
+string gst_blank
 string gst_num
 string gst_number
+string gst_number_error_mesage
 string guide_lines
 string height
 string hello_blank_fragment
@@ -2759,6 +2783,8 @@ string overall_rating
 string pan
 string pan_card_no
 string part_load
+string password_blank
+string password_size_check
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

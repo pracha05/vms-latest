@@ -1,5 +1,7 @@
 package com.vms.customer.service;
 
+import com.vms.customer.model.registration.RegistrationRequestModel;
+import com.vms.customer.model.registration.RegistrationResponseModel;
 import com.vms.customer.model.signin.SignInRequestModel;
 import com.vms.customer.model.signin.SignInResponseModel;
 import com.vms.customer.network.NetworkConstant;
@@ -18,7 +20,12 @@ public interface VmsWebService {
      */
 //    @Headers({"Content-type: application/json",
 //            "Accept: */*"})
-    @POST("/api/login.php")//NetworkConstant.USER_LOGIN_END_POINTS)
+    @POST("api/login.php")//NetworkConstant.USER_LOGIN_END_POINTS)
     Call<SignInResponseModel> getUser(@Body SignInRequestModel user);
+
+
+    @POST("api/register.php")//NetworkConstant.USER_LOGIN_END_POINTS)
+    Call<RegistrationResponseModel> createUser(@Body RegistrationRequestModel user);
+
 
 }
