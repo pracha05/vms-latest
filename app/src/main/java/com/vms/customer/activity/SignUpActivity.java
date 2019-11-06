@@ -1,5 +1,6 @@
 package com.vms.customer.activity;
 
+import android.content.Intent;
 import android.opengl.Visibility;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,6 +12,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import androidx.appcompat.widget.Toolbar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -21,19 +25,31 @@ import timber.log.Timber;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.vms.customer.R;
+import com.vms.customer.constant.Constant;
 import com.vms.customer.intents.IntentFactory;
 import com.vms.customer.model.registration.RegistrationRequestModel;
 import com.vms.customer.model.registration.RegistrationResponseModel;
 import com.vms.customer.model.signin.SignInRequestModel;
 import com.vms.customer.model.signin.SignInResponseModel;
 import com.vms.customer.network.NetworkConstant;
+import com.vms.customer.preferences.VmsPreferenceHelper;
 import com.vms.customer.service.VmsApiClient;
 import com.vms.customer.service.VmsWebService;
 import com.vms.customer.utils.GSTINValidator;
+import com.vms.customer.utils.PlatformUtils;
 
 public class SignUpActivity extends BaseActivity {
 
     private static final String TAG = SignUpActivity.class.getName();
+
+    @BindView(R.id.toolbar)
+    Toolbar mToolBar;
+
+    @BindView(R.id.cv_business)
+    RelativeLayout layoutBusiness;
+
+    @BindView(R.id.cv_person)
+    RelativeLayout layoutPerson;
 
     @BindView(R.id.cb_business)
     CheckBox cbBusiness;
@@ -56,14 +72,27 @@ public class SignUpActivity extends BaseActivity {
     @BindView(R.id.btn_sign_up)
     Button btnSignUp;
 
-    @BindView(R.id.iv_logo_img_back)
-    ImageView ivBack;
+    @BindView(R.id.iv_business)
+    ImageView ivBusiness;
+
+    @BindView(R.id.iv_person)
+    ImageView  ivPersion;
+//
+//    @BindView(R.id.iv_logo_img_back)
+//    ImageView ivBack;
 
     @BindView(R.id.progressBar)
     ProgressBar progressBar;
 
     @BindView(R.id.root_layout)
     RelativeLayout rootLayout;
+
+    @BindView(R.id.iv_business_text)
+    TextView tvBusinessText;
+
+    @BindView(R.id.iv_person_text)
+    TextView tvPersonText;
+
 
     private VmsWebService apiInterface;
 
@@ -72,8 +101,25 @@ public class SignUpActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
         ButterKnife.bind(this);
+        if (mToolBar != null) {
+            setSupportActionBar(mToolBar);
+            getSupportActionBar().setDisplayShowTitleEnabled(true);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+            getSupportActionBar().setTitle(R.string.create_one);
+
+            mToolBar.setNavigationOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    finish();
+                    overridePendingTransition(R.anim.slide_in_from_right, R.anim.fade_out);
+                }
+            });
+        }
         btnSignUp.setOnClickListener(this);
-        ivBack.setOnClickListener(this);
+        layoutPerson.setOnClickListener(this);
+        layoutBusiness.setOnClickListener(this);
+      //  ivBack.setOnClickListener(this);
         apiInterface = VmsApiClient.getClient().create(VmsWebService.class);
         cbBusiness.setOnClickListener(new View.OnClickListener() {
 
@@ -120,48 +166,84 @@ public class SignUpActivity extends BaseActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_sign_up:
-//                startActivity(IntentFactory.createVerifyOtpActivity(this));
-//                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-                progressBar.setVisibility(View.VISIBLE);
-                if (validate()) {
-                    RegistrationRequestModel registrationRequestModel = new RegistrationRequestModel
-                            (etEmail.getText().toString(), etPassword.getText().toString(),
-                                    etPhone.getText().toString(), NetworkConstant.ACCOUNT_TYPE_BUSINESS, NetworkConstant.STEP_ONE,
-                                    etGst.getText().toString());
-                    Call<RegistrationResponseModel> call = apiInterface.createUser(registrationRequestModel);
-                    call.enqueue(new Callback<RegistrationResponseModel>() {
-                        @Override
-                        public void onResponse(Call<RegistrationResponseModel> call, Response<RegistrationResponseModel> response) {
-                            RegistrationResponseModel registrationResponseModel = response.body();
-                            Timber.d("Response message" + registrationResponseModel.getMessage());
-                            if (registrationResponseModel.getStatus() == NetworkConstant.STATUS_ONE) {
-                                progressBar.setVisibility(View.GONE);
-                                // tvForgotPassword.setVisibility(View.VISIBLE);
-                                startActivity(IntentFactory.createVerifyOtpActivity(SignUpActivity.this));
-                                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-                            } else {
-                                progressBar.setVisibility(View.GONE);
+                Intent intent = IntentFactory.createVerifyOtpActivity(SignUpActivity.this);
+                intent.putExtra(Constant.STRING_EXTRA, etPhone.getText().toString());
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+//                progressBar.setVisibility(View.VISIBLE);
+//                if (validate()) {
+//                    RegistrationRequestModel registrationRequestModel = new RegistrationRequestModel
+//                            (etEmail.getText().toString(), etPassword.getText().toString(),
+//                                    etPhone.getText().toString(), NetworkConstant.ACCOUNT_TYPE_BUSINESS, NetworkConstant.STEP_ONE,
+//                                    etGst.getText().toString());
+//                    Call<RegistrationResponseModel> call = apiInterface.createUser(registrationRequestModel);
+//                    call.enqueue(new Callback<RegistrationResponseModel>() {
+//                        @Override
+//                        public void onResponse(Call<RegistrationResponseModel> call, Response<RegistrationResponseModel> response) {
+//                            RegistrationResponseModel registrationResponseModel = response.body();
+//                            Timber.d("Response message" + registrationResponseModel.getMessage());
+//                            if (registrationResponseModel.getStatus() == NetworkConstant.STATUS_ONE) {
+//                                progressBar.setVisibility(View.GONE);
+//                                VmsPreferenceHelper.saveCustomerIdToPreference(SignUpActivity.this,String.valueOf(registrationResponseModel.getId()));
+//                                Intent intent = IntentFactory.createVerifyOtpActivity(SignUpActivity.this);
+//                                intent.putExtra(Constant.STRING_EXTRA, etPhone.getText().toString());
+//                                intent.putExtra(Constant.STRING_EXTRA1,String.valueOf(registrationResponseModel.getId()));
+//                                intent.putExtra(Constant.STRING_EXTRA2,registrationResponseModel.getOtp());
+//                                startActivity(intent);
+//                                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+//                            } else {
+//                                progressBar.setVisibility(View.GONE);
+//                                progressBar.setVisibility(View.GONE);
+//                                if(registrationResponseModel.getMessage()!=null
+//                                        && !registrationResponseModel.getMessage().isEmpty()){
+//                                    showErrorDialog(registrationResponseModel.getMessage());
+//                                }else {
+//                                    showErrorDialog(getString(R.string.general_error_message));
+//                                }
+//                            }
+//                        }
+//
+//                        @Override
+//                        public void onFailure(Call<RegistrationResponseModel> call, Throwable t) {
+//                            Log.d("FAIL", "onfail");
+//                            progressBar.setVisibility(View.GONE);
+//                            showErrorDialog(getString(R.string.general_error_message));
+//                            call.cancel();
+//                        }
+//                    });
+//                }
+                break;
+//            case R.id.iv_logo_img_back:
+//                startActivity(IntentFactory.createUserLoginActivity(this));
+//                overridePendingTransition(R.anim.slide_in_from_left, R.anim.fade_out);
+//                break;
 
-                                //  startActivity(IntentFactory.createRegistrationActivity(SignInActivity.this));
-                                //  overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-                                //tvForgotPassword.setVisibility(View.GONE);
-                            }
-                        }
-
-                        @Override
-                        public void onFailure(Call<RegistrationResponseModel> call, Throwable t) {
-                            Log.d("FAIL", "onfail");
-                            progressBar.setVisibility(View.GONE);
-                            showErrorDialog(getString(R.string.general_error_message));
-                            call.cancel();
-                        }
-                    });
+            case R.id.cv_business:
+                layoutBusiness.setBackgroundResource(R.drawable.card_view_border_red);
+                layoutPerson.setBackgroundResource(R.drawable.card_view_border);
+                tvBusinessText.setTextColor(PlatformUtils.getColorWrapper(this,R.color.colorWhite));
+                tvPersonText.setTextColor(PlatformUtils.getColorWrapper(this,R.color.colorLightDarkGray));
+                cbBusiness.setChecked(true);
+                ivBusiness.setBackgroundResource(R.drawable.ic_business_white);
+                ivPersion.setBackgroundResource(R.drawable.ic_launcher_user_gray);
+                if (etGst.getVisibility() == View.GONE) {
+                    etGst.setVisibility(View.VISIBLE);
                 }
                 break;
-            case R.id.iv_logo_img_back:
-                startActivity(IntentFactory.createUserLoginActivity(this));
-                overridePendingTransition(R.anim.slide_in_from_left, R.anim.fade_out);
+
+            case R.id.cv_person:
+                layoutPerson.setBackgroundResource(R.drawable.card_view_border_red);
+                layoutBusiness.setBackgroundResource(R.drawable.card_view_border);
+                tvPersonText.setTextColor(PlatformUtils.getColorWrapper(this,R.color.colorWhite));
+                tvBusinessText.setTextColor(PlatformUtils.getColorWrapper(this,R.color.colorLightDarkGray));
+                cbPerson.setChecked(true);
+                ivPersion.setBackgroundResource(R.drawable.ic_launcher_user);
+                ivBusiness.setBackgroundResource(R.drawable.ic_business);
+                if (etGst.getVisibility() == View.VISIBLE) {
+                    etGst.setVisibility(View.GONE);
+                }
                 break;
+
         }
 
     }

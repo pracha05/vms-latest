@@ -31,6 +31,7 @@ public class SignInActivity_ViewBinding implements Unbinder {
     target.tvForgotPassword = Utils.findRequiredViewAsType(source, R.id.forgot_password, "field 'tvForgotPassword'", TextView.class);
     target.rootLayout = Utils.findRequiredViewAsType(source, R.id.root_layout, "field 'rootLayout'", RelativeLayout.class);
     target.progressBar = Utils.findRequiredViewAsType(source, R.id.progressBar, "field 'progressBar'", ProgressBar.class);
+    target.edtPassword = Utils.findRequiredViewAsType(source, R.id.et_password, "field 'edtPassword'", EditText.class);
   }
 
   @Override
@@ -45,5 +46,6 @@ public class SignInActivity_ViewBinding implements Unbinder {
     target.tvForgotPassword = null;
     target.rootLayout = null;
     target.progressBar = null;
+    target.edtPassword = null;
   }
 }

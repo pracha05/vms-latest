@@ -6,7 +6,7 @@ public class ForgotPasswordRequestModel {
     @SerializedName("mobile")
     private String mobile;
     @SerializedName("step")
-    private String step;
+    private int step;
     @SerializedName("otp")
     private String otp;
     @SerializedName("message")
@@ -20,7 +20,18 @@ public class ForgotPasswordRequestModel {
     @SerializedName("user_otp")
     private String userOtp;
 
-    public ForgotPasswordRequestModel(String mobile, String step, String otp, String message,
+    public ForgotPasswordRequestModel(String mobile, int step){
+        this.setMobile(mobile);
+        this.setStep(step);
+    }
+
+    public ForgotPasswordRequestModel(String otp, String userOtp,int step){
+        this.setOtp(otp);
+        this.setUserOtp(userOtp);
+        this.setStep(step);
+    }
+
+    public ForgotPasswordRequestModel(String mobile, int step, String otp, String message,
                                       String id, String password, String confirmPassword, String userOtp){
         this.setMobile(mobile);
         this.setStep(step);
@@ -37,7 +48,7 @@ public class ForgotPasswordRequestModel {
         this.mobile = mobile;
     }
 
-    public void setStep(String step) {
+    public void setStep(int step) {
         this.step = step;
     }
 

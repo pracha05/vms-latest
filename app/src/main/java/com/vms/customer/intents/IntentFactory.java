@@ -6,10 +6,13 @@ import android.content.Intent;
 import com.vms.customer.activity.AboutAppActivity;
 import com.vms.customer.activity.AboutUsActivity;
 import com.vms.customer.activity.CustomerMembershipActivity;
+import com.vms.customer.activity.ForgotPasswordActivity;
+import com.vms.customer.activity.HomeActivity;
 import com.vms.customer.activity.IntroductionPagerActivity;
 import com.vms.customer.activity.ListOfVechilesActivity;
 import com.vms.customer.activity.MoreActivity;
 import com.vms.customer.activity.NotificationActivity;
+import com.vms.customer.activity.PhoneVerificationStatus;
 import com.vms.customer.activity.PrivacyPolicyActivity;
 import com.vms.customer.activity.ReferenceCodeActivity;
 import com.vms.customer.activity.AddContact;
@@ -54,6 +57,32 @@ public class IntentFactory {
      */
     public static Intent createRegistrationActivity(Context context) {
         Intent intent = new Intent(context, SignUpActivity.class);
+        return intent;
+    }
+
+    /**
+     * start phone verification status activity
+     */
+
+    public static Intent createPhoneNumberVerificationStatusActivity(Context context){
+        Intent intent = new Intent(context, PhoneVerificationStatus.class);
+        return intent;
+    }
+
+    /**
+     * start forgot password activity
+     */
+
+    public static Intent createForgotPasswordActivity(Context context){
+        Intent intent = new Intent(context, ForgotPasswordActivity.class);
+        return intent;
+    }
+
+    /**
+     * create home activity
+     */
+    public static Intent createHomeActivity(Context context){
+        Intent intent = new Intent(context, HomeActivity.class);
         return intent;
     }
 

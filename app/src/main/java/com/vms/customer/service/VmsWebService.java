@@ -1,5 +1,7 @@
 package com.vms.customer.service;
 
+import com.vms.customer.model.forgotpassword.ForgotPasswordRequestModel;
+import com.vms.customer.model.forgotpassword.ForgotPasswordResponseModel;
 import com.vms.customer.model.registration.RegistrationRequestModel;
 import com.vms.customer.model.registration.RegistrationResponseModel;
 import com.vms.customer.model.signin.SignInRequestModel;
@@ -18,14 +20,18 @@ public interface VmsWebService {
      * @param user
      * @return
      */
-//    @Headers({"Content-type: application/json",
-//            "Accept: */*"})
-    @POST("api/login.php")//NetworkConstant.USER_LOGIN_END_POINTS)
+    @Headers({"Content-type: application/json",
+            "Accept: */*"})
+    @POST("api/login.php")
     Call<SignInResponseModel> getUser(@Body SignInRequestModel user);
 
-
-    @POST("api/register.php")//NetworkConstant.USER_LOGIN_END_POINTS)
+    @Headers({"Content-type: application/json",
+            "Accept: */*"})
+    @POST("api/register.php")
     Call<RegistrationResponseModel> createUser(@Body RegistrationRequestModel user);
 
-
+    @Headers({"Content-type: application/json",
+            "Accept: */*"})
+    @POST("api/forgot_password.php")
+    Call<ForgotPasswordResponseModel> resetPassword(@Body ForgotPasswordRequestModel user);
 }

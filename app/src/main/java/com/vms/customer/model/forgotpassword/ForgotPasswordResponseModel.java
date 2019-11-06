@@ -2,14 +2,14 @@ package com.vms.customer.model.forgotpassword;
 
 import com.google.gson.annotations.SerializedName;
 
-public class ForgotPasswordResponse {
+public class ForgotPasswordResponseModel {
 
     @SerializedName("status")
     private String status;
     @SerializedName("message")
     private String message;
 
-    public ForgotPasswordResponse(String status, String messgae){
+    public ForgotPasswordResponseModel(String status, String messgae){
         this.setStatus(status);
         this.setMessage(getMessage());
     }

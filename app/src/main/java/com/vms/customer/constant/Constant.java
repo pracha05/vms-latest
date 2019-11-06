@@ -24,4 +24,9 @@ public class Constant {
     final public static int MOBILE_NUMBER_MINIMUM_LENGTH = 10;
 
 
+    public static final String STRING_EXTRA = "extra_data";
+    public static final String STRING_EXTRA1 = "extra_data1";
+    public static final String STRING_EXTRA2 = "extra_data2";
+    public static final String STRING_EXTRA3 = "extra_data3";
+    public static final String STRING_EXTRA4 = "extra_data4";
 }

@@ -16,6 +16,18 @@ public class RegistrationRequestModel {
     private int step;
     @SerializedName("gst")
     private String gst;
+    @SerializedName("id")
+    private String id;
+    @SerializedName("otp")
+    private String otp;
+    @SerializedName("user_otp")
+    private String userOtp;
+
+    public RegistrationRequestModel(String otp, String userOtp,int step){
+        this.setOtp(otp);
+        this.setUserOtp(userOtp);
+        this.setStep(step);
+    }
 
     public RegistrationRequestModel(String email, String password, String mobile,
                                     String accountType, int step, String gst  ){
@@ -74,5 +86,29 @@ public class RegistrationRequestModel {
 
     public void setGst(String gst) {
         this.gst = gst;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getOtp() {
+        return otp;
+    }
+
+    public void setOtp(String otp) {
+        this.otp = otp;
+    }
+
+    public String getUserOtp() {
+        return userOtp;
+    }
+
+    public void setUserOtp(String userOtp) {
+        this.userOtp = userOtp;
     }
 }

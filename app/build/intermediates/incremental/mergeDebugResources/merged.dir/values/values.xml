@@ -1087,6 +1087,7 @@
     <string name="bookings">Booking</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="box_booking">Box Booking</string>
+    <string name="btn_submit">Submit</string>
     <string name="btn_update">Update</string>
     <string name="buy_gold_membership">Buy Gold Membership</string>
     <string name="capicity">Capicity</string>
@@ -1096,7 +1097,7 @@
     <string name="check_icon"></string>
     <string name="click_icon_for_geo_location">Click icon for Geo Location</string>
     <string name="click_icon_for_goden_location">Click icon for Goden Location</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">d258da03-0c78-4e3a-bd0c-b34a787365b5</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">7f115d97-2c46-4d2d-8146-cbfea1bd2295</string>
     <string name="com_name">Company Name -</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
@@ -1135,6 +1136,8 @@
     <string name="dashboard">DashBoard</string>
     <string name="date">Date</string>
     <string name="delivery_point">Delivery Point</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">Ok</string>
     <string name="distance_1500_km">Distance : 1500 km</string>
     <string name="driving">Driving</string>
     <string name="droping_point">Droping Point</string>
@@ -1149,9 +1152,13 @@
     <string name="enter_company_name">Enter Company Name</string>
     <string name="enter_customer_name">Enter customer name</string>
     <string name="enter_email_id">Enter email id</string>
+    <string name="enter_email_or_mobile">Enter Email Or Mobile</string>
     <string name="enter_gst_number">Enter GST number</string>
     <string name="enter_password">Enter password</string>
+    <string name="enter_password_text">Please enter a new password</string>
+    <string name="enter_phone">Please enter your registered mobile number</string>
     <string name="enter_phone_number">Enter phone number</string>
+    <string name="enter_phone_subtext">We will send a verification code to your registered mobile number.</string>
     <string name="enter_registration_number">Enter registration number</string>
     <string name="enter_your_address">Enter your address</string>
     <string name="enter_your_alternate_number">Enter your alternate number</string>
@@ -1229,12 +1236,15 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="net_error">Internet not available, Cross check your internet connectivity and try again!</string>
+    <string name="network_connection"> <string name="error_validating_phone">Check your network connection.</string>!</string>
+    <string name="new_password">New Password</string>
     <string name="next">Next</string>
     <string name="no_map">No Map</string>
     <string name="no_of_vechiles">No.of Vechiles</string>
     <string name="nointernet">Please turn on your internet connection</string>
     <string name="notification">Notification</string>
     <string name="number_load_completed">Number Load Completed</string>
+    <string name="otp_message_format">Vms</string>
     <string name="overall_rating">Overall Rating</string>
     <string name="pan">PAN</string>
     <string name="pan_card_no">PAN Card No</string>
@@ -1252,6 +1262,7 @@
     <string name="permission_message">Permissions are mandatory for smooth use of application.</string>
     <string name="permit_all_india">Permit : All India</string>
     <string name="phone_number">Phone Number</string>
+    <string name="phone_verify_text">"Enter 6 digit verification code sent to %1$s  &lt;font color="#fab702">(change)&lt;/font>"</string>
     <string name="pickup_point">Pickup Point</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
@@ -1268,9 +1279,11 @@
     <string name="price">Price</string>
     <string name="profile">Profile</string>
     <string name="rating">Rating</string>
+    <string name="re_enter_password">Re-enter Password</string>
     <string name="rearing">Rearing</string>
     <string name="reference_code">Reference Code</string>
     <string name="registration_number">Registration Number :</string>
+    <string name="resend_code">Didn\'t receive code? Resend Now</string>
     <string name="reset_password">Reset Password</string>
     <string name="save_and_continue">Save and Continue</string>
     <string name="search">Search Vechiles, City or Location</string>
@@ -1299,6 +1312,7 @@
     <string name="title_about_app">About App</string>
     <string name="title_activity_basicload">Basicload</string>
     <string name="title_activity_home">Foliyoo</string>
+    <string name="title_forgot_password">Forgot Password</string>
     <string name="title_membership">Foliyoo Membership</string>
     <string name="title_privacy_policy">Privacy Policy</string>
     <string name="title_terms_use">Terms of Use</string>

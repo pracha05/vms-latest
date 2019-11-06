@@ -148,7 +148,7 @@ public abstract class BaseActivity extends AppCompatActivity implements View.OnC
     }
 
     public boolean isConnected() {
-        return connection.isConnectingToInternet();
+        return connection.isNetworkAvailable(this);
     }
 
     public void showToast(String message) {

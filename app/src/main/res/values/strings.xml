@@ -19,6 +19,8 @@
     <string name="password_blank">Password should not be blank !</string>
     <string name="password_size_check">Password should not be less than 6 char and more than 8 char !</string>
     <string name="general_error_message">Something went wrong, Try again</string>
+    <string name="network_connection"> <string name="error_validating_phone">Check your network connection.</string>!</string>
+    <string name="phone_verify_text">"Enter 6 digit verification code sent to %1$s  &lt;font color="#fab702"&gt;(change)&lt;/font&gt;"</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
@@ -34,6 +36,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="hint_forgot_password">Forgot Password ?</string>
+    <string name="title_forgot_password">Forgot Password</string>
     <string name="hint_password">Password</string>
     <string name="create_account">No account yet? </string>
     <string name="create_one"> Sign Up</string>
@@ -218,25 +221,38 @@
     <string name="gold_membership_validity">Valid till: \n31/03/2020</string>
     <string name="buy_gold_membership">Buy Gold Membership</string>
     <string name="faq">FAQ:</string>
-    <string name="i_agree_with_t_and_c">I agree with <html><a href ="www.google.com" > T&amp;C</a></html></string>
+    <string name="i_agree_with_t_and_c">I agree with <html><a href="www.google.com"> T&amp;C</a></html></string>
     <string name="contact_uss">Contact Us</string>
     <string name="email_activity_error_mesage">"There are no email clients installed."</string>
+    <string name="api_key">AIzaSyCQ0d6evaaKj72Q8LQHnRQJ8a5wsLXj6PY</string>
+
+    <string name="wallet_price">\u20B9 20000.00</string>
+
+    <string name="wallet_price_usable">\u20B9 500.00</string>
+    <string name="net_error">Internet not available, Cross check your internet connectivity and try again!</string>
+    <string name="error">Error</string>
+    <string name="otp_message_format">Vms</string>
+    <string name="enter_email_or_mobile">Enter Email Or Mobile</string>
+    <string name="enter_password_text">Please enter a new password</string>
+    <string name="new_password">New Password</string>
+
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="enter_phone">Please enter your registered mobile number</string>
+    <string name="enter_phone_subtext">We will send a verification code to your registered mobile number.</string>
+
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="btn_submit">Submit</string>
+    <string name="resend_code">Didn\'t receive code? Resend Now</string>
     <string-array name="more_data">
         <item>About Us</item>
         <item>About App</item>
         <item>Terms of Use</item>
         <item>Privacy Policy</item>
     </string-array>
-
-    <string name="api_key">AIzaSyCQ0d6evaaKj72Q8LQHnRQJ8a5wsLXj6PY</string>
-
     <string-array name="membership_plan">
         <item>Gold</item>
         <item>Silver</item>
         <item>Diamond</item>
     </string-array>
-    <string name="wallet_price">\u20B9 20000.00</string>
-    <string name="wallet_price_usable">\u20B9 500.00</string>
-    <string name="net_error">Internet not available, Cross check your internet connectivity and try again!</string>
-    <string name="error">Error</string>
 </resources>

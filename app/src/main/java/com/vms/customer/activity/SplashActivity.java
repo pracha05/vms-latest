@@ -31,29 +31,32 @@ public class SplashActivity extends AppCompatActivity {
                  * Guided tour not visited by the user
                  * show guided tour page
                  */
-//                if(!VmsPreferenceHelper.GetGuidedTourVisitStatus(SplashActivity.this)){
-//
-//                    startActivity(new Intent(SplashActivity.this, IntroductionPagerActivity.class));
-//                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-//
-//                }
+                if(!VmsPreferenceHelper.GetGuidedTourVisitStatus(SplashActivity.this)){
+
+                    startActivity(new Intent(SplashActivity.this, IntroductionPagerActivity.class));
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                    finish();
+
+                }
                 /**
                  * if user has been logout or email is not in preferences show signin screen
                  */
-//                else if(VmsPreferenceHelper.getValueFromPreferenceForLogoutStatus(SplashActivity.this)
-//                    || (VmsPreferenceHelper.getValueFromPreference(SplashActivity.this, Constant.KEY_USER_EMAIL).isEmpty())){
-//
-//                    startActivity(new Intent(SplashActivity.this,SignInActivity.class));
-//                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-//
-//                }else {
-//                    //show dashboard to user
-//                    startActivity(new Intent(SplashActivity.this,HomeActivity.class));
-//                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-//                }
-                startActivity(new Intent(SplashActivity.this,HomeActivity.class));
-                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-                finish();
+                else if(VmsPreferenceHelper.getValueFromPreferenceForLogoutStatus(SplashActivity.this)
+                    || (VmsPreferenceHelper.getValueFromPreference(SplashActivity.this, Constant.KEY_USER_EMAIL).isEmpty())){
+
+                    startActivity(new Intent(SplashActivity.this,SignInActivity.class));
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                    finish();
+
+                }else {
+                    //show dashboard to user
+                    startActivity(new Intent(SplashActivity.this,HomeActivity.class));
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                    finish();
+                }
+//                startActivity(new Intent(SplashActivity.this,HomeActivity.class));
+//                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+//                finish();
             }
         },1500);
     }

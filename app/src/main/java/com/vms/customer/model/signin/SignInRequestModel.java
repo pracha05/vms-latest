@@ -10,8 +10,8 @@ public class SignInRequestModel {
     @SerializedName("step")
     public int step;
 
-//    @SerializedName("password")
-//    private String password;
+    @SerializedName("password")
+    private String password;
 
     public SignInRequestModel(String email, int step){
         this.setEmail(email);
@@ -20,7 +20,7 @@ public class SignInRequestModel {
 
     public SignInRequestModel(String email, String password,int step){
         this.setEmail(email);
-       // this.setPassword(password);
+        this.setPassword(password);
         this.setStep(step);
     }
 
@@ -40,11 +40,11 @@ public class SignInRequestModel {
         this.step = step;
     }
 
-//    public String getPassword() {
-//        return password;
-//    }
-//
-//    public void setPassword(String password) {
-//        this.password = password;
-//    }
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }

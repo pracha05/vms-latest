@@ -44,12 +44,29 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/boxborder_shape"
-                    android:hint="Enter Email Or Mobile"
+                    android:hint="@string/enter_email_or_mobile"
                     android:inputType="textEmailAddress"
+                    android:drawableLeft="@drawable/ic_mail"
                     android:drawableRight="@drawable/arrow_green"
                     android:drawablePadding="10dp"
                     android:lines="1"
                     android:text=""
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorLightDarkGraynew"
+                    android:textSize="@dimen/txt16" />
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boxborder_shape"
+                    android:hint="@string/enter_password"
+                    android:inputType="textPassword"
+                    android:drawableLeft="@drawable/ic_password"
+                    android:drawableRight="@drawable/arrow_green"
+                    android:drawablePadding="10dp"
+                    android:lines="1"
+                    android:text=""
+                    android:visibility="gone"
                     android:paddingLeft="10dp"
                     android:textColor="@color/colorLightDarkGraynew"
                     android:textSize="@dimen/txt16" />
@@ -79,7 +96,7 @@
                                 android:layout_marginRight="10dp"
                                 android:text="@string/hint_forgot_password"
                                 android:textColor="@color/colorWhite"
-                                android:visibility="gone"
+                                android:visibility="visible"
                                 android:textSize="14dp" />
                     </RelativeLayout>
 
