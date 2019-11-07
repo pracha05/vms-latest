@@ -2,6 +2,8 @@ package com.vms.customer.service;
 
 import com.vms.customer.model.forgotpassword.ForgotPasswordRequestModel;
 import com.vms.customer.model.forgotpassword.ForgotPasswordResponseModel;
+import com.vms.customer.model.forgotpassword.RecreatePasswordRequestModel;
+import com.vms.customer.model.forgotpassword.RecreatePasswordResponseModel;
 import com.vms.customer.model.registration.RegistrationRequestModel;
 import com.vms.customer.model.registration.RegistrationResponseModel;
 import com.vms.customer.model.signin.SignInRequestModel;
@@ -34,4 +36,9 @@ public interface VmsWebService {
             "Accept: */*"})
     @POST("api/forgot_password.php")
     Call<ForgotPasswordResponseModel> resetPassword(@Body ForgotPasswordRequestModel user);
+
+    @Headers({"Content-type: application/json",
+            "Accept: */*"})
+    @POST("api/forgot_password.php")
+    Call<RecreatePasswordResponseModel> recreatePassword(@Body RecreatePasswordRequestModel user);
 }

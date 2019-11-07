@@ -274,7 +274,8 @@
                             android:lines="1"
                             android:paddingLeft="10dp"
                             android:text=""
-                            android:maxLength="8"
+                            android:minLines="6"
+                            android:maxLength="12"
                             android:textColor="@color/colorLightDarkGraynew"
                             android:textSize="@dimen/txt16" />
 

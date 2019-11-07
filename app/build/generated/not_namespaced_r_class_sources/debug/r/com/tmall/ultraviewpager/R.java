@@ -37,9 +37,9 @@ public final class R {
         public static final int forward = 0x7f0a00b5;
         public static final int horizontal = 0x7f0a00bf;
         public static final int item_touch_helper_previous_elevation = 0x7f0a00f5;
-        public static final int none = 0x7f0a0128;
-        public static final int ultraviewpager_page_container = 0x7f0a028e;
-        public static final int vertical = 0x7f0a0293;
+        public static final int none = 0x7f0a0129;
+        public static final int ultraviewpager_page_container = 0x7f0a028f;
+        public static final int vertical = 0x7f0a0294;
     }
     public static final class string {
         private string() {}

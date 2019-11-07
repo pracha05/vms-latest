@@ -11,12 +11,14 @@ import android.text.Spanned;
 import android.text.TextPaint;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.appcompat.widget.Toolbar;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.goodiebag.pinview.Pinview;
 import com.vms.customer.R;
@@ -24,9 +26,20 @@ import com.vms.customer.VmsApplication;
 import com.vms.customer.constant.Constant;
 import com.vms.customer.constant.ReceiverConstant;
 import com.vms.customer.intents.IntentFactory;
+import com.vms.customer.model.forgotpassword.ForgotPasswordRequestModel;
+import com.vms.customer.model.forgotpassword.ForgotPasswordResponseModel;
+import com.vms.customer.model.registration.RegistrationRequestModel;
+import com.vms.customer.model.registration.RegistrationResponseModel;
+import com.vms.customer.network.NetworkConstant;
+import com.vms.customer.preferences.VmsPreferenceHelper;
+import com.vms.customer.service.VmsApiClient;
+import com.vms.customer.service.VmsWebService;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 import timber.log.Timber;
 
 public class VerifyOtpActivity extends BaseActivity {
@@ -52,7 +65,10 @@ public class VerifyOtpActivity extends BaseActivity {
     Pinview otpView;
 
     private String phoneNumber;
-    private String userId , OTPValue;
+    private int userId ;
+    private String OTPFromMessage , OTPFromServer , email , password;
+
+    private VmsWebService apiInterface;
 
     private String[] broadCastReceiverActionList = {
             ReceiverConstant.ACTION_RECEIVE_SMS_SUCCESS,
@@ -81,17 +97,27 @@ public class VerifyOtpActivity extends BaseActivity {
             });
         }
         if(getIntent()!=null){
-            phoneNumber = getIntent().getStringExtra(Constant.STRING_EXTRA);
-            userId = getIntent().getStringExtra(Constant.STRING_EXTRA1);
-            tvPhoneText.setText(Html.fromHtml(getString(R.string.phone_verify_text,phoneNumber)), TextView.BufferType.SPANNABLE);
-            setClickableString("(change)", tvPhoneText.getText().toString(), tvPhoneText);
+            if(!getIntent().hasExtra("Constant.STRING_FORGOT_PASSWORD")) {
+                phoneNumber = getIntent().getStringExtra(Constant.STRING_EXTRA);
+                userId = getIntent().getIntExtra(Constant.STRING_EXTRA1, 1);
+                email = getIntent().getStringExtra(Constant.STRING_EXTRA3);
+                password = getIntent().getStringExtra(Constant.STRING_EXTRA4);
+                OTPFromServer = getIntent().getStringExtra(Constant.STRING_EXTRA2);
+
+            }else{
+                phoneNumber = getIntent().getStringExtra(Constant.STRING_EXTRA);
+                userId = getIntent().getIntExtra(Constant.STRING_EXTRA1, 1);
+                OTPFromServer = getIntent().getStringExtra(Constant.STRING_EXTRA2);
+            }
         }
+        tvPhoneText.setText(Html.fromHtml(getString(R.string.phone_verify_text, phoneNumber)), TextView.BufferType.SPANNABLE);
+        setClickableString("(change)", tvPhoneText.getText().toString(), tvPhoneText);
         setClickableString("Resend Now", tvResendCode.getText().toString(), tvResendCode);
 
         otpView.setPinViewEventListener(new Pinview.PinViewEventListener() {
             @Override
             public void onDataEntered(Pinview pinview, boolean fromUser) {
-                OTPValue = pinview.getValue();
+                OTPFromMessage = pinview.getValue();
             }
         });
 
@@ -128,6 +154,7 @@ public class VerifyOtpActivity extends BaseActivity {
         progressBar.setVisibility(View.GONE);
         startActivity(IntentFactory.createPhoneNumberVerificationStatusActivity(this));
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+        finish();
     }
 
     /**
@@ -161,6 +188,7 @@ public class VerifyOtpActivity extends BaseActivity {
             public void onClick(View widget) {
                 Intent intent = new Intent(getApplicationContext(), SignUpActivity.class);
                 startActivity(intent);
+                finish();
                 overridePendingTransition(R.anim.slide_in_from_left, R.anim.fade_out);
             }
         }, startIndex, endIndex, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
@@ -178,7 +206,6 @@ public class VerifyOtpActivity extends BaseActivity {
                 //receive sms
                 String otp = intent.getStringExtra(Constant.STRING_EXTRA);
                 otpView.setValue(otp);
-
             }
         }
     };
@@ -195,11 +222,84 @@ public class VerifyOtpActivity extends BaseActivity {
      * @param view
      */
     public void onSubmitClicked(View view) {
-        startActivity(IntentFactory.createPhoneNumberVerificationStatusActivity(this));
-        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-        if (OTPValue!=null && !OTPValue.isEmpty()) {
+
+        if (OTPFromMessage!=null && !OTPFromMessage.isEmpty()) {
             progressBar.setVisibility(View.VISIBLE);
             //start otp verification
-        }
+            progressBar.setVisibility(View.VISIBLE);
+            apiInterface =   apiInterface = VmsApiClient.getClient().create(VmsWebService.class);
+            //registration request
+            if (!getIntent().hasExtra("Constant.STRING_FORGOT_PASSWORD")) {
+                RegistrationRequestModel registrationRequestModel = new RegistrationRequestModel
+                        (userId, OTPFromMessage, OTPFromServer, NetworkConstant.STEP_TWO);
+                Call<RegistrationResponseModel> call = apiInterface.createUser(registrationRequestModel);
+                call.enqueue(new Callback<RegistrationResponseModel>() {
+                    @Override
+                    public void onResponse(Call<RegistrationResponseModel> call, Response<RegistrationResponseModel> response) {
+                        RegistrationResponseModel registrationResponseModel = response.body();
+                        Timber.d("Response message" + registrationResponseModel.getMessage());
+                        if (registrationResponseModel.getStatus() == NetworkConstant.STATUS_ONE) {
+                            progressBar.setVisibility(View.GONE);
+                            VmsPreferenceHelper.saveEmailToPreference(VerifyOtpActivity.this, email);
+                            VmsPreferenceHelper.savePhoneNumberToPreference(VerifyOtpActivity.this, phoneNumber);
+                            VmsPreferenceHelper.savePasswordToPreference(VerifyOtpActivity.this, password);
+                            Intent broadcastIntent = new Intent();
+                            broadcastIntent.setAction(ReceiverConstant.ACTION_VERIFICATION_SUCCESS);
+                            LocalBroadcastManager.getInstance(VerifyOtpActivity.this).sendBroadcast(broadcastIntent);
+                        } else {
+                            progressBar.setVisibility(View.GONE);
+                            if (registrationResponseModel.getMessage() != null
+                                    && !registrationResponseModel.getMessage().isEmpty()) {
+                                showErrorDialog(registrationResponseModel.getMessage());
+                            } else {
+                                showErrorDialog(getString(R.string.general_error_message));
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<RegistrationResponseModel> call, Throwable t) {
+                        Log.d("FAIL", "onfail");
+                        progressBar.setVisibility(View.GONE);
+                        showErrorDialog(getString(R.string.general_error_message));
+                        call.cancel();
+                    }
+                });
+            }else{
+                ForgotPasswordRequestModel forgotPasswordRequestModel = new ForgotPasswordRequestModel
+                        (OTPFromMessage, OTPFromServer, NetworkConstant.STEP_TWO);
+                Call<ForgotPasswordResponseModel> call = apiInterface.resetPassword(forgotPasswordRequestModel);
+                call.enqueue(new Callback<ForgotPasswordResponseModel>() {
+                    @Override
+                    public void onResponse(Call<ForgotPasswordResponseModel> call, Response<ForgotPasswordResponseModel> response) {
+                        ForgotPasswordResponseModel forgotPasswordResponseModel = response.body();
+                        Timber.d("Response message" + forgotPasswordResponseModel.getMessage());
+                        if (forgotPasswordResponseModel.getStatus() == NetworkConstant.STATUS_ONE) {
+                            progressBar.setVisibility(View.GONE);
+                            //otp match
+                            startActivity(IntentFactory.createForgotPasswordActivity(VerifyOtpActivity.this));
+                            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                            finish();
+                        } else {
+                            progressBar.setVisibility(View.GONE);
+                            if (forgotPasswordResponseModel.getMessage() != null
+                                    && !forgotPasswordResponseModel.getMessage().isEmpty()) {
+                                showErrorDialog(forgotPasswordResponseModel.getMessage());
+                            } else {
+                                showErrorDialog(getString(R.string.general_error_message));
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<ForgotPasswordResponseModel> call, Throwable t) {
+                        Log.d("FAIL", "onfail");
+                        progressBar.setVisibility(View.GONE);
+                        showErrorDialog(getString(R.string.general_error_message));
+                        call.cancel();
+                    }
+                });
+            }
+        }//if
     }
 }

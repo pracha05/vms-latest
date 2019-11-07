@@ -166,52 +166,51 @@ public class SignUpActivity extends BaseActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_sign_up:
-                Intent intent = IntentFactory.createVerifyOtpActivity(SignUpActivity.this);
-                intent.putExtra(Constant.STRING_EXTRA, etPhone.getText().toString());
-                startActivity(intent);
-                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-//                progressBar.setVisibility(View.VISIBLE);
-//                if (validate()) {
-//                    RegistrationRequestModel registrationRequestModel = new RegistrationRequestModel
-//                            (etEmail.getText().toString(), etPassword.getText().toString(),
-//                                    etPhone.getText().toString(), NetworkConstant.ACCOUNT_TYPE_BUSINESS, NetworkConstant.STEP_ONE,
-//                                    etGst.getText().toString());
-//                    Call<RegistrationResponseModel> call = apiInterface.createUser(registrationRequestModel);
-//                    call.enqueue(new Callback<RegistrationResponseModel>() {
-//                        @Override
-//                        public void onResponse(Call<RegistrationResponseModel> call, Response<RegistrationResponseModel> response) {
-//                            RegistrationResponseModel registrationResponseModel = response.body();
-//                            Timber.d("Response message" + registrationResponseModel.getMessage());
-//                            if (registrationResponseModel.getStatus() == NetworkConstant.STATUS_ONE) {
-//                                progressBar.setVisibility(View.GONE);
-//                                VmsPreferenceHelper.saveCustomerIdToPreference(SignUpActivity.this,String.valueOf(registrationResponseModel.getId()));
-//                                Intent intent = IntentFactory.createVerifyOtpActivity(SignUpActivity.this);
-//                                intent.putExtra(Constant.STRING_EXTRA, etPhone.getText().toString());
-//                                intent.putExtra(Constant.STRING_EXTRA1,String.valueOf(registrationResponseModel.getId()));
-//                                intent.putExtra(Constant.STRING_EXTRA2,registrationResponseModel.getOtp());
-//                                startActivity(intent);
-//                                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-//                            } else {
-//                                progressBar.setVisibility(View.GONE);
-//                                progressBar.setVisibility(View.GONE);
-//                                if(registrationResponseModel.getMessage()!=null
-//                                        && !registrationResponseModel.getMessage().isEmpty()){
-//                                    showErrorDialog(registrationResponseModel.getMessage());
-//                                }else {
-//                                    showErrorDialog(getString(R.string.general_error_message));
-//                                }
-//                            }
-//                        }
-//
-//                        @Override
-//                        public void onFailure(Call<RegistrationResponseModel> call, Throwable t) {
-//                            Log.d("FAIL", "onfail");
-//                            progressBar.setVisibility(View.GONE);
-//                            showErrorDialog(getString(R.string.general_error_message));
-//                            call.cancel();
-//                        }
-//                    });
-//                }
+
+                progressBar.setVisibility(View.VISIBLE);
+                if (validate()) {
+                    RegistrationRequestModel registrationRequestModel = new RegistrationRequestModel
+                            (etEmail.getText().toString(), etPassword.getText().toString(),
+                                    etPhone.getText().toString(), NetworkConstant.ACCOUNT_TYPE_BUSINESS, NetworkConstant.STEP_ONE,
+                                    etGst.getText().toString());
+                    Call<RegistrationResponseModel> call = apiInterface.createUser(registrationRequestModel);
+                    call.enqueue(new Callback<RegistrationResponseModel>() {
+                        @Override
+                        public void onResponse(Call<RegistrationResponseModel> call, Response<RegistrationResponseModel> response) {
+                            RegistrationResponseModel registrationResponseModel = response.body();
+                            Timber.d("Response message" + registrationResponseModel.getMessage());
+                            if (registrationResponseModel.getStatus() == NetworkConstant.STATUS_ONE) {
+                                progressBar.setVisibility(View.GONE);
+                                VmsPreferenceHelper.saveCustomerIdToPreference(SignUpActivity.this,String.valueOf(registrationResponseModel.getId()));
+                                Intent intent = IntentFactory.createVerifyOtpActivity(SignUpActivity.this);
+                                intent.putExtra(Constant.STRING_EXTRA, etPhone.getText().toString());
+                                intent.putExtra(Constant.STRING_EXTRA1,registrationResponseModel.getId());
+                                intent.putExtra(Constant.STRING_EXTRA2,registrationResponseModel.getOtp());
+                                intent.putExtra(Constant.STRING_EXTRA3,etEmail.getText().toString());
+                                intent.putExtra(Constant.STRING_EXTRA4,etPassword.getText().toString());
+                                startActivity(intent);
+                                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                            } else {
+                                progressBar.setVisibility(View.GONE);
+                                progressBar.setVisibility(View.GONE);
+                                if(registrationResponseModel.getMessage()!=null
+                                        && !registrationResponseModel.getMessage().isEmpty()){
+                                    showErrorDialog(registrationResponseModel.getMessage());
+                                }else {
+                                    showErrorDialog(getString(R.string.general_error_message));
+                                }
+                            }
+                        }
+
+                        @Override
+                        public void onFailure(Call<RegistrationResponseModel> call, Throwable t) {
+                            Log.d("FAIL", "onfail");
+                            progressBar.setVisibility(View.GONE);
+                            showErrorDialog(getString(R.string.general_error_message));
+                            call.cancel();
+                        }
+                    });
+                }
                 break;
 //            case R.id.iv_logo_img_back:
 //                startActivity(IntentFactory.createUserLoginActivity(this));
@@ -314,9 +313,9 @@ public class SignUpActivity extends BaseActivity {
             return false;
         }
 
-        if (password.length() < 6) {
+        if(password.length()<6 || password.length() >12){
             Snackbar
-                    .make(rootLayout, R.string.password_size_check,
+                    .make(rootLayout, R.string.password_length,
                             Snackbar.LENGTH_SHORT)
                     .show();
             return false;

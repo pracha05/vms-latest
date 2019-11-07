@@ -32,9 +32,12 @@ import com.vms.customer.R;
 import com.vms.customer.VmsApplication;
 import com.vms.customer.constant.Constant;
 import com.vms.customer.intents.IntentFactory;
+import com.vms.customer.model.forgotpassword.ForgotPasswordRequestModel;
+import com.vms.customer.model.forgotpassword.ForgotPasswordResponseModel;
 import com.vms.customer.model.signin.SignInRequestModel;
 import com.vms.customer.model.signin.SignInResponseModel;
 import com.vms.customer.network.NetworkConstant;
+import com.vms.customer.preferences.VmsPreferenceHelper;
 import com.vms.customer.service.SmartDialogClickListener;
 import com.vms.customer.service.VmsApiClient;
 import com.vms.customer.service.VmsWebService;
@@ -70,6 +73,9 @@ public class SignInActivity extends BaseActivity {
 
     private VmsWebService apiInterface;
 
+    private int step = 1;
+    private String email = "";
+
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,7 +101,15 @@ public class SignInActivity extends BaseActivity {
                                 if(isConnected()) {
                                     if (validate()) {
                                         progressBar.setVisibility(View.VISIBLE);
-                                        SignInRequestModel signInRequestModel = new SignInRequestModel(edtEmail.getText().toString(), NetworkConstant.STEP_ONE);
+                                        SignInRequestModel signInRequestModel  = null ;
+                                        if(step == 1) {
+                                            email = edtEmail.getText().toString();
+                                            signInRequestModel = new SignInRequestModel(email, NetworkConstant.STEP_ONE);
+                                        }
+                                        if(step == 2){
+                                            String password = edtPassword.getText().toString();
+                                            signInRequestModel = new SignInRequestModel(email,password, NetworkConstant.STEP_TWO);
+                                        }
                                         Call<SignInResponseModel> call = apiInterface.getUser(signInRequestModel);
                                         call.enqueue(new Callback<SignInResponseModel>() {
                                             @Override
@@ -105,8 +119,17 @@ public class SignInActivity extends BaseActivity {
                                                 if (signInResponseModel.status == NetworkConstant.STATUS_ONE) {
                                                     progressBar.setVisibility(View.GONE);
                                                     //email register ----> change UI
-                                                    edtPassword.setVisibility(View.VISIBLE);
-                                                    edtEmail.setVisibility(View.GONE);
+                                                    if(step == 1) {
+                                                        step = 2;
+                                                        edtPassword.setVisibility(View.VISIBLE);
+                                                        edtEmail.setVisibility(View.GONE);
+                                                    }
+                                                    if(step == 2){
+                                                        // login success and start dashboard activity
+                                                        startActivity(new Intent(SignInActivity.this,HomeActivity.class));
+                                                        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                                                        finish();
+                                                    }
                                                 } else {
                                                     progressBar.setVisibility(View.GONE);
                                                     if (signInResponseModel.message != null
@@ -115,8 +138,14 @@ public class SignInActivity extends BaseActivity {
                                                     } else {
                                                         showErrorDialog(getString(R.string.general_error_message));
                                                     }
-                                                    edtPassword.setVisibility(View.GONE);
-                                                    edtEmail.setVisibility(View.VISIBLE);
+                                                    if(step ==1) {
+                                                        edtPassword.setVisibility(View.GONE);
+                                                        edtEmail.setVisibility(View.VISIBLE);
+                                                    }
+                                                    if(step == 2){
+                                                        edtPassword.setVisibility(View.VISIBLE);
+                                                        edtEmail.setVisibility(View.GONE);
+                                                    }
                                                 }
                                             }
 
@@ -124,6 +153,9 @@ public class SignInActivity extends BaseActivity {
                                             public void onFailure(Call<SignInResponseModel> call, Throwable t) {
                                                 Log.d("FAIL", "onfail");
                                                 progressBar.setVisibility(View.GONE);
+                                                step = 1;
+                                                edtPassword.setVisibility(View.GONE);
+                                                edtEmail.setVisibility(View.VISIBLE);
                                                 showErrorDialog(getString(R.string.general_error_message));
                                                 call.cancel();
                                             }
@@ -152,36 +184,57 @@ public class SignInActivity extends BaseActivity {
      * @return
      */
     public boolean validate() {
-        String email = this.edtEmail.getText().toString();
-        if(email.isEmpty()){
-            Snackbar
-                    .make(rootLayout, R.string.sign_in_error_mesage,
-                            Snackbar.LENGTH_SHORT)
-                    .show();
-            return false;
-        }
-        if (email.matches("[a-zA-Z]+") && !Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            Snackbar
-                    .make(rootLayout, R.string.email_error_mesage,
-                            Snackbar.LENGTH_SHORT)
-                    .show();
-            return false;
-        }
+        if(step == 1) {
+            String email = this.edtEmail.getText().toString();
+            if (email.isEmpty()) {
+                Snackbar
+                        .make(rootLayout, R.string.sign_in_error_mesage,
+                                Snackbar.LENGTH_SHORT)
+                        .show();
+                return false;
+            }
+            if (email.matches("[a-zA-Z]+") && !Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                Snackbar
+                        .make(rootLayout, R.string.email_error_mesage,
+                                Snackbar.LENGTH_SHORT)
+                        .show();
+                return false;
+            }
 
-        if (((email.matches("[0-9]+") && email.length() > 2) && (email.length() < Constant.MOBILE_NUMBER_MINIMUM_LENGTH))){
-            Snackbar
-                    .make(rootLayout, R.string.mobile_number_error_mesage,
-                            Snackbar.LENGTH_SHORT)
-                    .show();
-            return false;
-        }
+            if (((email.matches("[0-9]+") && email.length() > 2) && (email.length() < Constant.MOBILE_NUMBER_MINIMUM_LENGTH))) {
+                Snackbar
+                        .make(rootLayout, R.string.mobile_number_error_mesage,
+                                Snackbar.LENGTH_SHORT)
+                        .show();
+                return false;
+            }
 
-        if(email.matches("[0-9]+") && email.matches("[a-zA-Z]+")){
-            Snackbar
-                    .make(rootLayout, R.string.sign_in_error_mesage,
-                            Snackbar.LENGTH_SHORT)
-                    .show();
-            return false;
+            if (email.matches("[0-9]+") && email.matches("[a-zA-Z]+")) {
+                Snackbar
+                        .make(rootLayout, R.string.sign_in_error_mesage,
+                                Snackbar.LENGTH_SHORT)
+                        .show();
+                return false;
+            }
+        }
+        if(step == 2){
+            String password = edtPassword.getText().toString();
+            int passwordLength = password.length();
+            if(password.isEmpty()){
+                Snackbar
+                        .make(rootLayout, R.string.password_blank,
+                                Snackbar.LENGTH_SHORT)
+                        .show();
+                return false;
+            }
+            if(passwordLength<6 || passwordLength >12){
+                Snackbar
+                        .make(rootLayout, R.string.password_length,
+                                Snackbar.LENGTH_SHORT)
+                        .show();
+                return false;
+            }
+
         }
         return true;
     }
@@ -193,10 +246,14 @@ public class SignInActivity extends BaseActivity {
             case R.id.tv_registration:
                 startActivity(IntentFactory.createRegistrationActivity(this));
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                edtPassword.setVisibility(View.GONE);
+                edtEmail.setVisibility(View.VISIBLE);
                 break;
 
             case R.id.forgot_password:
                 //handle forgot password
+                edtPassword.setVisibility(View.GONE);
+                edtEmail.setVisibility(View.VISIBLE);
                 showInputDialog();
                 break;
         }
@@ -244,6 +301,43 @@ public class SignInActivity extends BaseActivity {
                                                 Context.INPUT_METHOD_SERVICE);
                                 imm.hideSoftInputFromWindow(
                                         phoneNumber.getWindowToken(), 0);
+                                progressBar.setVisibility(View.VISIBLE);
+                                ForgotPasswordRequestModel forgotPasswordRequestModel = new ForgotPasswordRequestModel(
+                                        phoneNumber.getText().toString(),NetworkConstant.STEP_ONE);
+                                Call<ForgotPasswordResponseModel> call = apiInterface.resetPassword(forgotPasswordRequestModel);
+                                call.enqueue(new Callback<ForgotPasswordResponseModel>() {
+                                    @Override
+                                    public void onResponse(Call<ForgotPasswordResponseModel> call, Response<ForgotPasswordResponseModel> response) {
+                                        progressBar.setVisibility(View.GONE);
+                                        ForgotPasswordResponseModel forgotPasswordResponseModel = response.body();
+                                        if (forgotPasswordResponseModel.getStatus() == NetworkConstant.STATUS_ONE) {
+                                            progressBar.setVisibility(View.GONE);
+                                            VmsPreferenceHelper.saveCustomerIdToPreference(SignInActivity.this,String.valueOf(forgotPasswordResponseModel.getId()));
+                                            Intent intent = IntentFactory.createVerifyOtpActivity(SignInActivity.this);
+                                            intent.putExtra(Constant.STRING_EXTRA, phoneNumber.getText().toString());
+                                            intent.putExtra(Constant.STRING_EXTRA1,forgotPasswordResponseModel.getId());
+                                            intent.putExtra(Constant.STRING_EXTRA2,forgotPasswordResponseModel.getOtp());
+                                            intent.putExtra(Constant.STRING_FORGOT_PASSWORD,true);
+                                            startActivity(intent);
+                                            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                                        } else {
+                                            progressBar.setVisibility(View.GONE);
+                                            if (forgotPasswordResponseModel.getMessage() != null
+                                                    && !forgotPasswordResponseModel.getMessage().isEmpty()) {
+                                                showStatusDialog(forgotPasswordResponseModel.getMessage());
+                                            } else {
+                                                showErrorDialog(getString(R.string.general_error_message));
+                                            }
+                                        }
+                                    }
+                                    @Override
+                                    public void onFailure(Call<ForgotPasswordResponseModel> call, Throwable t) {
+                                        Log.d("FAIL", "onfail");
+                                        showErrorDialog(getString(R.string.general_error_message));
+                                        call.cancel();
+                                    }
+                                });
+                                alert.dismiss();
                             }
                         }
                     }, 300);

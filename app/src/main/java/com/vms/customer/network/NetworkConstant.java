@@ -26,8 +26,8 @@ public class NetworkConstant {
      * process request constants
      */
     final public static int STEP_ONE = 1;
-    final public static String STEP_TWO = "2";
-    final public static String STEP_THREE = "3";
+    final public static int STEP_TWO = 2;
+    final public static int STEP_THREE = 3;
 
     /**
      * account type

@@ -17,13 +17,14 @@ public class RegistrationRequestModel {
     @SerializedName("gst")
     private String gst;
     @SerializedName("id")
-    private String id;
+    private int  id;
     @SerializedName("otp")
     private String otp;
     @SerializedName("user_otp")
     private String userOtp;
 
-    public RegistrationRequestModel(String otp, String userOtp,int step){
+    public RegistrationRequestModel(int id,String otp, String userOtp,int step){
+        this.setId(id);
         this.setOtp(otp);
         this.setUserOtp(userOtp);
         this.setStep(step);
@@ -88,11 +89,11 @@ public class RegistrationRequestModel {
         this.gst = gst;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

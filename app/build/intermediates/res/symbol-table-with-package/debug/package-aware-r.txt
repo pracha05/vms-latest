@@ -1642,7 +1642,9 @@ drawable ic_electronics_goods
 drawable ic_email
 drawable ic_filter
 drawable ic_filters
+drawable ic_fogot_password
 drawable ic_foods_agricultures
+drawable ic_forgot_password
 drawable ic_gst
 drawable ic_home_appliances
 drawable ic_insurance
@@ -1990,6 +1992,7 @@ id item_id
 id item_touch_helper_previous_elevation
 id iv_business
 id iv_business_text
+id iv_forgot_password
 id iv_logo
 id iv_person
 id iv_person_text

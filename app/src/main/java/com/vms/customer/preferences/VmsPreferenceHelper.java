@@ -22,6 +22,19 @@ public class VmsPreferenceHelper {
         editor.commit();
     }
 
+    /**
+     * save password to share preference
+     * @param context
+     * @param password
+     */
+    public static final void savePasswordToPreference(Context context, String password){
+        SharedPreferences sharedPref = context.getSharedPreferences(
+                VMS_PREFERENCE_FILE_KEY, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPref.edit();
+        editor.putString(Constant.KEY_USER_PASSWORD, password);
+        editor.commit();
+    }
+
 
     /**
      * save mobile to share preference

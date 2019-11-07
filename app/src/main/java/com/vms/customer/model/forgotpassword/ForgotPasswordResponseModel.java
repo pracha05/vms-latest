@@ -5,19 +5,27 @@ import com.google.gson.annotations.SerializedName;
 public class ForgotPasswordResponseModel {
 
     @SerializedName("status")
-    private String status;
+    private int status;
     @SerializedName("message")
     private String message;
+    @SerializedName("id")
+    private int id;
+    @SerializedName("otp")
+    private String otp;
 
-    public ForgotPasswordResponseModel(String status, String messgae){
+
+
+    public ForgotPasswordResponseModel(int status, String message,int id,String otp){
         this.setStatus(status);
-        this.setMessage(getMessage());
+        this.setMessage(message);
+        this.setId(id);
+        this.setOtp(otp);
     }
 
 
-    public String getStatus() { return status; }
+    public int getStatus() { return status; }
 
-    public void setStatus(String status) {
+    public void setStatus(int status) {
         this.status = status;
     }
 
@@ -27,5 +35,21 @@ public class ForgotPasswordResponseModel {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getOtp() {
+        return otp;
+    }
+
+    public void setOtp(String otp) {
+        this.otp = otp;
     }
 }

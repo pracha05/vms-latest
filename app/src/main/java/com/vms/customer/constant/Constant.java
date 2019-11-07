@@ -10,6 +10,8 @@ public class Constant {
     public static final String KEY_LOGOUT = "user_logout";
     public static final String KEY_CUSTOMER_ID = "customer_id";
     public static final String KEY_GUIDED_TOUR = "guided_tour_key";
+    public static final String KEY_USER_PASSWORD = "user_password";
+
 
     /**
      * user account type
@@ -29,4 +31,5 @@ public class Constant {
     public static final String STRING_EXTRA2 = "extra_data2";
     public static final String STRING_EXTRA3 = "extra_data3";
     public static final String STRING_EXTRA4 = "extra_data4";
+    public static final String STRING_FORGOT_PASSWORD = "extra_data5";
 }
