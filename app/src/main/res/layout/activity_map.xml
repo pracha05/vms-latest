@@ -28,8 +28,17 @@
             android:gravity="center"
             android:textSize="@dimen/headertextsize"
             android:text="@string/select_address"
-
             android:textColor="@color/colorWhite" />
+
+        <ImageView
+            android:id="@+id/img_accept"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_action_accept" />
 
     </RelativeLayout>
 
@@ -45,40 +54,16 @@
             android:layout_weight="1.7"
             android:layout_height="match_parent">
 
-
-            <!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"-->
-            <!--xmlns:tools="http://schemas.android.com/tools"-->
-            <!--android:id="@+id/map"-->
-            <!--android:name="com.google.android.gms.maps.SupportMapFragment"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="350dp"-->
-            <!--tools:context="im.avenue.app.editprofile.serviceArea.serviceAreaMap.ServiceAreaMap" />-->
-
-            <!--<ImageView-->
-            <!--android:layout_width="36dp"-->
-            <!--android:layout_height="36dp"-->
-
-            <!--android:layout_centerHorizontal="true"-->
-            <!--android:layout_centerVertical="true"-->
-            <!--android:src="@drawable/tree"-->
-            <!--android:text="TextView" />-->
-
-            <!--<TextView-->
-            <!--android:id="@+id/dragg_result"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_alignParentBottom="true"-->
-            <!--android:background="#8c000000"-->
-            <!--android:gravity="center_horizontal"-->
-            <!--android:padding="20dp"-->
-            <!--android:text="Please drag map to your address.."-->
-            <!--android:textColor="#ffffff"-->
-            <!--android:textSize="18dp" />-->
+            <fragment
+                android:id="@+id/place_autocomplete_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:name="com.google.android.libraries.places.compat.ui.SupportPlaceAutocompleteFragment"/>
 
             <fragment xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools"
+                android:layout_below="@id/place_autocomplete_fragment"
                 android:id="@+id/map"
-
                 android:name="com.google.android.gms.maps.SupportMapFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

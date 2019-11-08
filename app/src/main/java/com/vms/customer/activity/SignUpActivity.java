@@ -166,13 +166,23 @@ public class SignUpActivity extends BaseActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_sign_up:
-
-                progressBar.setVisibility(View.VISIBLE);
                 if (validate()) {
-                    RegistrationRequestModel registrationRequestModel = new RegistrationRequestModel
-                            (etEmail.getText().toString(), etPassword.getText().toString(),
-                                    etPhone.getText().toString(), NetworkConstant.ACCOUNT_TYPE_BUSINESS, NetworkConstant.STEP_ONE,
-                                    etGst.getText().toString());
+                    progressBar.setVisibility(View.VISIBLE);
+                    String accountType = "";
+                    RegistrationRequestModel registrationRequestModel = null;
+                    if(layoutBusiness.isSelected()){
+                        accountType = NetworkConstant.ACCOUNT_TYPE_BUSINESS;
+                        registrationRequestModel = new RegistrationRequestModel
+                                (etEmail.getText().toString(), etPassword.getText().toString(),
+                                        etPhone.getText().toString(),accountType , NetworkConstant.STEP_ONE,
+                                        etGst.getText().toString());
+                    }else{
+                        accountType = NetworkConstant.ACCOUNT_TYPE_PERSONAL;
+                        registrationRequestModel = new RegistrationRequestModel
+                                (etEmail.getText().toString(), etPassword.getText().toString(),
+                                        etPhone.getText().toString(),accountType , NetworkConstant.STEP_ONE);
+                    }
+
                     Call<RegistrationResponseModel> call = apiInterface.createUser(registrationRequestModel);
                     call.enqueue(new Callback<RegistrationResponseModel>() {
                         @Override
@@ -281,7 +291,7 @@ public class SignUpActivity extends BaseActivity {
             return false;
         }
 
-        if (cbBusiness.isChecked()) {
+        if (layoutBusiness.isSelected()) {
             if (gst.isEmpty()) {
                 Snackbar
                         .make(rootLayout, R.string.gst_blank,

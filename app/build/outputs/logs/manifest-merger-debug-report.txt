@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-182:12
-INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-182:12
-INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-182:12
-INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-182:12
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-190:12
+INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-190:12
+INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-190:12
+INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-190:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\b91caa209798608d45cf197b8483ea61\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.kofigyan.stateprogressbar:stateprogressbar:1.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a141d21147bcd05caa5592a7f577fa0e\jetified-stateprogressbar-1.0.0\AndroidManifest.xml:2:1-14:12
@@ -66,25 +66,25 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\SIDHHI\.gradle\caches\transfor
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\94fa75f79e8076d56aab4a0d45fac825\beta-1.2.10\AndroidManifest.xml:2:1-13:12
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fb980536d49458bff67dc63e47039495\fabric-1.4.8\AndroidManifest.xml:22:1-33:12
-INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-182:12
-INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-182:12
-INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-182:12
+INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-190:12
+INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-190:12
+INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-190:12
 	package
 		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-182:12
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-190:12
 		INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-182:12
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:1-190:12
 		INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:5:5-171:19
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:5:5-179:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.kofigyan.stateprogressbar:stateprogressbar:1.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\a141d21147bcd05caa5592a7f577fa0e\jetified-stateprogressbar-1.0.0\AndroidManifest.xml:11:5-12:19
@@ -144,11 +144,11 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\SIDHHI\.gradle\caches\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\2ffb88316df49107418be0872d7babe4\core-1.0.0\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
 		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:12:9-54
 	android:largeHeap
 		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:10:9-33
 	android:icon
@@ -156,353 +156,367 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\SIDHHI\.gradle\caches\
 	android:allowBackup
 		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:14:9-40
+	android:usesCleartextTraffic
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:11:9-44
 	android:name
 		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:6:9-39
 activity#com.vms.customer.activity.ForgotPasswordActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:14:9-16:68
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:15:9-17:68
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:15:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:16:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:16:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:17:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:14:19-66
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:15:19-66
 activity#com.vms.customer.activity.PhoneVerificationStatus
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:17:9-20:92
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:18:9-21:92
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:19:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:20:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:20:13-80
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:21:13-80
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:18:13-61
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:19:13-61
 activity#com.vms.customer.activity.CustomerMembershipActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:21:9-24:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:22:9-25:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:23:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:24:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:24:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:25:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:22:13-64
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:23:13-64
 activity#com.vms.customer.activity.PrivacyPolicyActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:25:9-28:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:26:9-29:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:27:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:28:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:28:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:26:13-59
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:27:13-59
 activity#com.vms.customer.activity.TermsOfUseActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:29:9-32:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:30:9-33:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:31:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:32:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:32:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:30:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:31:13-56
 activity#com.vms.customer.activity.AboutAppActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:33:9-36:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:34:9-37:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:36:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:36:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:37:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:34:13-54
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:35:13-54
 activity#com.vms.customer.activity.AboutUsActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:37:9-40:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:38:9-41:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:39:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:40:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:40:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:41:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:38:13-53
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:39:13-53
 activity#com.vms.customer.activity.MoreActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:41:9-44:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:42:9-45:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:43:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:44:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:44:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:45:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:42:13-50
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:43:13-50
 activity#com.vms.customer.activity.IntroductionPagerActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:45:9-48:83
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:46:9-49:83
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:47:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:48:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:48:13-80
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:49:13-80
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:46:13-63
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:47:13-63
 activity#com.vms.customer.activity.VerifyOtpActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:49:9-52:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:50:9-53:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:51:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:52:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:52:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:53:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:50:13-55
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:51:13-55
 activity#com.vms.customer.activity.VmsBaseActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:53:9-62
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:54:9-62
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:53:19-59
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:54:19-59
 activity#com.vms.customer.activity.SignUpActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:54:9-57:72
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:55:9-58:72
 	android:windowSoftInputMode
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:57:13-69
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:58:13-69
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:56:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:57:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:55:13-52
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:56:13-52
 activity#com.vms.customer.activity.SignInActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:58:9-62:70
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:59:9-63:70
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:60:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:61:13-49
 	android:windowSoftInputMode
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:62:13-67
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:13-67
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:61:13-80
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:62:13-80
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:59:13-52
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:60:13-52
 activity#com.vms.customer.activity.EditContact
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:63:9-66:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:64:9-67:59
 	android:screenOrientation
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:66:13-49
+	android:theme
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:67:13-56
+	android:name
 		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:65:13-49
-	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:66:13-56
-	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:64:13-49
 activity#com.vms.customer.activity.ContactAllList
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:67:9-70:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:68:9-71:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:69:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:70:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:70:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:71:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:68:13-52
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:69:13-52
 activity#com.vms.customer.model.BookingQuery
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:71:9-56
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:72:9-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:71:19-53
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:72:19-53
 activity#com.vms.customer.activity.CustomerSupport
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:72:9-75:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:73:9-76:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:74:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:75:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:75:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:76:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:73:13-53
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:74:13-53
 activity#com.vms.customer.activity.Wallet
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:76:9-79:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:77:9-80:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:78:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:79:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:79:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:80:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:77:13-44
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:78:13-44
 activity#com.vms.customer.activity.ReferenceCodeActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:80:9-83:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:81:9-84:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:82:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:83:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:83:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:84:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:81:13-59
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:82:13-59
 activity#com.vms.customer.activity.InsuranceProvider
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:84:9-87:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:85:9-88:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:86:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:87:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:87:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:88:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:85:13-55
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:86:13-55
 activity#com.vms.customer.activity.ContactDetailsInfo
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:88:9-91:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:89:9-92:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:90:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:91:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:91:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:92:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:89:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:90:13-56
 activity#com.vms.customer.activity.AddContact
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:92:9-95:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:93:9-96:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:94:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:95:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:95:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:96:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:93:13-48
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:94:13-48
 activity#com.vms.customer.activity.TruckDetailsFourOptions
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:96:9-99:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:97:9-100:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:98:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:99:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:99:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:100:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:97:13-61
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:98:13-61
 activity#com.vms.customer.activity.TruckBookingConfirmActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:100:9-103:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:101:9-104:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:102:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:103:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:103:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:104:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:101:13-65
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:102:13-65
 activity#com.vms.customer.activity.MainFilterActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:104:9-107:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:105:9-108:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:106:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:107:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:107:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:108:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:105:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:106:13-56
 activity#com.vms.customer.activity.ListOfVechilesActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:108:9-111:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:109:9-112:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:110:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:111:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:111:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:112:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:109:13-60
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:110:13-60
 activity#com.vms.customer.activity.AddLoadActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:112:9-115:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:113:9-116:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:114:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:115:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:115:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:116:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:113:13-53
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:114:13-53
 activity#com.vms.customer.activity.EditProfile
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:116:9-119:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:117:9-120:59
 	android:screenOrientation
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:119:13-49
+	android:theme
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:120:13-56
+	android:name
 		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:118:13-49
-	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:119:13-56
-	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:117:13-49
 activity#com.vms.customer.activity.NotificationActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:120:9-123:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:121:9-124:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:122:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:123:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:123:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:124:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:121:13-58
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:122:13-58
 activity#com.vms.customer.activity.MapActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:124:9-127:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:125:9-128:59
 	android:screenOrientation
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:127:13-49
+	android:theme
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:128:13-56
+	android:name
 		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:126:13-49
-	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:127:13-56
-	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:125:13-49
 activity#com.vms.customer.activity.BookingSummery
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:128:9-131:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:129:9-132:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:130:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:131:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:131:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:132:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:129:13-52
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:130:13-52
 activity#com.vms.customer.activity.ProfileActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:132:9-135:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:133:9-136:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:134:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:135:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:135:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:136:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:133:13-53
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:134:13-53
 activity#com.vms.customer.activity.MaterialType
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:136:9-139:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:137:9-140:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:138:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:139:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:139:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:140:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:137:13-50
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:138:13-50
 activity#com.vms.customer.activity.BasicLoadActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:140:9-143:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:141:9-144:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:142:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:143:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:143:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:144:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:141:13-55
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:142:13-55
 activity#com.vms.customer.activity.LoadBookings
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:144:9-147:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:145:9-148:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:146:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:147:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:147:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:148:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:145:13-50
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:146:13-50
 activity#com.vms.customer.activity.HomeActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:148:9-152:59
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:149:9-153:59
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:151:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:152:13-49
 	android:label
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:150:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:151:13-56
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:152:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:153:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:149:13-50
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:150:13-50
+receiver#com.vms.customer.receiver.SMSReceiver
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:155:9-159:20
+	android:name
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:155:19-55
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:156:13-158:29
+	android:priority
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:156:28-50
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:157:17-82
+	android:name
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:157:25-79
 activity#com.vms.customer.activity.SplashActivity
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:153:9-162:20
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:161:9-170:20
 	android:screenOrientation
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:155:13-49
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:163:13-49
 	android:theme
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:156:13-56
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:164:13-56
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:154:13-52
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:162:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:157:13-161:29
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:165:13-169:29
 action#android.intent.action.MAIN
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:158:17-69
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:166:17-69
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:158:25-66
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:166:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:160:17-77
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:168:17-77
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:160:27-74
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:168:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:165:9-167:71
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:173:9-175:71
 	android:value
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:167:13-68
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:175:13-68
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:166:13-58
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:174:13-58
 meta-data#io.fabric.ApiKey
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:168:9-170:72
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:176:9-178:72
 	android:value
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:170:13-69
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:178:13-69
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:169:13-44
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:177:13-44
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:172:5-80
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:180:5-80
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:172:22-77
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:180:22-77
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:173:5-70
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:181:5-70
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:173:22-67
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:181:22-67
 uses-permission#android.permission.READ_SMS
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:174:5-67
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:182:5-67
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:174:22-64
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:182:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:175:5-79
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:183:5-79
 MERGED from [com.google.android.libraries.places:places-compat:2.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e83769236f918ab2a9a6d86ed1700c9a\places-compat-2.0.0\AndroidManifest.xml:9:5-79
 MERGED from [com.google.android.libraries.places:places-compat:2.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e83769236f918ab2a9a6d86ed1700c9a\places-compat-2.0.0\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:175:22-76
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:183:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:176:5-81
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:184:5-81
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:176:22-78
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:184:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:177:5-79
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:185:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\71410d59386dba98cbe61d29bc62f196\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\71410d59386dba98cbe61d29bc62f196\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:177:22-76
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:185:22-76
 uses-permission#android.permission.INTERNET
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:178:5-67
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:186:5-67
 MERGED from [com.google.android.libraries.places:places-compat:2.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e83769236f918ab2a9a6d86ed1700c9a\places-compat-2.0.0\AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.libraries.places:places-compat:2.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\e83769236f918ab2a9a6d86ed1700c9a\places-compat-2.0.0\AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\71410d59386dba98cbe61d29bc62f196\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
@@ -518,11 +532,11 @@ MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\SIDHHI\.gradle\ca
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fb980536d49458bff67dc63e47039495\fabric-1.4.8\AndroidManifest.xml:29:5-67
 MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\SIDHHI\.gradle\caches\transforms-2\files-2.1\fb980536d49458bff67dc63e47039495\fabric-1.4.8\AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:178:22-64
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:186:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:180:5-81
+ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:188:5-81
 	android:name
-		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:180:22-78
+		ADDED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml:188:22-78
 uses-sdk
 INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\AndroidManifest.xml

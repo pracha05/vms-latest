@@ -13,7 +13,7 @@
 
     <item
         android:id="@+id/b_navigation_booking"
-        android:icon="@drawable/ic_load_book"
+        android:icon="@drawable/ic_booking"
         android:title="@string/bookings"/>
 
     <item
@@ -23,7 +23,7 @@
 
     <item
         android:id="@+id/b_navigation_profile"
-        android:icon="@drawable/ic_account_circle"
+        android:icon="@drawable/ic_profile"
         android:title="@string/profile"/>
 
 </menu>

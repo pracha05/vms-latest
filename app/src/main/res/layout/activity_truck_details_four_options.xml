@@ -487,13 +487,12 @@
 
 
 
-        <android.support.v4.view.ViewPager
+        <androidx.viewpager.widget.ViewPager
             android:id="@+id/viewPager_truck_img"
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:layout_gravity="top"
             android:layout_margin="@dimen/margin5dp"
-
             android:padding="3dp" />
 
 
@@ -506,8 +505,6 @@
         android:layout_gravity="top"
         android:background="@color/colorCream"
         android:gravity="top"
-
-
         android:orientation="vertical"
         android:visibility="gone">
 

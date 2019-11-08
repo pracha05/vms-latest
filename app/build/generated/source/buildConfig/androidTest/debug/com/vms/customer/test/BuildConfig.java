@@ -11,6 +11,6 @@ public final class BuildConfig {
   public static final int VERSION_CODE = 1;
   public static final String VERSION_NAME = "1.0.1";
   // Fields from build type: debug
-  public static final String GIT_COMMIT_COUNT = "7";
-  public static final String GIT_HASH = "18b05bc";
+  public static final String GIT_COMMIT_COUNT = "9";
+  public static final String GIT_HASH = "d424a4b";
 }

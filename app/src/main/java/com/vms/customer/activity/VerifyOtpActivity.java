@@ -3,6 +3,7 @@ package com.vms.customer.activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
@@ -69,6 +70,7 @@ public class VerifyOtpActivity extends BaseActivity {
     private String OTPFromMessage , OTPFromServer , email , password;
 
     private VmsWebService apiInterface;
+    private boolean isFromForgotPassword;
 
     private String[] broadCastReceiverActionList = {
             ReceiverConstant.ACTION_RECEIVE_SMS_SUCCESS,
@@ -97,7 +99,7 @@ public class VerifyOtpActivity extends BaseActivity {
             });
         }
         if(getIntent()!=null){
-            if(!getIntent().hasExtra("Constant.STRING_FORGOT_PASSWORD")) {
+            if(!getIntent().hasExtra(Constant.STRING_FORGOT_PASSWORD)) {
                 phoneNumber = getIntent().getStringExtra(Constant.STRING_EXTRA);
                 userId = getIntent().getIntExtra(Constant.STRING_EXTRA1, 1);
                 email = getIntent().getStringExtra(Constant.STRING_EXTRA3);
@@ -124,27 +126,6 @@ public class VerifyOtpActivity extends BaseActivity {
         btnVerifyOTP.setOnClickListener(this);
         tvResendCode.setOnClickListener(this);
     }
-
-    /*
-     * Receiver to listen sms , sms verification status.
-     * more action can be added to listen more events.
-     */
-    private BroadcastReceiver receiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            if (intent != null) {
-                String action = intent.getAction();
-                if (action != null) {
-                    if (action.equals(ReceiverConstant.ACTION_VERIFICATION_SUCCESS)) {
-                        onVerificationSuccessAction();
-                    } else if (action.equals(ReceiverConstant.ACTION_VERIFICATION_FAILED)) {
-                        onVerificationFailedAction();
-                    }
-                }
-            }
-        }
-    };
-
     /**
      * on phone verification success
      *
@@ -205,7 +186,12 @@ public class VerifyOtpActivity extends BaseActivity {
             if (actionLauncher.equals(ReceiverConstant.ACTION_RECEIVE_SMS_SUCCESS)) {
                 //receive sms
                 String otp = intent.getStringExtra(Constant.STRING_EXTRA);
+                Timber.d("Message listener "+otp);
                 otpView.setValue(otp);
+            } if (actionLauncher.equals(ReceiverConstant.ACTION_VERIFICATION_SUCCESS)) {
+                onVerificationSuccessAction();
+            } else if (actionLauncher.equals(ReceiverConstant.ACTION_VERIFICATION_FAILED)) {
+                onVerificationFailedAction();
             }
         }
     };
@@ -214,6 +200,52 @@ public class VerifyOtpActivity extends BaseActivity {
     public void onClick(View v) {
         if (v.getId() == R.id.btn_verify_otp) {
             onSubmitClicked(v);
+        } else if(v.getId() == R.id.resend){
+            progressBar.setVisibility(View.VISIBLE);
+            apiInterface =   apiInterface = VmsApiClient.getClient().create(VmsWebService.class);
+            ForgotPasswordRequestModel forgotPasswordRequestModel = new ForgotPasswordRequestModel
+                    (phoneNumber);
+            Call<ForgotPasswordResponseModel> call = apiInterface.resendOTP(forgotPasswordRequestModel);
+            call.enqueue(new Callback<ForgotPasswordResponseModel>() {
+                @Override
+                public void onResponse(Call<ForgotPasswordResponseModel> call, Response<ForgotPasswordResponseModel> response) {
+                    ForgotPasswordResponseModel forgotPasswordResponseModel = response.body();
+                    Timber.d("Response message" + forgotPasswordResponseModel.getMessage());
+                    if (forgotPasswordResponseModel.getStatus() == NetworkConstant.STATUS_ONE) {
+                        progressBar.setVisibility(View.GONE);
+                        OTPFromServer = forgotPasswordResponseModel.getOtp();
+                    } else {
+                        progressBar.setVisibility(View.GONE);
+                        if (forgotPasswordResponseModel.getMessage() != null
+                                && !forgotPasswordResponseModel.getMessage().isEmpty()) {
+                            showErrorDialog(forgotPasswordResponseModel.getMessage());
+                        } else {
+                            showErrorDialog(getString(R.string.general_error_message));
+                        }
+                    }
+                }
+
+                @Override
+                public void onFailure(Call<ForgotPasswordResponseModel> call, Throwable t) {
+                    Log.d("FAIL", "onfail");
+                    progressBar.setVisibility(View.GONE);
+                    showErrorDialog(getString(R.string.general_error_message));
+                    call.cancel();
+                }
+            });
+        }
+    }
+
+    protected void onPause() {
+        super.onPause();
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(this.otpVerifyReceiver);
+    }
+
+    protected void onResume() {
+        super.onResume();
+        LocalBroadcastManager broadcastManager = LocalBroadcastManager.getInstance(this);
+        for (String action : this.broadCastReceiverActionList) {
+            broadcastManager.registerReceiver(this.otpVerifyReceiver, new IntentFilter(action));
         }
     }
 
@@ -224,12 +256,11 @@ public class VerifyOtpActivity extends BaseActivity {
     public void onSubmitClicked(View view) {
 
         if (OTPFromMessage!=null && !OTPFromMessage.isEmpty()) {
-            progressBar.setVisibility(View.VISIBLE);
-            //start otp verification
+
             progressBar.setVisibility(View.VISIBLE);
             apiInterface =   apiInterface = VmsApiClient.getClient().create(VmsWebService.class);
             //registration request
-            if (!getIntent().hasExtra("Constant.STRING_FORGOT_PASSWORD")) {
+            if (!getIntent().hasExtra(Constant.STRING_FORGOT_PASSWORD)) {
                 RegistrationRequestModel registrationRequestModel = new RegistrationRequestModel
                         (userId, OTPFromMessage, OTPFromServer, NetworkConstant.STEP_TWO);
                 Call<RegistrationResponseModel> call = apiInterface.createUser(registrationRequestModel);
@@ -243,9 +274,7 @@ public class VerifyOtpActivity extends BaseActivity {
                             VmsPreferenceHelper.saveEmailToPreference(VerifyOtpActivity.this, email);
                             VmsPreferenceHelper.savePhoneNumberToPreference(VerifyOtpActivity.this, phoneNumber);
                             VmsPreferenceHelper.savePasswordToPreference(VerifyOtpActivity.this, password);
-                            Intent broadcastIntent = new Intent();
-                            broadcastIntent.setAction(ReceiverConstant.ACTION_VERIFICATION_SUCCESS);
-                            LocalBroadcastManager.getInstance(VerifyOtpActivity.this).sendBroadcast(broadcastIntent);
+                            onVerificationSuccessAction();
                         } else {
                             progressBar.setVisibility(View.GONE);
                             if (registrationResponseModel.getMessage() != null
@@ -267,7 +296,7 @@ public class VerifyOtpActivity extends BaseActivity {
                 });
             }else{
                 ForgotPasswordRequestModel forgotPasswordRequestModel = new ForgotPasswordRequestModel
-                        (OTPFromMessage, OTPFromServer, NetworkConstant.STEP_TWO);
+                        (userId,OTPFromMessage, OTPFromServer, NetworkConstant.STEP_TWO);
                 Call<ForgotPasswordResponseModel> call = apiInterface.resetPassword(forgotPasswordRequestModel);
                 call.enqueue(new Callback<ForgotPasswordResponseModel>() {
                     @Override

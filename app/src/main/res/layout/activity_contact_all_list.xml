@@ -30,7 +30,6 @@
             android:gravity="center"
             android:textSize="@dimen/headertextsize"
             android:text="@string/contact_list"
-
             android:textColor="@color/colorWhite" />
         <ImageView
             android:id="@+id/img_contact_addcontact"

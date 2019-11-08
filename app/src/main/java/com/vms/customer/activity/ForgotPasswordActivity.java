@@ -14,11 +14,12 @@ import android.widget.RelativeLayout;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.vms.customer.R;
+import com.vms.customer.constant.Constant;
 import com.vms.customer.intents.IntentFactory;
 import com.vms.customer.model.forgotpassword.RecreatePasswordRequestModel;
 import com.vms.customer.model.forgotpassword.RecreatePasswordResponseModel;
-import com.vms.customer.model.registration.RegistrationResponseModel;
 import com.vms.customer.network.NetworkConstant;
+import com.vms.customer.preferences.VmsPreferenceHelper;
 import com.vms.customer.service.SmartDialogClickListener;
 import com.vms.customer.service.VmsApiClient;
 import com.vms.customer.service.VmsWebService;
@@ -84,7 +85,9 @@ public class ForgotPasswordActivity extends BaseActivity {
             case R.id.btn_submit:
                 if (isConnected()) {
                     if (validate()) {
-                        RecreatePasswordRequestModel recreatePasswordRequestModel = new RecreatePasswordRequestModel(
+                        progressBar.setVisibility(View.VISIBLE);
+                        int userId =Integer.parseInt(VmsPreferenceHelper.getValueFromPreference(this, Constant.KEY_CUSTOMER_ID));
+                        RecreatePasswordRequestModel recreatePasswordRequestModel = new RecreatePasswordRequestModel(userId,
                                 edtNewPassword.getText().toString(), edtRePassword.getText().toString(), NetworkConstant.STEP_THREE);
                         Call<RecreatePasswordResponseModel> call = apiInterface.recreatePassword(recreatePasswordRequestModel);
                         call.enqueue(new Callback<RecreatePasswordResponseModel>() {
@@ -95,9 +98,7 @@ public class ForgotPasswordActivity extends BaseActivity {
                                 if (recreatePasswordResponseModel.getStatus() == NetworkConstant.STATUS_ONE) {
                                     progressBar.setVisibility(View.GONE);
                                     showSuccessDialog(recreatePasswordResponseModel.getMessage());
-
                                 }else {
-                                    progressBar.setVisibility(View.GONE);
                                     progressBar.setVisibility(View.GONE);
                                     if (recreatePasswordResponseModel.getMessage() != null
                                             && !recreatePasswordResponseModel.getMessage().isEmpty()) {
@@ -161,7 +162,7 @@ public class ForgotPasswordActivity extends BaseActivity {
 
     public void showSuccessDialog(String message) {
         new SmartDialogBuilder(this)
-                .setTitle("Error")
+                .setTitle("Success")
                 .setSubTitle(message)
                 .setCancalable(false)
                 .setNegativeButtonHide(true) //hide cancel button

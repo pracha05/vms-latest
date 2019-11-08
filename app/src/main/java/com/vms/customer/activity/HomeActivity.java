@@ -252,8 +252,13 @@ public class HomeActivity extends BaseActivity
                 overridePendingTransition(R.anim.slide_in_from_right, R.anim.fade_out);
                 break;
             case R.id.tv_cus_logout:
+                Intent intent = IntentFactory.createUserLoginActivity(HomeActivity.this);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK
+                        |Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                finishAffinity();
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 finish();
-                overridePendingTransition(R.anim.slide_in_from_right, R.anim.fade_out);
                 break;
             case R.id.tv_searchview:
                 startActivity(IntentFactory.createAddLoadActivity(HomeActivity.this));

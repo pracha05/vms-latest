@@ -1097,7 +1097,7 @@
     <string name="check_icon"></string>
     <string name="click_icon_for_geo_location">Click icon for Geo Location</string>
     <string name="click_icon_for_goden_location">Click icon for Goden Location</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">fe2f1346-dc7a-496a-a2e6-a4a095e9c717</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">91ac1de5-7a4e-4c0e-acc8-04d92af821bf</string>
     <string name="com_name">Company Name -</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
@@ -1250,7 +1250,9 @@
     <string name="pan_card_no">PAN Card No</string>
     <string name="part_load">Part Load</string>
     <string name="password_blank">Password should not be blank !</string>
-    <string name="password_size_check">Password should not be less than 6 char and more than 8 char !</string>
+    <string name="password_length">Password should be minimum 6  and maximum 12 character length!</string>
+    <string name="password_mismatch">New password and Re-enter password mismatch! </string>
+    <string name="password_size_check">Password should not be less than 6 char and more than 12 char !</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>

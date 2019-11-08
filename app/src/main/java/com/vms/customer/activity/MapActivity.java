@@ -44,6 +44,9 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.libraries.places.compat.ui.PlaceSelectionListener;
+import com.google.android.libraries.places.compat.ui.SupportPlaceAutocompleteFragment;
 import com.vms.customer.R;
 import com.vms.customer.utils.AppFonts;
 import com.vms.customer.utils.AppUtils;
@@ -65,6 +68,9 @@ public class MapActivity extends BaseActivity implements OnMapReadyCallback,
     public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
     private static String TAG = "MAP LOCATION";
 
+    final int PLACE_PICKER_REQUEST = 1;
+    final int AUTOCOMPLETE_REQUEST = 2;
+
     private int mStatusCode;
     private Context mContext;
     private TextView locality,tv_Goden_header;
@@ -77,7 +83,7 @@ public class MapActivity extends BaseActivity implements OnMapReadyCallback,
     protected String mAreaOutput;
     protected String mCityOutput;
     protected String mStateOutput;
-    private ImageView img_goden_back;
+    private ImageView img_goden_back, img_accept;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,16 +103,29 @@ public class MapActivity extends BaseActivity implements OnMapReadyCallback,
 
 
         img_goden_back = findViewById(R.id.img_goden_back);
-        img_goden_back.setOnClickListener(new View.OnClickListener() {
+        img_accept = findViewById(R.id.img_accept);
+        img_accept.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent();
-                intent.putExtra("editTextValue", locality.getText().toString().trim());
-                setResult(RESULT_OK, intent);
-                finish();
+                if(locality.getText().toString().length()>2) {
+                    Intent intent = new Intent();
+                    intent.putExtra("editTextValue", locality.getText().toString().trim());
+                    setResult(RESULT_OK, intent);
+                    finish();
+                }
             }
         });
 
+        img_goden_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+                overridePendingTransition(R.anim.slide_in_from_left, R.anim.fade_out);
+            }
+        });
+
+
+        setupAutoCompleteFragment();
 
         mapFragment.getMapAsync(this);
         mResultReceiver = new AddressResultReceiver(new Handler());
@@ -146,6 +165,35 @@ public class MapActivity extends BaseActivity implements OnMapReadyCallback,
 
         checkLocationPermission();
 
+    }
+
+    /**
+     * Sets up the autocomplete fragment to show place details when a place is selected.
+     */
+    private void setupAutoCompleteFragment() {
+        SupportPlaceAutocompleteFragment autocompleteFragment = (SupportPlaceAutocompleteFragment)
+                getSupportFragmentManager().findFragmentById(R.id.place_autocomplete_fragment);
+
+        autocompleteFragment.setOnPlaceSelectedListener(new PlaceSelectionListener() {
+            @Override
+            public void onPlaceSelected(com.google.android.libraries.places.compat.Place place) {
+                if (mMap != null) {
+                    mMap.clear();
+                    mMap.getUiSettings().setZoomControlsEnabled(false);
+                    LatLng latLong = place.getLatLng();
+                    CameraPosition cameraPosition = new CameraPosition.Builder()
+                            .target(latLong).zoom(19f).tilt(70).build();
+                    mMap.setMyLocationEnabled(true);
+                    mMap.getUiSettings().setMyLocationButtonEnabled(true);
+                    mMap.animateCamera(CameraUpdateFactory
+                            .newCameraPosition(cameraPosition));
+                    startIntentService(location);
+                }
+            }
+
+            @Override
+            public void onError(Status status) {}
+        });
     }
 
 

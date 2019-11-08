@@ -31,6 +31,15 @@ public class RegistrationRequestModel {
     }
 
     public RegistrationRequestModel(String email, String password, String mobile,
+                                    String accountType, int step ){
+        this.setEmail(email);
+        this.setPassword(password);
+        this.setMobile(mobile);
+        this.setAccountType(accountType);
+        this.setStep(step);
+    }
+
+    public RegistrationRequestModel(String email, String password, String mobile,
                                     String accountType, int step, String gst  ){
         this.setEmail(email);
         this.setPassword(password);

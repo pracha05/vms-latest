@@ -90,11 +90,6 @@ public class SignInActivity extends BaseActivity {
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_UP) {
                     if(event.getRawX() >= edtEmail.getTotalPaddingRight()) {
-                       //start dashboard activity
-//                        startActivity(new Intent(SignInActivity.this,HomeActivity.class));
-//                        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-//                        finish();
-
                             InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
                             imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
                             try {
@@ -102,14 +97,8 @@ public class SignInActivity extends BaseActivity {
                                     if (validate()) {
                                         progressBar.setVisibility(View.VISIBLE);
                                         SignInRequestModel signInRequestModel  = null ;
-                                        if(step == 1) {
-                                            email = edtEmail.getText().toString();
-                                            signInRequestModel = new SignInRequestModel(email, NetworkConstant.STEP_ONE);
-                                        }
-                                        if(step == 2){
-                                            String password = edtPassword.getText().toString();
-                                            signInRequestModel = new SignInRequestModel(email,password, NetworkConstant.STEP_TWO);
-                                        }
+                                        email = edtEmail.getText().toString();
+                                        signInRequestModel = new SignInRequestModel(email, NetworkConstant.STEP_ONE);
                                         Call<SignInResponseModel> call = apiInterface.getUser(signInRequestModel);
                                         call.enqueue(new Callback<SignInResponseModel>() {
                                             @Override
@@ -119,33 +108,21 @@ public class SignInActivity extends BaseActivity {
                                                 if (signInResponseModel.status == NetworkConstant.STATUS_ONE) {
                                                     progressBar.setVisibility(View.GONE);
                                                     //email register ----> change UI
-                                                    if(step == 1) {
-                                                        step = 2;
+                                                        step =2;
                                                         edtPassword.setVisibility(View.VISIBLE);
                                                         edtEmail.setVisibility(View.GONE);
-                                                    }
-                                                    if(step == 2){
-                                                        // login success and start dashboard activity
-                                                        startActivity(new Intent(SignInActivity.this,HomeActivity.class));
-                                                        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-                                                        finish();
-                                                    }
+
                                                 } else {
                                                     progressBar.setVisibility(View.GONE);
                                                     if (signInResponseModel.message != null
                                                             && !signInResponseModel.message.isEmpty()) {
                                                         showStatusDialog(signInResponseModel.message);
+                                                        edtEmail.setText("");
                                                     } else {
                                                         showErrorDialog(getString(R.string.general_error_message));
                                                     }
-                                                    if(step ==1) {
-                                                        edtPassword.setVisibility(View.GONE);
-                                                        edtEmail.setVisibility(View.VISIBLE);
-                                                    }
-                                                    if(step == 2){
-                                                        edtPassword.setVisibility(View.VISIBLE);
-                                                        edtEmail.setVisibility(View.GONE);
-                                                    }
+                                                    edtPassword.setVisibility(View.GONE);
+                                                    edtEmail.setVisibility(View.VISIBLE);
                                                 }
                                             }
 
@@ -153,7 +130,6 @@ public class SignInActivity extends BaseActivity {
                                             public void onFailure(Call<SignInResponseModel> call, Throwable t) {
                                                 Log.d("FAIL", "onfail");
                                                 progressBar.setVisibility(View.GONE);
-                                                step = 1;
                                                 edtPassword.setVisibility(View.GONE);
                                                 edtEmail.setVisibility(View.VISIBLE);
                                                 showErrorDialog(getString(R.string.general_error_message));
@@ -168,6 +144,76 @@ public class SignInActivity extends BaseActivity {
                             }catch (Exception e) {
                                 Timber.e("catched  Exception Message : " + e.getMessage());
                             }
+                        return true;
+                    }
+
+                }
+                return false;
+            }
+        });
+
+        edtPassword.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction() == MotionEvent.ACTION_UP) {
+                    if(event.getRawX() >= edtEmail.getTotalPaddingRight()) {
+                        InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+                        imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+                        try {
+                            if(isConnected()) {
+                                if (validate()) {
+                                    progressBar.setVisibility(View.VISIBLE);
+                                    SignInRequestModel signInRequestModel  = null ;
+                                    String password = edtPassword.getText().toString();
+                                    signInRequestModel = new SignInRequestModel(email,password, NetworkConstant.STEP_TWO);
+
+                                    Call<SignInResponseModel> call = apiInterface.getUser(signInRequestModel);
+                                    call.enqueue(new Callback<SignInResponseModel>() {
+                                        @Override
+                                        public void onResponse(Call<SignInResponseModel> call, Response<SignInResponseModel> response) {
+                                            SignInResponseModel signInResponseModel = response.body();
+                                            Timber.d("Response message" + signInResponseModel.message);
+                                            if (signInResponseModel.status == NetworkConstant.STATUS_ONE) {
+                                                progressBar.setVisibility(View.GONE);
+                                                //email register ----> change UI
+                                                    // login success and start dashboard activity
+                                                VmsPreferenceHelper.saveEmailToPreference(SignInActivity.this,email);
+                                                startActivity(new Intent(SignInActivity.this,HomeActivity.class));
+                                                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                                                finish();
+
+                                            } else {
+                                                progressBar.setVisibility(View.GONE);
+                                                if (signInResponseModel.message != null
+                                                        && !signInResponseModel.message.isEmpty()) {
+                                                    showPasswordDialog(signInResponseModel.message);
+                                                } else {
+                                                    showErrorDialog(getString(R.string.general_error_message));
+                                                }
+                                                edtPassword.setVisibility(View.VISIBLE);
+                                                edtEmail.setVisibility(View.GONE);
+
+                                            }
+                                        }
+
+                                        @Override
+                                        public void onFailure(Call<SignInResponseModel> call, Throwable t) {
+                                            Log.d("FAIL", "onfail");
+                                            progressBar.setVisibility(View.GONE);
+                                            edtPassword.setVisibility(View.GONE);
+                                            edtEmail.setVisibility(View.VISIBLE);
+                                            showErrorDialog(getString(R.string.general_error_message));
+                                            call.cancel();
+                                        }
+                                    });
+                                }//if
+                            }else{
+                                //network not available
+                                showErrorDialog(getString(R.string.network_connection));
+                            }
+                        }catch (Exception e) {
+                            Timber.e("catched  Exception Message : " + e.getMessage());
+                        }
                         return true;
                     }
 
@@ -248,12 +294,14 @@ public class SignInActivity extends BaseActivity {
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 edtPassword.setVisibility(View.GONE);
                 edtEmail.setVisibility(View.VISIBLE);
+                edtEmail.setText("");
                 break;
 
             case R.id.forgot_password:
                 //handle forgot password
                 edtPassword.setVisibility(View.GONE);
                 edtEmail.setVisibility(View.VISIBLE);
+                edtEmail.setText("");
                 showInputDialog();
                 break;
         }
@@ -332,6 +380,7 @@ public class SignInActivity extends BaseActivity {
                                     }
                                     @Override
                                     public void onFailure(Call<ForgotPasswordResponseModel> call, Throwable t) {
+                                        progressBar.setVisibility(View.GONE);
                                         Log.d("FAIL", "onfail");
                                         showErrorDialog(getString(R.string.general_error_message));
                                         call.cancel();
@@ -353,6 +402,34 @@ public class SignInActivity extends BaseActivity {
      * show status dialog
      */
 
+    public void showPasswordDialog(String message){
+        new SmartDialogBuilder(this)
+                .setTitle("Information")
+                .setSubTitle(message)
+                .setCancalable(false)
+                .setNegativeButtonHide(true) //hide cancel button
+                .setPositiveButton("OK", new SmartDialogClickListener() {
+                    @Override
+                    public void onClick(SmartDialog smartDialog) {
+                        //start sign up activity
+                        if(step!=2) {
+                            startActivity(IntentFactory.createRegistrationActivity(SignInActivity.this));
+                            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+
+                        }else{
+                            edtPassword.setText("");
+                        }
+                        smartDialog.dismiss();
+                    }
+                }).build().show();
+
+
+    }
+
+    /**
+     * show status dialog
+     */
+
     public void showStatusDialog(String message){
         new SmartDialogBuilder(this)
                 .setTitle("Information")
@@ -363,8 +440,13 @@ public class SignInActivity extends BaseActivity {
                     @Override
                     public void onClick(SmartDialog smartDialog) {
                         //start sign up activity
-                        startActivity(IntentFactory.createRegistrationActivity(SignInActivity.this));
-                        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                        if(step!=2) {
+                            startActivity(IntentFactory.createRegistrationActivity(SignInActivity.this));
+                            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+
+                        }else{
+                            edtPassword.setText("");
+                        }
                         smartDialog.dismiss();
                     }
                 }).build().show();

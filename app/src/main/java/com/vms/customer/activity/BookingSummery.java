@@ -65,7 +65,6 @@ public class BookingSummery extends BaseActivity {
                     hideDialog();
                     Gson gson = new Gson();
                     BookingSummaryPojo data = gson.fromJson(String.valueOf(response), BookingSummaryPojo.class);
-
                     BookingSummaryAdapter hAdapter = new BookingSummaryAdapter(BookingSummery.this, data);
                     rc_bookingsummary.setAdapter(hAdapter);
                     progressBar.setVisibility(View.GONE);

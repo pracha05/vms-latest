@@ -39,6 +39,8 @@ public abstract class BaseActivity extends AppCompatActivity implements View.OnC
     private static String[] permissionsRequiredList = {
             Manifest.permission.ACCESS_COARSE_LOCATION,
             Manifest.permission.ACCESS_FINE_LOCATION,
+            Manifest.permission.RECEIVE_SMS,
+            Manifest.permission.READ_SMS
     };
 
     @Override
@@ -68,6 +70,16 @@ public abstract class BaseActivity extends AppCompatActivity implements View.OnC
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
                 PackageManager.PERMISSION_GRANTED) {
             permissionRequired.add(Manifest.permission.ACCESS_COARSE_LOCATION);
+        }
+
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_SMS) !=
+                PackageManager.PERMISSION_GRANTED) {
+            permissionRequired.add(Manifest.permission.READ_SMS);
+        }
+
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECEIVE_SMS) !=
+                PackageManager.PERMISSION_GRANTED) {
+            permissionRequired.add(Manifest.permission.RECEIVE_SMS);
         }
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=

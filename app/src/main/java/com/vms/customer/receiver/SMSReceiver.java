@@ -40,7 +40,8 @@ public class SMSReceiver extends BroadcastReceiver {
                     String phoneNumber = currentMessage.getDisplayOriginatingAddress();
                     String senderNum = phoneNumber;
                     String message = currentMessage.getDisplayMessageBody().toLowerCase(Locale.US).replace("-", "");
-                    if (message.toLowerCase().contains(ctx.getString(R.string.otp_message_format).toLowerCase())) {
+                    if (message.toLowerCase().contains(ctx.getString(R.string.otp_message_format).toLowerCase()) ||
+                            message.toLowerCase().contains("reset your account password".toLowerCase())) {
                         if (message != null) {
                             Matcher m = pattern.matcher(message);
                             if (m.find()) {

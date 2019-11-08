@@ -4,6 +4,9 @@ import com.google.gson.annotations.SerializedName;
 
 public class RecreatePasswordRequestModel {
 
+    @SerializedName("id")
+    private int id;
+
     @SerializedName("password")
     public String password;
 
@@ -14,7 +17,8 @@ public class RecreatePasswordRequestModel {
     private int step;
 
 
-    public RecreatePasswordRequestModel(String password, String confPassword,int step){
+    public RecreatePasswordRequestModel(int id,String password, String confPassword,int step){
+        this.setId(id);
         this.setPassword(password);
         this.setConfPassword(confPassword);
         this.setStep(step);
@@ -42,5 +46,13 @@ public class RecreatePasswordRequestModel {
 
     public void setStep(int step) {
         this.step = step;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

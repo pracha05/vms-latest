@@ -1617,6 +1617,7 @@ drawable grid_view_foreground_selector
 drawable grid_view_selector
 drawable ic_account_balance_wallet
 drawable ic_account_circle
+drawable ic_action_accept
 drawable ic_action_home
 drawable ic_action_user
 drawable ic_alarmclock_booking
@@ -1945,6 +1946,7 @@ id image
 id imageMarker
 id imageView
 id img_4opt_back
+id img_accept
 id img_addload_back
 id img_baseload_back
 id img_bookcnfm_back
@@ -2062,6 +2064,7 @@ id phone_sub_text
 id phone_text
 id pin
 id place_autocomplete_clear_button
+id place_autocomplete_fragment
 id place_autocomplete_powered_by_google
 id place_autocomplete_prediction_primary_text
 id place_autocomplete_prediction_secondary_text
@@ -2820,6 +2823,8 @@ string pan
 string pan_card_no
 string part_load
 string password_blank
+string password_length
+string password_mismatch
 string password_size_check
 string password_toggle_content_description
 string path_password_eye

@@ -34,7 +34,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
         <activity
             android:name="com.vms.customer.activity.ForgotPasswordActivity"
             android:screenOrientation="portrait"
@@ -175,6 +176,13 @@
             android:label="@string/title_activity_home"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name="com.vms.customer.receiver.SMSReceiver" >
+            <intent-filter android:priority="999" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
         <activity
             android:name="com.vms.customer.activity.SplashActivity"
             android:screenOrientation="portrait"
