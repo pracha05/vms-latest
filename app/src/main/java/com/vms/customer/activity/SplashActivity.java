@@ -41,8 +41,14 @@ public class SplashActivity extends AppCompatActivity {
                 /**
                  * if user has been logout or email is not in preferences show signin screen
                  */
-                else if(VmsPreferenceHelper.getValueFromPreferenceForLogoutStatus(SplashActivity.this)
-                    || (VmsPreferenceHelper.getValueFromPreference(SplashActivity.this, Constant.KEY_USER_EMAIL).isEmpty())){
+                else if(VmsPreferenceHelper.getValueFromPreferenceForLogoutStatus(SplashActivity.this)){
+
+                    startActivity(new Intent(SplashActivity.this,SignInActivity.class));
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                    finish();
+
+                }
+                else if((VmsPreferenceHelper.getValueFromPreference(SplashActivity.this, Constant.KEY_USER_EMAIL).isEmpty())){
 
                     startActivity(new Intent(SplashActivity.this,SignInActivity.class));
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);

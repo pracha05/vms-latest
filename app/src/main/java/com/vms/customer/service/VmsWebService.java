@@ -1,5 +1,6 @@
 package com.vms.customer.service;
 
+import com.vms.customer.model.ResendOtp;
 import com.vms.customer.model.allotbooking.AllotBookingStatusRequest;
 import com.vms.customer.model.allotbooking.AllotBookingStatusResponse;
 import com.vms.customer.model.bookload.BookLoadRequestModel;
@@ -71,7 +72,7 @@ public interface VmsWebService {
     @Headers({"Content-type: application/json",
             "Accept: */*"})
     @POST("api/resend_otp.php")
-    Call<ForgotPasswordResponseModel> resendOTP(@Body ForgotPasswordRequestModel user);
+    Call<ForgotPasswordResponseModel> resendOTP(@Body ResendOtp user);
 
     /**
      * search vehicles

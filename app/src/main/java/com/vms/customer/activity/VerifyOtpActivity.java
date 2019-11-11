@@ -27,6 +27,7 @@ import com.vms.customer.VmsApplication;
 import com.vms.customer.constant.Constant;
 import com.vms.customer.constant.ReceiverConstant;
 import com.vms.customer.intents.IntentFactory;
+import com.vms.customer.model.ResendOtp;
 import com.vms.customer.model.forgotpassword.ForgotPasswordRequestModel;
 import com.vms.customer.model.forgotpassword.ForgotPasswordResponseModel;
 import com.vms.customer.model.registration.RegistrationRequestModel;
@@ -114,7 +115,7 @@ public class VerifyOtpActivity extends BaseActivity {
         }
         tvPhoneText.setText(Html.fromHtml(getString(R.string.phone_verify_text, phoneNumber)), TextView.BufferType.SPANNABLE);
         setClickableString("(change)", tvPhoneText.getText().toString(), tvPhoneText);
-        setClickableString("Resend Now", tvResendCode.getText().toString(), tvResendCode);
+        setClickableResendString("Resend Now", tvResendCode.getText().toString(), tvResendCode);
 
         otpView.setPinViewEventListener(new Pinview.PinViewEventListener() {
             @Override
@@ -146,6 +147,68 @@ public class VerifyOtpActivity extends BaseActivity {
         progressBar.setVisibility(View.GONE);
         showErrorDialog("Phone number verification failed! Please try again or use resend option.");
     }
+
+
+    /**
+     * get clicable text
+     * @param clickableValue
+     * @param wholeValue
+     * @param yourTextView
+     */
+    public void setClickableResendString(String clickableValue, String wholeValue, TextView yourTextView){
+        String value = wholeValue;
+        SpannableString spannableString = new SpannableString(value);
+        int startIndex = value.indexOf(clickableValue);
+        int endIndex = startIndex + clickableValue.length();
+        spannableString.setSpan(new ClickableSpan() {
+            @Override
+            public void updateDrawState(TextPaint ds) {
+                ds.setColor(getResources().getColor(R.color.colorPrimary)); // specific color for this link
+            }
+
+            @Override
+            public void onClick(View widget) {
+               //do resend otp request
+                progressBar.setVisibility(View.VISIBLE);
+                apiInterface =   apiInterface = VmsApiClient.getClient().create(VmsWebService.class);
+                ResendOtp resendOtp = new ResendOtp
+                        (phoneNumber);
+                Call<ForgotPasswordResponseModel> call = apiInterface.resendOTP(resendOtp);
+                call.enqueue(new Callback<ForgotPasswordResponseModel>() {
+                    @Override
+                    public void onResponse(Call<ForgotPasswordResponseModel> call, Response<ForgotPasswordResponseModel> response) {
+                        ForgotPasswordResponseModel forgotPasswordResponseModel = response.body();
+                        Timber.d("Response message" + forgotPasswordResponseModel.getMessage());
+                        if (forgotPasswordResponseModel.getStatus() == NetworkConstant.STATUS_ONE) {
+                            progressBar.setVisibility(View.GONE);
+                            OTPFromServer = forgotPasswordResponseModel.getOtp();
+                        } else {
+                            progressBar.setVisibility(View.GONE);
+                            if (forgotPasswordResponseModel.getMessage() != null
+                                    && !forgotPasswordResponseModel.getMessage().isEmpty()) {
+                                showErrorDialog(forgotPasswordResponseModel.getMessage());
+                            } else {
+                                showErrorDialog(getString(R.string.general_error_message));
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<ForgotPasswordResponseModel> call, Throwable t) {
+                        Log.d("FAIL", "onfail");
+                        progressBar.setVisibility(View.GONE);
+                        showErrorDialog(getString(R.string.general_error_message));
+                        call.cancel();
+                    }
+                });
+            }
+        }, startIndex, endIndex, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        yourTextView.setText(spannableString);
+        yourTextView.setHighlightColor(
+                Color.TRANSPARENT); // prevent TextView change background when highlight
+        yourTextView.setMovementMethod(LinkMovementMethod.getInstance()); // <-- important, onClick in ClickableSpan won't work without this
+    }
+
 
 
     /**
@@ -200,39 +263,6 @@ public class VerifyOtpActivity extends BaseActivity {
     public void onClick(View v) {
         if (v.getId() == R.id.btn_verify_otp) {
             onSubmitClicked(v);
-        } else if(v.getId() == R.id.resend){
-            progressBar.setVisibility(View.VISIBLE);
-            apiInterface =   apiInterface = VmsApiClient.getClient().create(VmsWebService.class);
-            ForgotPasswordRequestModel forgotPasswordRequestModel = new ForgotPasswordRequestModel
-                    (phoneNumber);
-            Call<ForgotPasswordResponseModel> call = apiInterface.resendOTP(forgotPasswordRequestModel);
-            call.enqueue(new Callback<ForgotPasswordResponseModel>() {
-                @Override
-                public void onResponse(Call<ForgotPasswordResponseModel> call, Response<ForgotPasswordResponseModel> response) {
-                    ForgotPasswordResponseModel forgotPasswordResponseModel = response.body();
-                    Timber.d("Response message" + forgotPasswordResponseModel.getMessage());
-                    if (forgotPasswordResponseModel.getStatus() == NetworkConstant.STATUS_ONE) {
-                        progressBar.setVisibility(View.GONE);
-                        OTPFromServer = forgotPasswordResponseModel.getOtp();
-                    } else {
-                        progressBar.setVisibility(View.GONE);
-                        if (forgotPasswordResponseModel.getMessage() != null
-                                && !forgotPasswordResponseModel.getMessage().isEmpty()) {
-                            showErrorDialog(forgotPasswordResponseModel.getMessage());
-                        } else {
-                            showErrorDialog(getString(R.string.general_error_message));
-                        }
-                    }
-                }
-
-                @Override
-                public void onFailure(Call<ForgotPasswordResponseModel> call, Throwable t) {
-                    Log.d("FAIL", "onfail");
-                    progressBar.setVisibility(View.GONE);
-                    showErrorDialog(getString(R.string.general_error_message));
-                    call.cancel();
-                }
-            });
         }
     }
 

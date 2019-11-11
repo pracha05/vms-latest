@@ -1570,6 +1570,7 @@ drawable boxborder_shape
 drawable button_background
 drawable button_round_corner_shape_selected
 drawable button_round_cornor_selector
+drawable c_gst
 drawable calendar
 drawable card_view_border
 drawable card_view_border_red
@@ -1679,6 +1680,7 @@ drawable ic_password
 drawable ic_petroleum_paint
 drawable ic_pharma
 drawable ic_phone
+drawable ic_phone1
 drawable ic_profile
 drawable ic_support
 drawable ic_truck_booking
