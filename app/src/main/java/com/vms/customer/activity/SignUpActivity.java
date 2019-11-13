@@ -24,6 +24,7 @@ import retrofit2.Response;
 import timber.log.Timber;
 
 import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.textfield.TextInputLayout;
 import com.vms.customer.R;
 import com.vms.customer.constant.Constant;
 import com.vms.customer.intents.IntentFactory;
@@ -44,6 +45,9 @@ public class SignUpActivity extends BaseActivity {
 
     @BindView(R.id.toolbar)
     Toolbar mToolBar;
+
+    @BindView(R.id.tv_gst)
+    TextInputLayout layoutGst;
 
     @BindView(R.id.cv_business)
     RelativeLayout layoutBusiness;
@@ -132,8 +136,8 @@ public class SignUpActivity extends BaseActivity {
                         cbPerson.setChecked(false);
 //                    if((!etGst.isEnabled()))
 //                        etGst.setEnabled(true);
-                    if (etGst.getVisibility() == View.GONE) {
-                        etGst.setVisibility(View.VISIBLE);
+                    if (layoutGst.getVisibility() == View.GONE) {
+                        layoutGst.setVisibility(View.VISIBLE);
                     }
                 }
 
@@ -151,8 +155,8 @@ public class SignUpActivity extends BaseActivity {
                         cbBusiness.setChecked(false);
 //                    if((etGst.isEnabled()))
 //                        etGst.setEnabled(false);
-                    if (etGst.getVisibility() == View.VISIBLE) {
-                        etGst.setVisibility(View.GONE);
+                    if (layoutGst.getVisibility() == View.VISIBLE) {
+                        layoutGst.setVisibility(View.GONE);
                     }
                 }
 
@@ -235,8 +239,8 @@ public class SignUpActivity extends BaseActivity {
                 cbBusiness.setChecked(true);
                 ivBusiness.setBackgroundResource(R.drawable.ic_business_white);
                 ivPersion.setBackgroundResource(R.drawable.ic_launcher_user_gray);
-                if (etGst.getVisibility() == View.GONE) {
-                    etGst.setVisibility(View.VISIBLE);
+                if (layoutGst.getVisibility() == View.GONE) {
+                    layoutGst.setVisibility(View.VISIBLE);
                 }
                 break;
 
@@ -248,8 +252,8 @@ public class SignUpActivity extends BaseActivity {
                 cbPerson.setChecked(true);
                 ivPersion.setBackgroundResource(R.drawable.ic_launcher_user);
                 ivBusiness.setBackgroundResource(R.drawable.ic_business);
-                if (etGst.getVisibility() == View.VISIBLE) {
-                    etGst.setVisibility(View.GONE);
+                if (layoutGst.getVisibility() == View.VISIBLE) {
+                    layoutGst.setVisibility(View.GONE);
                 }
                 break;
 

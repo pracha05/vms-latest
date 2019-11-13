@@ -89,7 +89,7 @@ public class SignInActivity extends BaseActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_UP) {
-                    if(event.getRawX() >= edtEmail.getTotalPaddingRight()) {
+                    if(event.getRawX() >= (edtEmail.getRight() - edtEmail.getCompoundDrawables()[2].getBounds().width())) {
                             InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
                             imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
                             try {
@@ -156,7 +156,7 @@ public class SignInActivity extends BaseActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_UP) {
-                    if(event.getRawX() >= edtEmail.getTotalPaddingRight()) {
+                    if(event.getRawX() >= (edtEmail.getRight() - edtEmail.getCompoundDrawables()[2].getBounds().width())) {
                         InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
                         imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
                         try {
@@ -178,6 +178,7 @@ public class SignInActivity extends BaseActivity {
                                                 //email register ----> change UI
                                                     // login success and start dashboard activity
                                                 VmsPreferenceHelper.saveEmailToPreference(SignInActivity.this,email);
+                                                VmsPreferenceHelper.saveLogoutStatusToPreference(SignInActivity.this,false);
                                                 startActivity(new Intent(SignInActivity.this,HomeActivity.class));
                                                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                                                 finish();

@@ -33,13 +33,13 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int backward = 0x7f0a0030;
-        public static final int forward = 0x7f0a00b5;
-        public static final int horizontal = 0x7f0a00bf;
-        public static final int item_touch_helper_previous_elevation = 0x7f0a00f6;
-        public static final int none = 0x7f0a012a;
-        public static final int ultraviewpager_page_container = 0x7f0a0291;
-        public static final int vertical = 0x7f0a0296;
+        public static final int backward = 0x7f0a0031;
+        public static final int forward = 0x7f0a00b6;
+        public static final int horizontal = 0x7f0a00c0;
+        public static final int item_touch_helper_previous_elevation = 0x7f0a00f7;
+        public static final int none = 0x7f0a012b;
+        public static final int ultraviewpager_page_container = 0x7f0a0292;
+        public static final int vertical = 0x7f0a0297;
     }
     public static final class string {
         private string() {}

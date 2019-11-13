@@ -7,11 +7,10 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e9fd93a-b6e9-4dee-a3e9-53ae3290443e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vms/customer/model/ResendOtp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -19,12 +18,13 @@
       <change beforePath="$PROJECT_DIR$/../.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/ap_generated_sources/debug/out/com/vms/customer/activity/AboutUsActivity_ViewBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/ap_generated_sources/debug/out/com/vms/customer/activity/AboutUsActivity_ViewBinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/ap_generated_sources/debug/out/com/vms/customer/activity/SignUpActivity_ViewBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/ap_generated_sources/debug/out/com/vms/customer/activity/SignUpActivity_ViewBinding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/androidx/appcompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/androidx/appcompat/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/androidx/asynclayoutinflater/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/androidx/asynclayoutinflater/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/androidx/constraintlayout/widget/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/androidx/constraintlayout/widget/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/androidx/coordinatorlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/androidx/coordinatorlayout/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/androidx/core/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/androidx/core/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/androidx/customview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/androidx/customview/R.java" afterDir="false" />
@@ -48,12 +48,15 @@
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/goodiebag/pinview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/goodiebag/pinview/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/gms/base/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/gms/base/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/gms/location/places/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/gms/location/places/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/gms/maps/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/gms/maps/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/libraries/places/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/libraries/places/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/material/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/material/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/kofigyan/stateprogressbar/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/kofigyan/stateprogressbar/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/tmall/ultraviewpager/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/tmall/ultraviewpager/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/vms/customer/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/not_namespaced_r_class_sources/debug/r/com/vms/customer/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/androidTest/debug/com/vms/customer/test/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/androidTest/debug/com/vms/customer/test/BuildConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/vms/customer/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/vms/customer/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex" afterDir="false" />
@@ -66,33 +69,63 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/VdJ1gdfy_Eo80nVEZMkZd+8G_bA=" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/VdJ1gdfy_Eo80nVEZMkZd+8G_bA=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/appcompat/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/appcompat/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/appcompat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/appcompat/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/asynclayoutinflater/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/asynclayoutinflater/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/asynclayoutinflater/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/asynclayoutinflater/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/constraintlayout/widget/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/constraintlayout/widget/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/core/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/core/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/core/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/core/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/customview/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/customview/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/customview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/customview/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/fragment/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/fragment/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/fragment/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/fragment/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/legacy/coreui/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/legacy/coreui/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/legacy/coreui/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/legacy/coreui/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/legacy/coreutils/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/legacy/coreutils/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/legacy/coreutils/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/legacy/coreutils/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/legacy/v4/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/legacy/v4/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/legacy/v4/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/legacy/v4/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/lifecycle/extensions/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/lifecycle/extensions/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/lifecycle/extensions/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/lifecycle/extensions/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/loader/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/loader/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/loader/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/loader/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/media/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/media/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/media/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/media/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/recyclerview/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/recyclerview/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/recyclerview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/recyclerview/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/slidingpanelayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/slidingpanelayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/slidingpanelayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/slidingpanelayout/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/transition/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/transition/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/transition/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/transition/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/viewpager/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/viewpager/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/viewpager/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/androidx/viewpager/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/butterknife/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/butterknife/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/butterknife/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/butterknife/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/butterknife/runtime/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/butterknife/runtime/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/butterknife/runtime/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/butterknife/runtime/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/bumptech/glide/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/bumptech/glide/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/bumptech/glide/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/bumptech/glide/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/goodiebag/pinview/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/goodiebag/pinview/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/gms/base/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/gms/base/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/goodiebag/pinview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/goodiebag/pinview/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/gms/base/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/gms/base/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/gms/location/places/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/gms/location/places/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/gms/location/places/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/gms/location/places/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/gms/maps/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/gms/maps/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/libraries/places/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/libraries/places/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/libraries/places/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/libraries/places/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/material/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/material/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/material/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/google/android/material/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/kofigyan/stateprogressbar/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/kofigyan/stateprogressbar/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/kofigyan/stateprogressbar/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/kofigyan/stateprogressbar/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/tmall/ultraviewpager/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/tmall/ultraviewpager/R$id.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/BuildConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/R$drawable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/R$font.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/R$font.class" afterDir="false" />
@@ -107,37 +140,147 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/R$style.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/R$styleable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AboutAppActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AboutAppActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AboutAppActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AboutAppActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AboutUsActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AboutUsActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AboutUsActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AboutUsActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AboutUsActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AboutUsActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AddContact.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AddContact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AddContact_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AddContact_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AddLoadActivity$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AddLoadActivity$3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AddLoadActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AddLoadActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AddLoadActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AddLoadActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AddLoadActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/AddLoadActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/BasicLoadActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/BasicLoadActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/BasicLoadActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/BasicLoadActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/BookingSummery.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/BookingSummery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/BookingSummery_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/BookingSummery_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ContactAllList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ContactAllList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ContactAllList_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ContactAllList_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ContactDetailsInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ContactDetailsInfo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ContactDetailsInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ContactDetailsInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ContactDetailsInfo_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ContactDetailsInfo_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/CustomerMembershipActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/CustomerMembershipActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/CustomerMembershipActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/CustomerMembershipActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/CustomerSupport.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/CustomerSupport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/CustomerSupport_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/CustomerSupport_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/EditContact.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/EditContact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/EditContact_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/EditContact_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/EditProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/EditProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/EditProfile_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/EditProfile_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ForgotPasswordActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ForgotPasswordActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ForgotPasswordActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ForgotPasswordActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/HomeActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/HomeActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/HomeActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/HomeActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/HomeActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/HomeActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/HomeActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/HomeActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/InsuranceProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/InsuranceProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/InsuranceProvider_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/InsuranceProvider_ViewBinding.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/IntroductionPagerActivity$PlaceholderFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/IntroductionPagerActivity$PlaceholderFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/IntroductionPagerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/IntroductionPagerActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/IntroductionPagerActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/IntroductionPagerActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ListOfVechilesActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ListOfVechilesActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ListOfVechilesActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ListOfVechilesActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/LoadBookings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/LoadBookings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/LoadBookings_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/LoadBookings_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MainFilterActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MainFilterActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MainFilterActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MainFilterActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MapActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MapActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MaterialType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MaterialType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MaterialType_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MaterialType_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MoreActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MoreActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MoreActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/MoreActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/NotificationActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/NotificationActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/NotificationActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/NotificationActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/PhoneVerificationStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/PhoneVerificationStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/PhoneVerificationStatus_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/PhoneVerificationStatus_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/PrivacyPolicyActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/PrivacyPolicyActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/PrivacyPolicyActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/PrivacyPolicyActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ProfileActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ProfileActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ProfileActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ProfileActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ReferenceCodeActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ReferenceCodeActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ReferenceCodeActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/ReferenceCodeActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$5$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$5$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignInActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignUpActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignUpActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignUpActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignUpActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignUpActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignUpActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignUpActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignUpActivity$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignUpActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignUpActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SplashActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SplashActivity$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SplashActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SplashActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignUpActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/SignUpActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/TermsOfUseActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/TermsOfUseActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/TermsOfUseActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/TermsOfUseActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/TruckBookingConfirmActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/TruckBookingConfirmActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/TruckBookingConfirmActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/TruckBookingConfirmActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/TruckDetailsFourOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/TruckDetailsFourOptions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/VerifyOtpActivity_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/Wallet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/Wallet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/Wallet_ViewBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/activity/Wallet_ViewBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/BookingSummaryAdapter$BookingsummaryHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/BookingSummaryAdapter$BookingsummaryHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/CustomTimeSlotAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/CustomTimeSlotAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/CustomerSupportAdapter$CustomerSupportholder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/CustomerSupportAdapter$CustomerSupportholder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/InsuranceProviderAdapter$insuranceholder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/InsuranceProviderAdapter$insuranceholder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/SelectMaterialAdapter$HomeCatrgoryHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/SelectMaterialAdapter$HomeCatrgoryHolder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/SelectMaterialAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/SelectMaterialAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/service/VmsWebService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/service/VmsWebService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/TruckListAdapter$BookingsummaryHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/TruckListAdapter$BookingsummaryHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/UltraPagerAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/UltraPagerAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/ViewPagerSliderAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/ViewPagerSliderAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/contactlistAdapter$contactlistholder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/adapters/contactlistAdapter$contactlistholder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/ui/ViewDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/ui/ViewDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/utils/ConnectionToast.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/utils/ConnectionToast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/utils/SmartDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/vms/customer/utils/SmartDialog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/crashlytics-build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_assets/debug/out/crashlytics-build.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_home.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_home.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_user.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_user.png.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_gst.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_gst.png.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_mail.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_mail.png.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_password.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_password.png.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_phone.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_phone.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_profile.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi_ic_profile.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_home.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_home.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_user.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_user.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_gst.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_gst.png.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_mail.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_mail.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_password.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_password.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_phone.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_phone.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_profile.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi_ic_profile.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_home.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_home.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_user.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_user.png.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_gst.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_gst.png.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_mail.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_mail.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_password.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_password.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_phone.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_phone.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_profile.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi_ic_profile.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_home.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_home.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_user.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_user.png.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_gst.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_gst.png.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_mail.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_mail.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_password.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_password.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_phone.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_phone.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_profile.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_profile.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_action_home.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_action_home.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_action_user.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_action_user.png.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_gst.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_gst.png.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_mail.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_mail.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_password.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_password.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_phone.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_phone.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_profile.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_profile.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_about_us.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_about_us.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_sign_in.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_sign_in.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterDir="false" />
@@ -651,6 +794,7 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/TruckDetailsFourOptions.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/TruckDetailsFourOptions.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/VerifyOtpActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/VerifyOtpActivity$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/VerifyOtpActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/VerifyOtpActivity$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/VerifyOtpActivity$3$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/VerifyOtpActivity$3$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/VerifyOtpActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/VerifyOtpActivity$3.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/VerifyOtpActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/VerifyOtpActivity$4.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/VerifyOtpActivity$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/activity/VerifyOtpActivity$5.dex" afterDir="false" />
@@ -693,6 +837,7 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/BookingSummaryPojo.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/BookingSummaryPojo.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/CustomerSupportPojo$Support.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/CustomerSupportPojo$Support.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/CustomerSupportPojo.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/CustomerSupportPojo.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/ResendOtp.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/ResendOtp.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/SelMaterialCategory$Message.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/SelMaterialCategory$Message.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/SelMaterialCategory.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/SelMaterialCategory.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/TimeSlotPojo.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/com/vms/customer/model/TimeSlotPojo.dex" afterDir="false" />
@@ -758,20 +903,49 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/io/fabric/sdk/android/R.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/io/fabric/sdk/android/R.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/timber/log/R.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/0/timber/log/R.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SplashActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/VerifyOtpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/VerifyOtpActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vms/customer/service/VmsWebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vms/customer/service/VmsWebService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/AboutUsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/AboutUsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignInActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignInActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_action_home.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_action_home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_action_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_action_user.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_gst.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_gst.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_mail.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_password.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_password.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_phone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_action_home.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_action_home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_action_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_action_user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_gst.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_gst.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_password.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_phone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/ic_profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_action_home.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_action_home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_action_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_action_user.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_gst.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_gst.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_password.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_phone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/ic_profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_action_home.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_action_home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_action_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_action_user.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_gst.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_gst.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_password.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_phone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxhdpi/ic_profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_action_home.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_action_home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_action_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_action_user.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_gst.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_gst.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_password.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_phone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/ic_profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_about_us.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_about_us.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_sign_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -782,7 +956,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="ZY322C2T5Q" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_28" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -827,102 +1001,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/HomeActivity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignInActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="256" column="35" selection-start-line="256" selection-start-column="35" selection-end-line="256" selection-end-column="35" />
+            <state relative-caret-position="397">
+              <caret line="166" column="36" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/MoreActivity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_sign_in.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="63" column="62" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
+            <state relative-caret-position="269">
+              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/intents/IntentFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="245" column="7" selection-start-line="245" selection-start-column="7" selection-end-line="245" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SplashActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/VerifyOtpActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-283">
-              <caret line="190" column="80" lean-forward="true" selection-start-line="190" selection-start-column="80" selection-end-line="190" selection-end-column="80" />
-              <folding>
-                <element signature="e#8235#8276#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/model/ResendOtp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding>
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/service/VmsWebService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="74" column="63" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/AboutUsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_about_us.xml">
           <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="204" column="51" selection-start-line="204" selection-start-column="3" selection-end-line="204" selection-end-column="51" />
+            <state relative-caret-position="224">
+              <caret line="199" column="13" selection-start-line="194" selection-start-column="3" selection-end-line="199" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/AboutUsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1109#1132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -941,12 +1055,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Forgo</find>
-      <find>Forgot password</find>
-      <find>phone_text</find>
-      <find>Switc</find>
-      <find>et_password</find>
-      <find>apiInterface</find>
       <find>broadCastReceiverActionList</find>
       <find>showSuccessDialog</find>
       <find>OTPFromMessage</find>
@@ -971,6 +1079,12 @@
       <find>resend</find>
       <find>setClickableString</find>
       <find>resen</find>
+      <find>tv_referal_header</find>
+      <find>refer</find>
+      <find>enter_phone_number</find>
+      <find>tv_gst</find>
+      <find>et_gst</find>
+      <find>etGst</find>
     </findStrings>
     <dirStrings>
       <dir>F:\Foliyoo\vmscustomer-master\vmscustomer-master\app\src\main\java\com\vms\customer\activity</dir>
@@ -983,8 +1097,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/model/signin/SignInRequestModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/constant/NetworkConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/VmsApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/utils/NetworkConnection.java" />
         <option value="$PROJECT_DIR$/src/main/res/drawable/greybackground.xml" />
@@ -1003,14 +1115,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/model/forgotpassword/RecreatePasswordResponseModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/model/forgotpassword/ForgotPasswordResponseModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/constant/Constant.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_sign_up.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_forgot_password.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/model/registration/RegistrationRequestModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/receiver/SMSReceiver.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_sign_in.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignUpActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/model/forgotpassword/RecreatePasswordRequestModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/ForgotPasswordActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/model/forgotpassword/ForgotPasswordRequestModel.java" />
@@ -1020,8 +1128,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/model/bookload/BookLoadRequestModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/model/bookload/BookLoadResponseModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/BookingSummery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignInActivity.java" />
         <option value="$PROJECT_DIR$/src/main/res/menu/navigation.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_home.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_truck_details_four_options.xml" />
@@ -1034,6 +1140,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/model/ResendOtp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/VerifyOtpActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/service/VmsWebService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_sign_up.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignUpActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_sign_in.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignInActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_about_us.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vms/customer/activity/AboutUsActivity.java" />
       </list>
     </option>
   </component>
@@ -1049,7 +1163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -1071,16 +1184,20 @@
             <path>
               <item name="vmscustomer-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="customer" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
               <item name="vmscustomer-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="customer" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="vmscustomer-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="strings" type="c431d0b8:AndroidResGroupNode" />
             </path>
             <path>
               <item name="vmscustomer-master" type="1abcf292:AndroidViewProjectNode" />
@@ -1091,6 +1208,7 @@
         </subPane>
       </pane>
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1099,8 +1217,8 @@
     <property name="DEBUGGABLE_DEVICE" value="motorola-moto_g__5s__plus-ZY322C2T5Q" />
     <property name="DEBUGGABLE_PROCESS" value="com.vms.customer" />
     <property name="DEBUGGER_ID" value="Auto" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="ZY322C2T5Q" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-11-07T05:24:43.043Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="MNWG654TDQ95DYAY" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-11-11T11:27:25.485Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
@@ -1302,7 +1420,7 @@
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.53571427" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.3282313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5867347" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49924356" weight="0.3282313" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49924356" visible="true" weight="0.3282313" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50075644" side_tool="true" weight="0.3282313" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32928944" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3282313" />
@@ -1328,7 +1446,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignInActivity.java</url>
-          <line>291</line>
+          <line>292</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
@@ -1352,7 +1470,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignInActivity.java</url>
-          <line>352</line>
+          <line>353</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
@@ -1407,53 +1525,12 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-28/android/content/Intent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="628" column="13" selection-start-line="628" selection-start-column="13" selection-end-line="628" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-28/data/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="3261" column="20" selection-start-line="3261" selection-start-column="20" selection-end-line="3261" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_sign_up.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_forgot_password.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/model/registration/RegistrationRequestModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="32" column="35" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="35" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_sign_in.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="67" column="35" lean-forward="true" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-          <folding>
-            <element signature="e#1654#1669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/receiver/SMSReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1482,13 +1559,6 @@
             <element signature="e#1122#1123#0" expanded="true" />
             <element signature="e#1150#1151#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignUpActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5117">
-          <caret line="337" selection-start-line="337" selection-end-line="337" />
         </state>
       </provider>
     </entry>
@@ -1656,13 +1726,6 @@
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignInActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="179" column="76" selection-start-line="179" selection-start-column="68" selection-end-line="179" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/menu/popup_menu.xml">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
@@ -1770,39 +1833,10 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_about_us.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="89" column="3" selection-start-line="89" selection-start-column="3" selection-end-line="90" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/AboutUsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="204" column="51" selection-start-line="204" selection-start-column="3" selection-end-line="204" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="256" column="35" selection-start-line="256" selection-start-column="35" selection-end-line="256" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1828,30 +1862,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/intents/IntentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="245" column="7" selection-start-line="245" selection-start-column="7" selection-end-line="245" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_verify_otp.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="57" column="31" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="31" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/service/VmsWebService.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1871,12 +1888,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/intents/IntentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="103" lean-forward="true" selection-start-line="96" selection-start-column="2" selection-end-line="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="43" column="81" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3893">
+          <caret line="257" column="28" selection-start-line="257" selection-start-column="28" selection-end-line="257" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/user_input_dialog_box.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/VerifyOtpActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283">
-          <caret line="190" column="80" lean-forward="true" selection-start-line="190" selection-start-column="80" selection-end-line="190" selection-end-column="80" />
+        <state relative-caret-position="3196">
+          <caret line="230" column="21" selection-start-line="230" selection-start-column="21" selection-end-line="230" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/ReferenceCodeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="25" />
           <folding>
-            <element signature="e#8235#8276#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_reference_code.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_sign_up.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="227" column="47" selection-start-line="227" selection-start-column="41" selection-end-line="227" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignUpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="337" column="20" selection-start-line="337" selection-start-column="20" selection-end-line="337" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/SignInActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="166" column="36" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_sign_in.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="199" column="13" selection-start-line="194" selection-start-column="3" selection-end-line="199" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_about_us.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="51" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vms/customer/activity/AboutUsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1109#1132#0" expanded="true" />
           </folding>
         </state>
       </provider>

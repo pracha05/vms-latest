@@ -243,6 +243,7 @@
                             android:drawableLeft="@drawable/ic_gst"
                             android:inputType="text"
                             android:lines="1"
+                            android:visibility="visible"
                             android:paddingLeft="10dp"
                             android:text=""
                             android:textColor="@color/colorLightDarkGraynew"
@@ -278,8 +279,6 @@
                             android:maxLength="12"
                             android:textColor="@color/colorLightDarkGraynew"
                             android:textSize="@dimen/txt16" />
-
-
                     </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>

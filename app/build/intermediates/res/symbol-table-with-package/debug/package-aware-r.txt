@@ -1676,6 +1676,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_package
 drawable ic_packaged_consumer_boxes
+drawable ic_pass
 drawable ic_password
 drawable ic_petroleum_paint
 drawable ic_pharma
@@ -1754,6 +1755,7 @@ id META
 id SHIFT
 id SYM
 id about_app_description
+id abt_us_text
 id action0
 id action_bar
 id action_bar_activity_content

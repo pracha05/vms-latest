@@ -24,6 +24,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 import com.vms.customer.R;
 import com.vms.customer.intents.IntentFactory;
+import com.vms.customer.preferences.VmsPreferenceHelper;
 import com.vms.customer.utils.AppFonts;
 
 import butterknife.BindView;
@@ -257,6 +258,7 @@ public class HomeActivity extends BaseActivity
                         |Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 finishAffinity();
                 startActivity(intent);
+                VmsPreferenceHelper.saveLogoutStatusToPreference(HomeActivity.this,true);
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 finish();
                 break;

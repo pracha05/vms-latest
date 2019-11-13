@@ -14,6 +14,7 @@ import androidx.annotation.UiThread;
 import androidx.appcompat.widget.Toolbar;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
+import com.google.android.material.textfield.TextInputLayout;
 import com.vms.customer.R;
 import java.lang.IllegalStateException;
 import java.lang.Override;
@@ -31,6 +32,7 @@ public class SignUpActivity_ViewBinding implements Unbinder {
     this.target = target;
 
     target.mToolBar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'mToolBar'", Toolbar.class);
+    target.layoutGst = Utils.findRequiredViewAsType(source, R.id.tv_gst, "field 'layoutGst'", TextInputLayout.class);
     target.layoutBusiness = Utils.findRequiredViewAsType(source, R.id.cv_business, "field 'layoutBusiness'", RelativeLayout.class);
     target.layoutPerson = Utils.findRequiredViewAsType(source, R.id.cv_person, "field 'layoutPerson'", RelativeLayout.class);
     target.cbBusiness = Utils.findRequiredViewAsType(source, R.id.cb_business, "field 'cbBusiness'", CheckBox.class);
@@ -56,6 +58,7 @@ public class SignUpActivity_ViewBinding implements Unbinder {
     this.target = null;
 
     target.mToolBar = null;
+    target.layoutGst = null;
     target.layoutBusiness = null;
     target.layoutPerson = null;
     target.cbBusiness = null;

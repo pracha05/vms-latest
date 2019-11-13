@@ -25,7 +25,7 @@ public class AboutUsActivity_ViewBinding implements Unbinder {
     this.target = target;
 
     target.mToolBar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'mToolBar'", Toolbar.class);
-    target.tvWelcomeText = Utils.findRequiredViewAsType(source, R.id.welcome_text, "field 'tvWelcomeText'", TextView.class);
+    target.tvAboutUsText = Utils.findRequiredViewAsType(source, R.id.abt_us_text, "field 'tvAboutUsText'", TextView.class);
   }
 
   @Override
@@ -36,6 +36,6 @@ public class AboutUsActivity_ViewBinding implements Unbinder {
     this.target = null;
 
     target.mToolBar = null;
-    target.tvWelcomeText = null;
+    target.tvAboutUsText = null;
   }
 }

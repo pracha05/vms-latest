@@ -3,6 +3,8 @@ package com.vms.customer.activity;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.Spanned;
 import android.view.View;
 import android.widget.TextView;
 
@@ -14,13 +16,15 @@ import com.vms.customer.utils.AppFonts;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+import static android.text.Html.FROM_HTML_MODE_LEGACY;
+
 public class AboutUsActivity extends BaseActivity {
 
     @BindView(R.id.toolbar)
     Toolbar mToolBar;
 
-    @BindView(R.id.welcome_text)
-    TextView tvWelcomeText;
+    @BindView(R.id.abt_us_text)
+    TextView tvAboutUsText;
 
 
     private Context mContext = null;
@@ -46,7 +50,7 @@ public class AboutUsActivity extends BaseActivity {
                 }
             });
         }
-        tvWelcomeText.setTypeface(Typeface.createFromAsset(getResources().getAssets(), AppFonts.GetAvenirRegular(this)));
+        tvAboutUsText.setTypeface(Typeface.createFromAsset(getResources().getAssets(), AppFonts.GetAvenirRegular(this)));
     }
 
     @Override
